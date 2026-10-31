@@ -1,0 +1,147 @@
+{
+  "itemType": "equipment",
+  "uniqueName": "T6_ARMOR_LEATHER_DRAGON",
+  "uiSprite": "ARMOR_LEATHER_DRAGON",
+  "uiSpriteOverlay1": null,
+  "uiSpriteOverlay2": null,
+  "uiSpriteOverlay3": null,
+  "uiAtlas": null,
+  "showinmarketplace": true,
+  "level": 1,
+  "tier": 6,
+  "enchantmentLevel": 0,
+  "categoryId": "leather_armor",
+  "categoryName": "",
+  "revision": 0,
+  "enchantments": {
+    "enchantments": [
+      {
+        "enchantmentLevel": 1,
+        "itemPower": 1100,
+        "durability": 123020,
+        "craftingRequirements": {
+          "time": 1.667,
+          "silver": 0.0,
+          "craftingFocus": 4596,
+          "craftResourceList": [
+            {
+              "uniqueName": "T6_LEATHER_LEVEL1",
+              "count": 16
+            },
+            {
+              "uniqueName": "T6_ARTEFACT_ARMOR_LEATHER_DRAGON",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 2,
+        "itemPower": 1200,
+        "durability": 184529,
+        "craftingRequirements": {
+          "time": 2.5,
+          "silver": 0.0,
+          "craftingFocus": 8042,
+          "craftResourceList": [
+            {
+              "uniqueName": "T6_LEATHER_LEVEL2",
+              "count": 16
+            },
+            {
+              "uniqueName": "T6_ARTEFACT_ARMOR_LEATHER_DRAGON",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 3,
+        "itemPower": 1300,
+        "durability": 276794,
+        "craftingRequirements": {
+          "time": 3.0,
+          "silver": 0.0,
+          "craftingFocus": 14074,
+          "craftResourceList": [
+            {
+              "uniqueName": "T6_LEATHER_LEVEL3",
+              "count": 16
+            },
+            {
+              "uniqueName": "T6_ARTEFACT_ARMOR_LEATHER_DRAGON",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 4,
+        "itemPower": 1400,
+        "durability": 415191,
+        "craftingRequirements": {
+          "time": 3.6,
+          "silver": 0.0,
+          "craftingFocus": 24630,
+          "craftResourceList": [
+            {
+              "uniqueName": "T6_LEATHER_LEVEL4",
+              "count": 16
+            },
+            {
+              "uniqueName": "T6_ARTEFACT_ARMOR_LEATHER_DRAGON",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "activeSlots": {},
+  "passiveSlots": {},
+  "localizedNames": {
+    "IT-IT": "Giacca da Ammazzadraghi del Maestro",
+    "RU-RU": "Куртка драконоборца (мастер)",
+    "PL-PL": "Kurtka Pogromcy Smoków Mistrza",
+    "TR-TR": "Usta Ejderkatili Ceketi",
+    "ID-ID": "Jaket Pembunuh Naga Master",
+    "FR-FR": "Veste de Tueur de Dragons du Maître",
+    "JA-JP": "マスターのドラゴンスレイヤーのジャケット",
+    "EN-US": "Master's Dragonslayer Jacket",
+    "DE-DE": "Drachentöterjacke des Meisters",
+    "AR-SA": "سترة قاتل التنانين للخبير",
+    "KO-KR": "마스터의 드래곤슬레이어 재킷",
+    "PT-BR": "Casaco Mata-dragões do Mestre",
+    "ZH-TW": "大師級屠龍者外套",
+    "ES-ES": "Chaqueta de Matadragones del Maestro",
+    "ZH-CN": "大师级屠龙者外套"
+  },
+  "localizedDescriptions": null,
+  "slotType": "armor",
+  "physicalAttackDamageBonus": 0.3,
+  "skinCount": null,
+  "physicalArmor": 92,
+  "magicResistance": 92,
+  "magicAttackDamageBonus": null,
+  "activeSpellSlots": 1,
+  "passiveSpellSlots": 1,
+  "itemPowerProgressionType": "armor",
+  "craftingRequirements": {
+    "time": 1.333,
+    "silver": 0.0,
+    "craftingFocus": 2626,
+    "craftResourceList": [
+      {
+        "uniqueName": "T6_LEATHER",
+        "count": 16
+      },
+      {
+        "uniqueName": "T6_ARTEFACT_ARMOR_LEATHER_DRAGON",
+        "count": 1
+      }
+    ]
+  },
+  "spriteName": "ARMOR_LEATHER_DRAGON",
+  "stackable": true,
+  "equipable": true
+}

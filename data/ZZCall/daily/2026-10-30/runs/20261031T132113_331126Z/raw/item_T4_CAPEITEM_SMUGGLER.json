@@ -1,0 +1,215 @@
+{
+  "itemType": "equipment",
+  "uniqueName": "T4_CAPEITEM_SMUGGLER",
+  "uiSprite": "CAPEITEM_SMUGGLER",
+  "uiSpriteOverlay1": null,
+  "uiSpriteOverlay2": null,
+  "uiSpriteOverlay3": null,
+  "uiAtlas": null,
+  "showinmarketplace": true,
+  "level": 1,
+  "tier": 4,
+  "enchantmentLevel": 0,
+  "categoryId": "accessoires_capes_smuggler",
+  "categoryName": "",
+  "revision": 0,
+  "enchantments": {
+    "enchantments": [
+      {
+        "enchantmentLevel": 1,
+        "itemPower": 800,
+        "durability": 14850,
+        "craftingRequirements": {
+          "time": 0.5,
+          "silver": 0.0,
+          "craftingFocus": 0,
+          "craftResourceList": [
+            {
+              "uniqueName": "T4_CAPE",
+              "count": 1
+            },
+            {
+              "uniqueName": "T4_CAPEITEM_SMUGGLER_BP",
+              "count": 1
+            },
+            {
+              "uniqueName": "T1_FACTION_CAERLEON_TOKEN_1",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 2,
+        "itemPower": 900,
+        "durability": 22275,
+        "craftingRequirements": {
+          "time": 0.667,
+          "silver": 0.0,
+          "craftingFocus": 0,
+          "craftResourceList": [
+            {
+              "uniqueName": "T4_CAPE",
+              "count": 1
+            },
+            {
+              "uniqueName": "T4_CAPEITEM_SMUGGLER_BP",
+              "count": 1
+            },
+            {
+              "uniqueName": "T1_FACTION_CAERLEON_TOKEN_1",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 3,
+        "itemPower": 1000,
+        "durability": 33413,
+        "craftingRequirements": {
+          "time": 0.833,
+          "silver": 0.0,
+          "craftingFocus": 0,
+          "craftResourceList": [
+            {
+              "uniqueName": "T4_CAPE",
+              "count": 1
+            },
+            {
+              "uniqueName": "T4_CAPEITEM_SMUGGLER_BP",
+              "count": 1
+            },
+            {
+              "uniqueName": "T1_FACTION_CAERLEON_TOKEN_1",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 4,
+        "itemPower": 1100,
+        "durability": 50119,
+        "craftingRequirements": {
+          "time": 1.25,
+          "silver": 0.0,
+          "craftingFocus": 0,
+          "craftResourceList": [
+            {
+              "uniqueName": "T4_CAPE",
+              "count": 1
+            },
+            {
+              "uniqueName": "T4_CAPEITEM_SMUGGLER_BP",
+              "count": 1
+            },
+            {
+              "uniqueName": "T1_FACTION_CAERLEON_TOKEN_1",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "activeSlots": {},
+  "passiveSlots": {
+    "1": [
+      {
+        "spellType": "passive",
+        "uniqueName": "PASSIVE_CAPE_SMUGGLER",
+        "uiAtlas": null,
+        "uiSprite": null,
+        "revision": 344269,
+        "nameLocaTag": null,
+        "descriptionLocaTag": null,
+        "localizedNames": {
+          "IT-IT": "Fiala nascosta",
+          "RU-RU": "Потайной флакон",
+          "PL-PL": "Ukryta Fiolka",
+          "TR-TR": "Gizli Şişe",
+          "ID-ID": "Botol Tersembunyi",
+          "FR-FR": "Fiole Cachée",
+          "JA-JP": "隠されたポーション",
+          "EN-US": "Hidden Vial",
+          "DE-DE": "Versteckte Phiole",
+          "AR-SA": "القارورة الخفية",
+          "KO-KR": "숨겨진 약병",
+          "PT-BR": "Frasco Escondido",
+          "ZH-TW": "隱藏藥瓶",
+          "ES-ES": "Vial Oculto",
+          "ZH-CN": "隐藏药瓶"
+        },
+        "localizedDescriptions": {
+          "IT-IT": "[other]Condizione:[/other]\nSi attiva quando si lancia la propria [other]abilità dello slot pozioni[/other].\n\n[other]Effetto:[/other]\nAfferri una pozione nascosta, [other]riducendo[/other] il [other]tempo di ricarica[/other] della tua [other]abilità nello slot pozioni[/other] di [other](A)[/other].",
+          "RU-RU": "[other]Условие:[/other]\nАктивируется, когда вы используете [other]навык из слота зелья[/other].\n\n[other]Эффект:[/other]\nВы пьете потайное зелье, [other]сокращая[/other] [other]время восстановления[/other] вашего [other]навыка из слота зелья[/other] на [other](A)[/other].",
+          "PL-PL": "[other]Warunek:[/other]\nAktywuje się po użyciu przedmiotu w [other]slocie mikstur[/other].\n\n[other]Efekt:[/other]\nChwyć ukrytą miksturę, [other]skracając[/other] [other]czas odnowienia[/other] swojej [other]umiejętności  mikstur[/other] o [other](A)[/other].",
+          "TR-TR": "[other]Koşul:[/other]\n[other]İksir yuvası yeteneğini[/other] gerçekleştirdiğinde etkinleşir.\n\n[other]Etki:[/other]\nGizli bir iksir ele geçir, [other]iksir yuvası yeteneğinin[/other] [other]bekleme süresini[/other] [other](A)[/other] [other]azaltır[/other].",
+          "ID-ID": "[other]Syarat:[/other]\nDiaktifkan ketika kamu merapal[other]kemampuan slot ramuan[/other].\n\n[other]Efek:[/other]\nMengambil ramuan tersembunyi, [other]mengurangi[/other] [other]cooldown[/other] dari [other]kemampuan slot ramuan[/other] sebesar [other](A)[/other].",
+          "FR-FR": "[other]Condition :[/other]\nS'active lorsque vous utilisez la [other]compétence de votre potion[/other].\n\n[other]Effet :[/other]\nPrenez une potion cachée, [other]réduisant[/other] le [other]temps de recharge[/other] de la [other]compétence de votre potion[/other] de [other](A)[/other].",
+          "JA-JP": "[other]条件：[/other]\n[other]ポーションスロット[/other]の能力を使用した際に発動する。\n\n[other]効果：[/other]\n隠されたポーションを手に入れ、[other]ポーションスロットの能力[/other]の[other]クールダウン[/other]を[other](A)[/other][other]減らす[/other]。",
+          "EN-US": "[other]Condition:[/other]\nActivates when you cast your [other]potion slot ability[/other].\n\n[other]Effect:[/other]\nGrab a hidden potion, [other]reducing[/other] the [other]cooldown[/other] of your [other]potion slot ability[/other] by [other](A)[/other].",
+          "DE-DE": "[other]Bedingung:[/other]\nWird aktiviert, wenn du deine [other]Trank-Slot Fertigkeit aktivierst[/other].\n\n[other]Effekt:[/other]\nSchnapp dir einen versteckten Trank, dies [other]reduziert[/other] die [other]Abklingzeit[/other] deiner [other]Trank-Fertigkeit[/other] um [other](A)[/other].",
+          "AR-SA": "[other]الحالة:[/other]\nتنشط عندما تقوم بإلقاء [other]قدرة خانة الجرعة[/other].\n\n[other]التأثير:[/other]\nاحصل على جرعة مخفية، [other]تقلل [/other] من [other] فترة الإنتظار [/other] لقدرة [other] خانة الجُرعة [/other] بمقدار [other](A)[/other].",
+          "KO-KR": "[other]조건:[/other]\n[other]포션 슬롯 스킬[/other]을 사용할 때 활성화됩니다.\n\n[other]효과:[/other]\n숨겨진 약병을 붙잡아, [other]포션 슬롯 스킬[/other]의 [other]재사용 대기 시간[/other]을 [other](A)[/other]만큼 [other]감소[/other]시킵니다.",
+          "PT-BR": "[other]Condição:[/other]\nAtiva quando você usa a sua [other]habilidade no espaço de poção[/other].\n\n[other]Efeito:[/other]\nPega uma poção escondida, [other]reduzindo[/other] a [other]recarga[/other] da sua [other]habilidade no espaço da poção[/other] em [other](A)[/other].",
+          "ZH-TW": "[other]啟動條件：[/other]\n當您使用您的[other]藥水欄位技能[/other]。\n\n[other]效果：[/other]\n拿出一個隱藏的藥瓶，使[other]  藥水欄位技能[/other]的[other]冷卻時間[/other][other]減少[/other][other](A)[/other]。",
+          "ES-ES": "[other]Condición:[/other]\nSe activa cuando usas la [other]habilidad de la poción[/other].\n\n[other]Efecto:[/other]\nToma una poción oculta que [other]reduce[/other] el [other]tiempo de espera[/other] de la [other]habilidad de la poción[/other] en [other](A)[/other].",
+          "ZH-CN": "[other]条件：[/other]\n当你使用你的[other]药水槽位技能[/other]时激活。\n\n[other]效果：[/other]\n拿出一个隐藏的药瓶，使[other]药水槽位技能[/other]的[other]冷却时间[/other][other]减少[/other][other](A)[/other]。"
+        },
+        "buff": null,
+        "reflectDamage": null
+      }
+    ]
+  },
+  "localizedNames": {
+    "IT-IT": "Mantello del Contrabbandiere del Sapiente",
+    "RU-RU": "Плащ контрабандиста (знаток)",
+    "PL-PL": "Peleryna Przemytnika Adepta",
+    "TR-TR": "Ehil Kaçakçı Pelerini",
+    "ID-ID": "Jubah Penyelundup Mahir",
+    "FR-FR": "Cape de Contrebandier de l'Adepte",
+    "JA-JP": "密輸業者のケープ（名人）",
+    "EN-US": "Adept's Smuggler Cape",
+    "DE-DE": "Schmugglerumhang des Adepten",
+    "AR-SA": "عباءة المهرب للبارع",
+    "KO-KR": "숙련자의 밀수꾼 망토",
+    "PT-BR": "Capa de Contrabandista do Adepto",
+    "ZH-TW": "老手級走私者披風",
+    "ES-ES": "Capa de Contrabandista del Iniciado",
+    "ZH-CN": "老手级走私者披风"
+  },
+  "localizedDescriptions": null,
+  "slotType": "cape",
+  "physicalAttackDamageBonus": 0.0,
+  "skinCount": null,
+  "physicalArmor": 0,
+  "magicResistance": 0,
+  "magicAttackDamageBonus": null,
+  "activeSpellSlots": 0,
+  "passiveSpellSlots": 1,
+  "itemPowerProgressionType": "cape",
+  "craftingRequirements": {
+    "time": 0.333,
+    "silver": 0.0,
+    "craftingFocus": 0,
+    "craftResourceList": [
+      {
+        "uniqueName": "T4_CAPE",
+        "count": 1
+      },
+      {
+        "uniqueName": "T4_CAPEITEM_SMUGGLER_BP",
+        "count": 1
+      },
+      {
+        "uniqueName": "T1_FACTION_CAERLEON_TOKEN_1",
+        "count": 1
+      }
+    ]
+  },
+  "spriteName": "CAPEITEM_SMUGGLER",
+  "stackable": true,
+  "equipable": true
+}

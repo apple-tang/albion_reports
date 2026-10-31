@@ -1,0 +1,392 @@
+{
+  "EventId": 455392549,
+  "TimeStamp": "2026-10-30T15:03:52.947Z",
+  "BattleId": 455391709,
+  "TotalVictimKillFame": 213836,
+  "Killer": {
+    "AverageItemPower": 1374.1167,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_FIRESTAFF",
+        "Type": "T5_2H_FIRESTAFF@2",
+        "Quality": 5
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_SET3",
+        "Type": "T5_HEAD_LEATHER_SET3@2",
+        "Quality": 2
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_AVALON",
+        "Type": "T5_ARMOR_LEATHER_AVALON@2",
+        "Quality": 2
+      },
+      "Shoes": {
+        "Name": "SHOES_LEATHER_MORGANA",
+        "Type": "T5_SHOES_LEATHER_MORGANA@2",
+        "Quality": 4
+      },
+      "Bag": {
+        "Name": "BAG",
+        "Type": "T4_BAG@2",
+        "Quality": 2
+      },
+      "Cape": {
+        "Name": "CAPEITEM_SMUGGLER",
+        "Type": "T4_CAPEITEM_SMUGGLER@2",
+        "Quality": 3
+      },
+      "Mount": {
+        "Name": "MOUNT_ARMORED_HORSE",
+        "Type": "T5_MOUNT_ARMORED_HORSE",
+        "Quality": 1
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 10
+      },
+      "Food": null
+    },
+    "Name": "Beelzebub393",
+    "Id": "zRWMR4VISfCMbvxg7pPTyA",
+    "GuildName": "WHY NOT",
+    "GuildId": "gO-CXY2mTwOR8mv-QXk8Kw",
+    "AllianceName": "JOIN",
+    "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+    "AllianceTag": "",
+    "DeathFame": 0,
+    "KillFame": 213836,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Victim": {
+    "AverageItemPower": 1546.66907,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_CROSSBOW_CANNON_AVALON",
+        "Type": "T5_2H_CROSSBOW_CANNON_AVALON@3",
+        "Quality": 3
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_FEY",
+        "Type": "T5_HEAD_LEATHER_FEY@3",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_CLOTH_KEEPER",
+        "Type": "T4_ARMOR_CLOTH_KEEPER@3",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_LEATHER_MORGANA",
+        "Type": "T5_SHOES_LEATHER_MORGANA@3",
+        "Quality": 4
+      },
+      "Bag": null,
+      "Cape": {
+        "Name": "CAPEITEM_SMUGGLER",
+        "Type": "T4_CAPEITEM_SMUGGLER@3",
+        "Quality": 4
+      },
+      "Mount": {
+        "Name": "MOUNT_HORSE",
+        "Type": "T3_MOUNT_HORSE",
+        "Quality": 4
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 5
+      },
+      "Food": null
+    },
+    "Name": "zhuanzhailaowai",
+    "Id": "ZbuOgcR_R-Kw7HuE5WwgCw",
+    "GuildName": "Top Squad",
+    "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+    "AllianceName": "1115",
+    "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+    "AllianceTag": "",
+    "DeathFame": 213836,
+    "KillFame": 0,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Participants": [
+    {
+      "AverageItemPower": 1561.45361,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_NATURESTAFF",
+          "Type": "T8_MAIN_NATURESTAFF",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_TORCH_CRYSTAL",
+          "Type": "T5_OFF_TORCH_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T8_HEAD_LEATHER_SET3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_PLATE_ROYAL",
+          "Type": "T5_ARMOR_PLATE_ROYAL@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T5_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 4
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 3
+        },
+        "Food": null
+      },
+      "Name": "twink42",
+      "Id": "MvV8XmMmSJK6Ee-m4XlOmg",
+      "GuildName": "Treasure Hunt",
+      "GuildId": "jzI9KFIwROqLo7-Ssv0qxQ",
+      "AllianceName": "JOIN",
+      "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 31776.8047
+    },
+    {
+      "AverageItemPower": 1436.19177,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T4_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T4_HEAD_LEATHER_SET3@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_PLATE_ROYAL",
+          "Type": "T4_ARMOR_PLATE_ROYAL@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_MORGANA",
+          "Type": "T4_SHOES_LEATHER_MORGANA@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_MORGANA",
+          "Type": "T4_CAPEITEM_MORGANA@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 6
+        },
+        "Food": null
+      },
+      "Name": "ImNarges",
+      "Id": "z8CttB1NQjuBK_JmUub_4A",
+      "GuildName": "Treasure Hunt",
+      "GuildId": "jzI9KFIwROqLo7-Ssv0qxQ",
+      "AllianceName": "JOIN",
+      "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 13872.6455
+    },
+    {
+      "AverageItemPower": 1492.38037,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_TORCH_CRYSTAL",
+          "Type": "T4_OFF_TORCH_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T7_HEAD_LEATHER_SET3@1",
+          "Quality": 2
+        },
+        "Armor": {
+          "Name": "ARMOR_PLATE_ROYAL",
+          "Type": "T4_ARMOR_PLATE_ROYAL@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T4_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T4_BAG@2",
+          "Quality": 4
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_DRAGONAREA@1",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Lieksaa",
+      "Id": "6coosbXLTy-it_7Xey6_aA",
+      "GuildName": "Treasure Hunt",
+      "GuildId": "jzI9KFIwROqLo7-Ssv0qxQ",
+      "AllianceName": "JOIN",
+      "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 11288.2959
+    },
+    {
+      "AverageItemPower": 1382.82166,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T4_MAIN_HOLYSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_TORCH_CRYSTAL",
+          "Type": "T4_OFF_TORCH_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T6_HEAD_LEATHER_SET3@1",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_PLATE_ROYAL",
+          "Type": "T4_ARMOR_PLATE_ROYAL@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_SET1",
+          "Type": "T6_SHOES_LEATHER_SET1@1",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T6_BAG@1",
+          "Quality": 4
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": null
+      },
+      "Name": "Mighii",
+      "Id": "w-mr5KNtSp-O7xDsV211aQ",
+      "GuildName": "Treasure Hunt",
+      "GuildId": "jzI9KFIwROqLo7-Ssv0qxQ",
+      "AllianceName": "JOIN",
+      "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 10066.251
+    }
+  ],
+  "GroupMembers": [
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRESTAFF",
+          "Type": "T5_2H_FIRESTAFF@2",
+          "Quality": 5
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Beelzebub393",
+      "Id": "zRWMR4VISfCMbvxg7pPTyA",
+      "GuildName": "WHY NOT",
+      "GuildId": "gO-CXY2mTwOR8mv-QXk8Kw",
+      "AllianceName": "JOIN",
+      "AllianceId": "66z1nlWXTbajLdOpRxuvQw",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 213836,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    }
+  ]
+}

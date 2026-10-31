@@ -1,0 +1,205 @@
+{
+  "itemType": "weapon",
+  "uniqueName": "T7_2H_SHAPESHIFTER_AVALON",
+  "uiSprite": "2H_SHAPESHIFTER_EAGLE",
+  "uiSpriteOverlay1": null,
+  "uiSpriteOverlay2": null,
+  "uiSpriteOverlay3": null,
+  "uiAtlas": null,
+  "showinmarketplace": true,
+  "level": 1,
+  "tier": 7,
+  "enchantmentLevel": 0,
+  "categoryId": "shapeshifterstaff",
+  "categoryName": "Shapeshifter Staff",
+  "revision": 0,
+  "enchantments": {
+    "enchantments": [
+      {
+        "enchantmentLevel": 1,
+        "itemPower": 1200,
+        "durability": 325638,
+        "craftingRequirements": {
+          "time": 5.0,
+          "silver": 0.0,
+          "craftingFocus": 16085,
+          "craftResourceList": [
+            {
+              "uniqueName": "T7_PLANKS_LEVEL1",
+              "count": 20
+            },
+            {
+              "uniqueName": "T7_LEATHER_LEVEL1",
+              "count": 12
+            },
+            {
+              "uniqueName": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+              "count": 1
+            },
+            {
+              "uniqueName": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 2,
+        "itemPower": 1300,
+        "durability": 488457,
+        "craftingRequirements": {
+          "time": 6.0,
+          "silver": 0.0,
+          "craftingFocus": 28148,
+          "craftResourceList": [
+            {
+              "uniqueName": "T7_PLANKS_LEVEL2",
+              "count": 20
+            },
+            {
+              "uniqueName": "T7_LEATHER_LEVEL2",
+              "count": 12
+            },
+            {
+              "uniqueName": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+              "count": 1
+            },
+            {
+              "uniqueName": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 3,
+        "itemPower": 1400,
+        "durability": 732686,
+        "craftingRequirements": {
+          "time": 7.2,
+          "silver": 0.0,
+          "craftingFocus": 49260,
+          "craftResourceList": [
+            {
+              "uniqueName": "T7_PLANKS_LEVEL3",
+              "count": 20
+            },
+            {
+              "uniqueName": "T7_LEATHER_LEVEL3",
+              "count": 12
+            },
+            {
+              "uniqueName": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+              "count": 1
+            },
+            {
+              "uniqueName": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "enchantmentLevel": 4,
+        "itemPower": 1500,
+        "durability": 1099028,
+        "craftingRequirements": {
+          "time": 8.64,
+          "silver": 0.0,
+          "craftingFocus": 86205,
+          "craftResourceList": [
+            {
+              "uniqueName": "T7_PLANKS_LEVEL4",
+              "count": 20
+            },
+            {
+              "uniqueName": "T7_LEATHER_LEVEL4",
+              "count": 12
+            },
+            {
+              "uniqueName": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+              "count": 1
+            },
+            {
+              "uniqueName": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "activeSlots": {},
+  "passiveSlots": {},
+  "localizedNames": {
+    "IT-IT": "Evocaluce del gran maestro",
+    "RU-RU": "Светоч (магистр)",
+    "PL-PL": "Przyzywacz Światła Wszechmistrza",
+    "TR-TR": "Büyük Usta Işık Çağıranı",
+    "ID-ID": "Pemanggil Cahaya Grandmaster",
+    "FR-FR": "Mande-lumière du grand maître",
+    "JA-JP": "ライトコーラー（グランドマスター）",
+    "EN-US": "Grandmaster's Lightcaller",
+    "DE-DE": "Lichtrufer des Großmeisters",
+    "AR-SA": "عصا استدعاء النور للأستاذ",
+    "KO-KR": "그랜드 마스터의 라이트콜러",
+    "PT-BR": "Cajado Invocador da Luz do Grão-mestre",
+    "ZH-TW": "宗師級光之召喚者",
+    "ES-ES": "Invocador de luz del gran maestro",
+    "ZH-CN": "宗师级唤光者法杖"
+  },
+  "localizedDescriptions": null,
+  "slotType": "mainhand",
+  "unlockedToEquip": false,
+  "twoHanded": true,
+  "unequipInCombat": null,
+  "maxQualityLevel": 5,
+  "abilityPower": 120.0,
+  "physicalSpellDamageBonus": 0.0,
+  "magicspellDamageBonus": 0.0,
+  "attackDamage": 22.0,
+  "attackSpeed": 1.35,
+  "attackRange": 9.0,
+  "weight": 22.8,
+  "activeSpellSlots": 3,
+  "passiveSpellSlots": 1,
+  "durability": 217092.0,
+  "durabilityLossAttack": 1.0,
+  "durabilityLossSpelluse": 1.0,
+  "durabilityLossReceivedattack": 1.0,
+  "durabilityLossReceivedspell": 1.0,
+  "hitpointsMax": 0.0,
+  "itemPower": 1100.0,
+  "hitpointsRegenerationBonus": 0.0,
+  "itemPowerProgressionType": "mainhand",
+  "attackType": "magic",
+  "fxboneName": "RightArm_3",
+  "mainhandAnimationType": "shapeshifter2h",
+  "craftingRequirements": {
+    "time": 3.333,
+    "silver": 0.0,
+    "craftingFocus": 9191,
+    "craftResourceList": [
+      {
+        "uniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "uniqueName": "T7_LEATHER",
+        "count": 12
+      },
+      {
+        "uniqueName": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+        "count": 1
+      },
+      {
+        "uniqueName": "T7_ALCHEMY_RARE_EAGLE",
+        "count": 1
+      }
+    ]
+  },
+  "transformation": "AVALONIAN_EAGLE",
+  "spriteName": "2H_SHAPESHIFTER_EAGLE",
+  "stackable": true,
+  "equipable": true
+}

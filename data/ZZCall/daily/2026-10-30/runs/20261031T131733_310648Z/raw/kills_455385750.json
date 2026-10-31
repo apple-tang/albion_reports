@@ -1,0 +1,690 @@
+[
+  {
+    "EventId": 455385750,
+    "TimeStamp": "2026-10-30T14:38:41.394Z",
+    "TotalVictimKillFame": 365633,
+    "Killer": {
+      "Id": "cqFVYXjrQ967KyWkkc4GkQ",
+      "Name": "Mright",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1424.48987,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRESTAFF_HELL",
+          "Type": "T8_2H_FIRESTAFF_HELL@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "xw2ZzE1NQqSfXctsIulxKw",
+      "Name": "shizoids",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1446.78967,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF_UNDEAD",
+          "Type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455386074,
+    "TimeStamp": "2026-10-30T14:39:43.671Z",
+    "TotalVictimKillFame": 1305638,
+    "Killer": {
+      "Id": "0NVA__rzROu53fHRXRIhew",
+      "Name": "mku",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1475.3916,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "HkZg9iTuRo-yg2qOz1M31Q",
+      "Name": "Soxxx",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1551.165,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_AVALON",
+          "Type": "T7_2H_SHAPESHIFTER_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T6_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455386294,
+    "TimeStamp": "2026-10-30T14:40:26.613Z",
+    "TotalVictimKillFame": 478871,
+    "Killer": {
+      "Id": "5JAgnG3gQxSQstAxW3xfEA",
+      "Name": "MayoiNeko",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1550.53418,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRE_RINGPAIR_AVALON",
+          "Type": "T6_2H_FIRE_RINGPAIR_AVALON@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "jp_C5XpmQNmmoS9_9L2crQ",
+      "Name": "dreamin322",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1520.13916,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T8_2H_LONGBOW@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455386663,
+    "TimeStamp": "2026-10-30T14:41:50.405Z",
+    "TotalVictimKillFame": 66249,
+    "Killer": {
+      "Id": "Msj35EbWS2qC744WWu2VDQ",
+      "Name": "Fommq",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1460.06836,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CURSEDSTAFF_MORGANA",
+          "Type": "T5_2H_CURSEDSTAFF_MORGANA@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "BYrKIGjHTxmtBRkvFxdOWw",
+      "Name": "honey1popcorn",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1346.57922,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF",
+          "Type": "T6_2H_ARCANESTAFF",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T4_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455386745,
+    "TimeStamp": "2026-10-30T14:42:12.475Z",
+    "TotalVictimKillFame": 114939,
+    "Killer": {
+      "Id": "5XkPwbRnTRarirCVYON95Q",
+      "Name": "Wh1teUniverse",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1420.74414,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T6_2H_HARPOON_HELL@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 3
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Rri9sbINRr2E38ac2BXu8w",
+      "Name": "wmq2025",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1295.54749,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF",
+          "Type": "T4_2H_ARCANESTAFF@3",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455386857,
+    "TimeStamp": "2026-10-30T14:42:39.791Z",
+    "TotalVictimKillFame": 213353,
+    "Killer": {
+      "Id": "cqFVYXjrQ967KyWkkc4GkQ",
+      "Name": "Mright",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1424.48987,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRESTAFF_HELL",
+          "Type": "T8_2H_FIRESTAFF_HELL@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "5XkPwbRnTRarirCVYON95Q",
+      "Name": "Wh1teUniverse",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1420.74414,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T6_2H_HARPOON_HELL@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 3
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387028,
+    "TimeStamp": "2026-10-30T14:43:20.286Z",
+    "TotalVictimKillFame": 440720,
+    "Killer": {
+      "Id": "HkZg9iTuRo-yg2qOz1M31Q",
+      "Name": "Soxxx",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1431.70837,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_BOW_AVALON",
+          "Type": "T6_2H_BOW_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "JmO3mfVcT46VqZRPZ1wYeg",
+      "Name": "Sky",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1559.94006,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387144,
+    "TimeStamp": "2026-10-30T14:43:47.623Z",
+    "TotalVictimKillFame": 274832,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1542.465,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "9OOiRAGdRHWV-ECDQrfjOA",
+      "Name": "Moduch",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1506.847,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387142,
+    "TimeStamp": "2026-10-30T14:43:47.62Z",
+    "TotalVictimKillFame": 142073,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1542.465,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "GQ4omYZEQ8CJrMfcLGoNZA",
+      "Name": "Koshka8841",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1296.12659,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_DEMONICSTAFF",
+          "Type": "T4_2H_DEMONICSTAFF@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387169,
+    "TimeStamp": "2026-10-30T14:43:53.344Z",
+    "TotalVictimKillFame": 307232,
+    "Killer": {
+      "Id": "aTLPRUmKSEWH89OCJY0ljA",
+      "Name": "Tudou0991",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1527.72913,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T4_MAIN_ROCKMACE_KEEPER@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "xNuYeLlkT-qxOWM5l3y3UA",
+      "Name": "eno11",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1528.88806,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387200,
+    "TimeStamp": "2026-10-30T14:44:02.112Z",
+    "TotalVictimKillFame": 324350,
+    "Killer": {
+      "Id": "0dxqfkvUSIC35CGsXkHiZQ",
+      "Name": "fengyufanxing",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1310.52869,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF",
+          "Type": "T5_MAIN_CURSEDSTAFF@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T4_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "adLtqebBSlOD4EaLdu-ZHg",
+      "Name": "kashm",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1447.59875,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T5_MAIN_ROCKMACE_KEEPER@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387272,
+    "TimeStamp": "2026-10-30T14:44:19.877Z",
+    "TotalVictimKillFame": 198083,
+    "Killer": {
+      "Id": "HkZg9iTuRo-yg2qOz1M31Q",
+      "Name": "Soxxx",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1431.70837,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_BOW_AVALON",
+          "Type": "T6_2H_BOW_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "3kpQSQP5SyKYsxJJgtPODw",
+      "Name": "Mano4i",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1449.94714,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ENIGMATICORB_MORGANA",
+          "Type": "T5_2H_ENIGMATICORB_MORGANA@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_BAT_PERSONAL",
+          "Type": "UNIQUE_MOUNT_BAT_PERSONAL",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387267,
+    "TimeStamp": "2026-10-30T14:44:18.85Z",
+    "TotalVictimKillFame": 439799,
+    "Killer": {
+      "Id": "tFHedSSXR6qQspqOeJLzrQ",
+      "Name": "Gestapo",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1496.09167,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "0NVA__rzROu53fHRXRIhew",
+      "Name": "mku",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1475.3916,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387262,
+    "TimeStamp": "2026-10-30T14:44:18.442Z",
+    "TotalVictimKillFame": 272888,
+    "Killer": {
+      "Id": "5JAgnG3gQxSQstAxW3xfEA",
+      "Name": "MayoiNeko",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1550.53418,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRE_RINGPAIR_AVALON",
+          "Type": "T6_2H_FIRE_RINGPAIR_AVALON@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "W2KowrfaSOCBAiw4M3iMzg",
+      "Name": "Ins1der057",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1434.73083,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T6_2H_AXE_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387334,
+    "TimeStamp": "2026-10-30T14:44:38.058Z",
+    "TotalVictimKillFame": 181440,
+    "Killer": {
+      "Id": "or7hTlk5RM26j75rWCC4Aw",
+      "Name": "Eric121",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1543.64417,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_DUALAXE_KEEPER",
+          "Type": "T7_2H_DUALAXE_KEEPER@1",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Msj35EbWS2qC744WWu2VDQ",
+      "Name": "Fommq",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1460.06836,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CURSEDSTAFF_MORGANA",
+          "Type": "T5_2H_CURSEDSTAFF_MORGANA@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455387375,
+    "TimeStamp": "2026-10-30T14:44:49.962Z",
+    "TotalVictimKillFame": 573398,
+    "Killer": {
+      "Id": "5JAgnG3gQxSQstAxW3xfEA",
+      "Name": "MayoiNeko",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1550.53418,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRE_RINGPAIR_AVALON",
+          "Type": "T6_2H_FIRE_RINGPAIR_AVALON@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "NQigzg2-Rue8RvuBk4Fb0Q",
+      "Name": "ssaavvaa",
+      "GuildName": "Last in Paradise",
+      "AllianceName": "ZOUZ",
+      "AverageItemPower": 1409.51941,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T5_MAIN_ROCKMACE_KEEPER@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    }
+  }
+]

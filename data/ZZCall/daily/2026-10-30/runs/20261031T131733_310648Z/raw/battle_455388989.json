@@ -1,0 +1,1106 @@
+{
+  "albionId": 455388989,
+  "startedAt": "2026-10-30T14:51:11.277Z",
+  "finishedAt": "2026-10-30T14:53:54.808Z",
+  "totalFame": 3283230,
+  "totalKills": 13,
+  "totalPlayers": 58,
+  "alliances": [
+    {
+      "albionId": "LTtLWDvETUmjHJhfKl88ng",
+      "name": "1115",
+      "kills": 7,
+      "deaths": 6,
+      "killFame": 1833261,
+      "players": 34,
+      "ip": 1472
+    },
+    {
+      "albionId": "66z1nlWXTbajLdOpRxuvQw",
+      "name": "JOIN",
+      "kills": 6,
+      "deaths": 7,
+      "killFame": 1449896,
+      "players": 24,
+      "ip": 1479
+    }
+  ],
+  "guilds": [
+    {
+      "albionId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "name": "Top Squad",
+      "alliance": "1115",
+      "kills": 7,
+      "deaths": 6,
+      "killFame": 1833261,
+      "players": 34,
+      "ip": 1472
+    },
+    {
+      "albionId": "jzI9KFIwROqLo7-Ssv0qxQ",
+      "name": "Treasure Hunt",
+      "alliance": "JOIN",
+      "kills": 6,
+      "deaths": 6,
+      "killFame": 1246198,
+      "players": 19,
+      "ip": 1487
+    },
+    {
+      "albionId": "gO-CXY2mTwOR8mv-QXk8Kw",
+      "name": "WHY NOT",
+      "alliance": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 203698,
+      "players": 5,
+      "ip": 1368
+    }
+  ],
+  "players": [
+    {
+      "name": "ImNarges",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 126020,
+      "deathFame": 0,
+      "ip": 1436,
+      "heal": 16504,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_HOLYSTAFF_CRYSTAL",
+        "type": "T4_2H_HOLYSTAFF_CRYSTAL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Lieksaa",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 126020,
+      "deathFame": 0,
+      "ip": 1409,
+      "heal": 17930,
+      "damage": 8,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "DucksSkip",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 126020,
+      "deathFame": 0,
+      "ip": 1371,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "MAIN_CURSEDSTAFF_AVALON",
+        "type": "T4_MAIN_CURSEDSTAFF_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Mighii",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 126020,
+      "deathFame": 0,
+      "ip": 1449,
+      "heal": 43399,
+      "damage": 87,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T4_MAIN_HOLYSTAFF_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "kaktusista",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 3,
+      "deaths": 0,
+      "killFame": 126020,
+      "deathFame": 0,
+      "ip": 1471,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T4_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "RovaLW",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 106970,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T5_2H_LONGBOW@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "AugustusVII",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1595,
+      "heal": 0,
+      "damage": 442,
+      "role": "range",
+      "weapon": {
+        "name": "2H_CROSSBOW_CANNON_AVALON",
+        "type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Exsilium1",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_MACE_HELL",
+        "type": "T6_MAIN_MACE_HELL@1",
+        "quality": 1
+      }
+    },
+    {
+      "name": "Gestapo",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 3,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1496,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T7_2H_LONGBOW@1",
+        "quality": 2
+      }
+    },
+    {
+      "name": "Bayunziii",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_HAMMER_AVALON",
+        "type": "T4_2H_HAMMER_AVALON@4",
+        "quality": 4
+      }
+    },
+    {
+      "name": "whereg0",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_KNUCKLES_SET3",
+        "type": "T6_2H_KNUCKLES_SET3@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Tkulikus",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "ZZCall",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_SHAPESHIFTER_KEEPER",
+        "type": "T6_2H_SHAPESHIFTER_KEEPER@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "LuoNian",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1584,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_CLEAVER_HELL",
+        "type": "T6_2H_CLEAVER_HELL@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "yuanmoumou",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1469,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_POLEHAMMER",
+        "type": "T4_2H_POLEHAMMER@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "evolese",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1463,
+      "heal": 42414,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_HOLYSTAFF_HELL",
+        "type": "T5_2H_HOLYSTAFF_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Tudou0991",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_ROCKMACE_KEEPER",
+        "type": "T4_MAIN_ROCKMACE_KEEPER@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "dacui",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 88364,
+      "deathFame": 0,
+      "ip": 1500,
+      "heal": 178120,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_WILDSTAFF",
+        "type": "T6_2H_WILDSTAFF@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Jerryyyyy",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 81449,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_HARPOON_HELL",
+        "type": "T6_2H_HARPOON_HELL@2",
+        "quality": 1
+      }
+    },
+    {
+      "name": "Fkainiu",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 81449,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_HOLYSTAFF_HELL",
+        "type": "T6_2H_HOLYSTAFF_HELL@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "wmq2025",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 72691,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF",
+        "type": "T6_2H_ARCANESTAFF",
+        "quality": 2
+      }
+    },
+    {
+      "name": "apple1263",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 72691,
+      "deathFame": 0,
+      "ip": 1419,
+      "heal": 73161,
+      "damage": 14,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_HOLYSTAFF_CRYSTAL",
+        "type": "T4_2H_HOLYSTAFF_CRYSTAL@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Lemurr",
+      "guildName": "WHY NOT",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 50866,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_MACE",
+        "type": "T7_MAIN_MACE@1",
+        "quality": 3
+      }
+    },
+    {
+      "name": "domebence",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 154019,
+      "ip": 1470,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_POLEHAMMER",
+        "type": "T7_2H_POLEHAMMER",
+        "quality": 4
+      }
+    },
+    {
+      "name": "deadwolfy02",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 650240,
+      "ip": 1569,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_CLEAVER_HELL",
+        "type": "T6_2H_CLEAVER_HELL@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Pemi",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 271322,
+      "ip": 1577,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_MACE",
+        "type": "T6_MAIN_MACE@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "twink42",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 219428,
+      "ip": 1561,
+      "heal": 138287,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_NATURESTAFF",
+        "type": "T8_MAIN_NATURESTAFF",
+        "quality": 4
+      }
+    },
+    {
+      "name": "regnilbeif",
+      "guildName": "WHY NOT",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 50866,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_MACE_HELL",
+        "type": "T4_MAIN_MACE_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Ghost1400",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 50866,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_HAMMER",
+        "type": "T7_MAIN_HAMMER",
+        "quality": 4
+      }
+    },
+    {
+      "name": "BladesV2",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 1,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 296783,
+      "ip": 1582,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_KNUCKLES_HELL",
+        "type": "T5_2H_KNUCKLES_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Handjoe",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 50866,
+      "deathFame": 0,
+      "ip": 1443,
+      "heal": 0,
+      "damage": 819,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_KNUCKLES_SET3",
+        "type": "T6_2H_KNUCKLES_SET3@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "SAlvad00r",
+      "guildName": "WHY NOT",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 50866,
+      "deathFame": 110646,
+      "ip": 1368,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Laoshenxian",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF_HELL",
+        "type": "T6_2H_ARCANESTAFF_HELL@1",
+        "quality": 2
+      }
+    },
+    {
+      "name": "zhuanzhailaowai",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_CROSSBOW_CANNON_AVALON",
+        "type": "T5_2H_CROSSBOW_CANNON_AVALON@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Wusir",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 1502,
+      "heal": 6967,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "honey1popcorn",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 1553,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "biscauit",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Xingchui",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 1567,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_FIRE_RINGPAIR_AVALON",
+        "type": "T6_2H_FIRE_RINGPAIR_AVALON@3",
+        "quality": 2
+      }
+    },
+    {
+      "name": "8xiaode",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_SHAPESHIFTER_SET2",
+        "type": "T6_2H_SHAPESHIFTER_SET2@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "GuiCa11",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_DUALMACE_AVALON",
+        "type": "T5_2H_DUALMACE_AVALON@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Traveler06",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "zmladd",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "yanfang",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 38732,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_MACE",
+        "type": "T7_2H_MACE",
+        "quality": 4
+      }
+    },
+    {
+      "name": "VERGIL4K",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 31816,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "weesoko",
+      "guildName": "WHY NOT",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 25550,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_MACE",
+        "type": "T4_2H_MACE@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Beelzebub393",
+      "guildName": "WHY NOT",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 25550,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_FIRESTAFF",
+        "type": "T5_2H_FIRESTAFF@2",
+        "quality": 5
+      }
+    },
+    {
+      "name": "3bdoswesy",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 25550,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Altokey",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 25550,
+      "deathFame": 0,
+      "ip": 1527,
+      "heal": 0,
+      "damage": 2040,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T7_2H_LONGBOW@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "muchosgracias",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 25550,
+      "deathFame": 130869,
+      "ip": 1477,
+      "heal": 5113,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T5_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "RudeQQ",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 25550,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF",
+        "type": "T5_2H_ARCANESTAFF@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "YWNYR",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 24731,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ENIGMATICSTAFF",
+        "type": "T6_2H_ENIGMATICSTAFF@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Apex707",
+      "guildName": "Treasure Hunt",
+      "allianceName": "JOIN",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 19050,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_MACE_CRYSTAL",
+        "type": "T4_MAIN_MACE_CRYSTAL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "6V9",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 6915,
+      "deathFame": 288899,
+      "ip": 1511,
+      "heal": 0,
+      "damage": 470,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_AXE_AVALON",
+        "type": "T6_2H_AXE_AVALON@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "mzls",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 6915,
+      "deathFame": 138915,
+      "ip": 1368,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_DEMONICSTAFF",
+        "type": "T5_2H_DEMONICSTAFF@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "GGBBONG",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 153305,
+      "ip": 1225,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_COMBATSTAFF_MORGANA",
+        "type": "T5_2H_COMBATSTAFF_MORGANA@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "BYeXinG",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 304802,
+      "ip": 1424,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_QUARTERSTAFF_AVALON",
+        "type": "T5_2H_QUARTERSTAFF_AVALON@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "GuiSup",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 113076,
+      "ip": 1288,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_ROCKMACE_KEEPER",
+        "type": "T6_MAIN_ROCKMACE_KEEPER@1",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Duanci",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 450926,
+      "ip": 1598,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    }
+  ]
+}

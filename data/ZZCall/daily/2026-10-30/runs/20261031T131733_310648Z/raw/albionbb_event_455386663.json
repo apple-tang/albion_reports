@@ -1,0 +1,842 @@
+{
+  "EventId": 455386663,
+  "TimeStamp": "2026-10-30T14:41:50.405Z",
+  "BattleId": 455385750,
+  "TotalVictimKillFame": 66249,
+  "Killer": {
+    "AverageItemPower": 1460.06836,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_CURSEDSTAFF_MORGANA",
+        "Type": "T5_2H_CURSEDSTAFF_MORGANA@2",
+        "Quality": 3
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_SET3",
+        "Type": "T7_HEAD_LEATHER_SET3@1",
+        "Quality": 3
+      },
+      "Armor": {
+        "Name": "ARMOR_CLOTH_SET1",
+        "Type": "T7_ARMOR_CLOTH_SET1@1",
+        "Quality": 3
+      },
+      "Shoes": {
+        "Name": "SHOES_PLATE_AVALON",
+        "Type": "T5_SHOES_PLATE_AVALON@3",
+        "Quality": 4
+      },
+      "Bag": null,
+      "Cape": {
+        "Name": "CAPEITEM_MORGANA",
+        "Type": "T5_CAPEITEM_MORGANA@3",
+        "Quality": 4
+      },
+      "Mount": {
+        "Name": "MOUNT_COUGAR_KEEPER",
+        "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+        "Quality": 2
+      },
+      "Potion": {
+        "Type": "T5_POTION_CLEANSE2",
+        "Quality": 0,
+        "Count": 10
+      },
+      "Food": {
+        "Type": "T7_MEAL_OMELETTE",
+        "Quality": 0,
+        "Count": 2
+      }
+    },
+    "Name": "Fommq",
+    "Id": "Msj35EbWS2qC744WWu2VDQ",
+    "GuildName": "Last in Paradise",
+    "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+    "AllianceName": "ZOUZ",
+    "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+    "AllianceTag": "",
+    "DeathFame": 0,
+    "KillFame": 4140,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Victim": {
+    "AverageItemPower": 1346.57922,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_ARCANESTAFF",
+        "Type": "T6_2H_ARCANESTAFF",
+        "Quality": 4
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_SET3",
+        "Type": "T7_HEAD_LEATHER_SET3",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_ROYAL",
+        "Type": "T4_ARMOR_LEATHER_ROYAL@3",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_LEATHER_SET2",
+        "Type": "T6_SHOES_LEATHER_SET2@2",
+        "Quality": 4
+      },
+      "Bag": null,
+      "Cape": {
+        "Name": "CAPEITEM_FW_MARTLOCK",
+        "Type": "T4_CAPEITEM_FW_MARTLOCK@3",
+        "Quality": 3
+      },
+      "Mount": {
+        "Name": "MOUNT_HORSE",
+        "Type": "T4_MOUNT_HORSE",
+        "Quality": 4
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 5
+      },
+      "Food": {
+        "Type": "T7_MEAL_OMELETTE_AVALON@1",
+        "Quality": 0,
+        "Count": 1
+      }
+    },
+    "Name": "honey1popcorn",
+    "Id": "BYrKIGjHTxmtBRkvFxdOWw",
+    "GuildName": "Top Squad",
+    "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+    "AllianceName": "1115",
+    "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+    "AllianceTag": "",
+    "DeathFame": 66249,
+    "KillFame": 0,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Participants": [
+    {
+      "AverageItemPower": 1539.98865,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_HORN_KEEPER",
+          "Type": "T7_OFF_HORN_KEEPER@1",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T5_HEAD_CLOTH_KEEPER@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T6_ARMOR_CLOTH_AVALON@2",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_CLOTH_SET2",
+          "Type": "T8_SHOES_CLOTH_SET2",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_SMUGGLER",
+          "Type": "T4_CAPEITEM_SMUGGLER@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": null
+      },
+      "Name": "Pro100mandarinka",
+      "Id": "1cQuoY7SR_eHAgt8Y_RDWQ",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 23278
+    },
+    {
+      "AverageItemPower": 1467.83875,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_HORN_KEEPER",
+          "Type": "T6_OFF_HORN_KEEPER@2",
+          "Quality": 3
+        },
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T4_HEAD_CLOTH_KEEPER@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_FEY",
+          "Type": "T5_ARMOR_LEATHER_FEY@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T4_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 3
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 7
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_AVALON@2",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Shrillhowl",
+      "Id": "gO5XvO49TQmqgEFRcM2G8w",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 21104
+    },
+    {
+      "AverageItemPower": 1506.847,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T8_HEAD_LEATHER_SET3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T5_ARMOR_CLOTH_AVALON@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_MORGANA",
+          "Type": "T7_SHOES_LEATHER_MORGANA@1",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        },
+        "Potion": {
+          "Type": "T5_POTION_CLEANSE2",
+          "Quality": 0,
+          "Count": 10
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_AVALON@2",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Moduch",
+      "Id": "9OOiRAGdRHWV-ECDQrfjOA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 18245.82
+    },
+    {
+      "AverageItemPower": 1528.88806,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T6_HEAD_LEATHER_SET3@2",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T6_ARMOR_CLOTH_AVALON@2",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_PLATE_AVALON",
+          "Type": "T6_SHOES_PLATE_AVALON@2",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 10
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_AVALON@2",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "eno11",
+      "Id": "xNuYeLlkT-qxOWM5l3y3UA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 11037
+    }
+  ],
+  "GroupMembers": [
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "mku",
+      "Id": "0NVA__rzROu53fHRXRIhew",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T6_2H_HAMMER_AVALON",
+          "Quality": 2
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "ElinaMvP",
+      "Id": "8du6HqDEQNKfEytAJWnzXg",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T5_MAIN_ROCKMACE_KEEPER@3",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "kashm",
+      "Id": "adLtqebBSlOD4EaLdu-ZHg",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "eno11",
+      "Id": "xNuYeLlkT-qxOWM5l3y3UA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T5_MAIN_ROCKMACE_KEEPER@2",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "ssaavvaa",
+      "Id": "NQigzg2-Rue8RvuBk4Fb0Q",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Pro100mandarinka",
+      "Id": "1cQuoY7SR_eHAgt8Y_RDWQ",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Sky",
+      "Id": "JmO3mfVcT46VqZRPZ1wYeg",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_CRYSTAL",
+          "Type": "T5_2H_HOLYSTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Moduch",
+      "Id": "9OOiRAGdRHWV-ECDQrfjOA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CURSEDSTAFF_MORGANA",
+          "Type": "T5_2H_CURSEDSTAFF_MORGANA@2",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Fommq",
+      "Id": "Msj35EbWS2qC744WWu2VDQ",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T6_2H_AXE_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Ins1der057",
+      "Id": "W2KowrfaSOCBAiw4M3iMzg",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T6_2H_HARPOON_HELL@2",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Wh1teUniverse",
+      "Id": "5XkPwbRnTRarirCVYON95Q",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ENIGMATICORB_MORGANA",
+          "Type": "T5_2H_ENIGMATICORB_MORGANA@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Mano4i",
+      "Id": "3kpQSQP5SyKYsxJJgtPODw",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF",
+          "Type": "T4_2H_ARCANESTAFF@3",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "BaronSamed1",
+      "Id": "2XOoN9SrRqisOOmsaoXRGA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Shrillhowl",
+      "Id": "gO5XvO49TQmqgEFRcM2G8w",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF",
+          "Type": "T6_MAIN_ARCANESTAFF@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "ZloyPodsolnuh",
+      "Id": "gk5xit0sTrGgqV5gk59M7A",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_DEMONICSTAFF",
+          "Type": "T4_2H_DEMONICSTAFF@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Koshka8841",
+      "Id": "GQ4omYZEQ8CJrMfcLGoNZA",
+      "GuildName": "Last in Paradise",
+      "GuildId": "vYOu0pcVT-K4qwU7sxK5lA",
+      "AllianceName": "ZOUZ",
+      "AllianceId": "h6ti-WLbRSmjrnxq93Ro9Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 4140,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    }
+  ]
+}

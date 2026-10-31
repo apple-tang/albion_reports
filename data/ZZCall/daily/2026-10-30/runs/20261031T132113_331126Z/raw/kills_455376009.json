@@ -1,0 +1,518 @@
+[
+  {
+    "EventId": 455376011,
+    "TimeStamp": "2026-10-30T14:13:03.154Z",
+    "TotalVictimKillFame": 55482,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1459.13171,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "aONn7hayQWGhDEalPrgIng",
+      "Name": "moonisland",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1246.92249,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_NATURESTAFF_HELL",
+          "Type": "T5_2H_NATURESTAFF_HELL@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T3_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376009,
+    "TimeStamp": "2026-10-30T14:13:03.008Z",
+    "TotalVictimKillFame": 98064,
+    "Killer": {
+      "Id": "lBAaw4f_TqaaUGinOanvXQ",
+      "Name": "Mingjing",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1531.30847,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLAYMORE_AVALON",
+          "Type": "T6_2H_CLAYMORE_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "cN3t9dWUS5qeu-wizcQ4ng",
+      "Name": "Sterben2077",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1309.5863,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_UNDEAD",
+          "Type": "T5_MAIN_CURSEDSTAFF_UNDEAD@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376013,
+    "TimeStamp": "2026-10-30T14:13:03.159Z",
+    "TotalVictimKillFame": 84051,
+    "Killer": {
+      "Id": "NWsG1VNtRHajVp6Rw35zjA",
+      "Name": "Fkainiu",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1491.90088,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLEAVER_HELL",
+          "Type": "T5_2H_CLEAVER_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "kKdYb_60TuuiwxpK-WxEHQ",
+      "Name": "SITSiz",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1360.5946,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLEAVER_HELL",
+          "Type": "T5_2H_CLEAVER_HELL@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 3
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376289,
+    "TimeStamp": "2026-10-30T14:13:40.547Z",
+    "TotalVictimKillFame": 88047,
+    "Killer": {
+      "Id": "tFHedSSXR6qQspqOeJLzrQ",
+      "Name": "Gestapo",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1496.09167,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "iITTVvsaSam4eRoatKCehQ",
+      "Name": "HellBattleSong",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1424.25,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T4_MAIN_HOLYSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376285,
+    "TimeStamp": "2026-10-30T14:13:40.054Z",
+    "TotalVictimKillFame": 104706,
+    "Killer": {
+      "Id": "kAE9raGsSLWS3cptxaf1hA",
+      "Name": "BYeXinG",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1493.59668,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T6_2H_AXE_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "z9cEVpPeQLa4A_OKwlYrXw",
+      "Name": "Escaile",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1411.48047,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_DUALMACE_AVALON",
+          "Type": "T5_2H_DUALMACE_AVALON@2",
+          "Quality": 1
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376357,
+    "TimeStamp": "2026-10-30T14:13:52.693Z",
+    "TotalVictimKillFame": 110160,
+    "Killer": {
+      "Id": "bPo1X3SJR9OJaAMe3jRDZA",
+      "Name": "TravailH",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1316.87744,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T5_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 3
+        }
+      }
+    },
+    "Victim": {
+      "Id": "hBucXuaUSMqLyIETSh8skw",
+      "Name": "YWNYR",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1375.33655,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF_CRYSTAL",
+          "Type": "T4_2H_ARCANESTAFF_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376355,
+    "TimeStamp": "2026-10-30T14:13:52.691Z",
+    "TotalVictimKillFame": 177228,
+    "Killer": {
+      "Id": "bPo1X3SJR9OJaAMe3jRDZA",
+      "Name": "TravailH",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1316.87744,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T5_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 3
+        }
+      }
+    },
+    "Victim": {
+      "Id": "aPbTZ5SCRKypSOZTaM5VlA",
+      "Name": "mzls",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1412.1488,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_AVALON",
+          "Type": "T4_MAIN_CURSEDSTAFF_AVALON@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376353,
+    "TimeStamp": "2026-10-30T14:13:52.661Z",
+    "TotalVictimKillFame": 172854,
+    "Killer": {
+      "Id": "ODS14GpmQUS5JD2iu92QqQ",
+      "Name": "Ningzi",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1472.20837,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T4_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "5rH3r-a6Tq6pna8L5vl3_w",
+      "Name": "Exsilium1",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1324.45081,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_MACE_HELL",
+          "Type": "T6_MAIN_MACE_HELL@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376453,
+    "TimeStamp": "2026-10-30T14:14:05.844Z",
+    "TotalVictimKillFame": 76302,
+    "Killer": {
+      "Id": "tFHedSSXR6qQspqOeJLzrQ",
+      "Name": "Gestapo",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1496.09167,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "wzFLrrQnTq-CYAhd1a_Hew",
+      "Name": "wuyadiban",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1300.17175,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_MACE",
+          "Type": "T6_2H_MACE@1",
+          "Quality": 1
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376450,
+    "TimeStamp": "2026-10-30T14:14:05.674Z",
+    "TotalVictimKillFame": 80271,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1459.13171,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "ODS14GpmQUS5JD2iu92QqQ",
+      "Name": "Ningzi",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1472.20837,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T4_2H_ICECRYSTAL_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376449,
+    "TimeStamp": "2026-10-30T14:14:05.671Z",
+    "TotalVictimKillFame": 106515,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1459.13171,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "k8O5p1Z_Tq2zBfiN_7lOpw",
+      "Name": "fhffgh",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1439.39661,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T5_2H_AXE_AVALON@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455376457,
+    "TimeStamp": "2026-10-30T14:14:06.826Z",
+    "TotalVictimKillFame": 73224,
+    "Killer": {
+      "Id": "lBAaw4f_TqaaUGinOanvXQ",
+      "Name": "Mingjing",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1531.30847,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLAYMORE_AVALON",
+          "Type": "T6_2H_CLAYMORE_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "WqofiIpVRuOrsPjBprkJJw",
+      "Name": "QingHeShiJiu",
+      "GuildName": "NexJoy",
+      "AllianceName": "",
+      "AverageItemPower": 1334.04626,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_POLEHAMMER",
+          "Type": "T5_2H_POLEHAMMER@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  }
+]
