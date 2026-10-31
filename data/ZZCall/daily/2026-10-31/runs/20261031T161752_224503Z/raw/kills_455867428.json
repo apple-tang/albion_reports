@@ -1,0 +1,1245 @@
+[
+  {
+    "EventId": 455867428,
+    "TimeStamp": "2026-10-31T14:30:30.8Z",
+    "TotalVictimKillFame": 159813,
+    "Killer": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1759.47839,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T8_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "6Wg0WtSPSZaX4cfPp39jKQ",
+      "Name": "Traveler06",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1442.41833,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_AVALON",
+          "Type": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455867717,
+    "TimeStamp": "2026-10-31T14:31:07.372Z",
+    "TotalVictimKillFame": 90477,
+    "Killer": {
+      "Id": "-mOb7HeNQ1m4m6Y9e1lo3w",
+      "Name": "zmladd",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1662.04968,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF_UNDEAD",
+          "Type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "CMBwop6DS8eiP7K7pX7gFg",
+      "Name": "9AIVEN9",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1432.39075,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_SET2",
+          "Type": "T4_2H_SHAPESHIFTER_SET2@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455867914,
+    "TimeStamp": "2026-10-31T14:31:34.509Z",
+    "TotalVictimKillFame": 281231,
+    "Killer": {
+      "Id": "tFHedSSXR6qQspqOeJLzrQ",
+      "Name": "Gestapo",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1579.42493,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Yt5lPQy4Q6eSFZe_dugbQw",
+      "Name": "Max1k",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1538.23,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_KEEPER",
+          "Type": "T6_2H_SHAPESHIFTER_KEEPER@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455867908,
+    "TimeStamp": "2026-10-31T14:31:34.079Z",
+    "TotalVictimKillFame": 144261,
+    "Killer": {
+      "Id": "QCRdcXfJTNmOdfbqorgfgw",
+      "Name": "whereg0",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1472.27344,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T6_2H_KNUCKLES_SET3@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "8YhML-6TQUuCSI7RfVpuuw",
+      "Name": "UKP",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1411.54541,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_POLEHAMMER",
+          "Type": "T5_2H_POLEHAMMER@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868443,
+    "TimeStamp": "2026-10-31T14:32:39.059Z",
+    "TotalVictimKillFame": 222668,
+    "Killer": {
+      "Id": "BYrKIGjHTxmtBRkvFxdOWw",
+      "Name": "honey1popcorn",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1494.3158,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T5_2H_HARPOON_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "9E1FxYauSeybBB6HiDzfqQ",
+      "Name": "KoNonG",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1490.1792,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ENIGMATICORB_MORGANA",
+          "Type": "T5_2H_ENIGMATICORB_MORGANA@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868441,
+    "TimeStamp": "2026-10-31T14:32:39Z",
+    "TotalVictimKillFame": 2009041,
+    "Killer": {
+      "Id": "6Rx8QI1fS0ekR8906MfUHA",
+      "Name": "xiaoye007",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1583.95593,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1759.47839,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T8_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868725,
+    "TimeStamp": "2026-10-31T14:33:16.879Z",
+    "TotalVictimKillFame": 410345,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1448.65967,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "edgRb9QFSpCn_n5zfZxapQ",
+      "Name": "Jorik97",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1578.6333,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T6_2H_KNUCKLES_SET3@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 3
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868731,
+    "TimeStamp": "2026-10-31T14:33:17.335Z",
+    "TotalVictimKillFame": 299294,
+    "Killer": {
+      "Id": "tFHedSSXR6qQspqOeJLzrQ",
+      "Name": "Gestapo",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1579.42493,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "pOOlepuNTAyOHjKh_yh9Uw",
+      "Name": "Logik",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1590.25,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_MACE",
+          "Type": "T7_2H_MACE@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868811,
+    "TimeStamp": "2026-10-31T14:33:26.903Z",
+    "TotalVictimKillFame": 507059,
+    "Killer": {
+      "Id": "gvW8HuZOS0-zDsHYSIsakg",
+      "Name": "MyFed1k",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1622.39,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T6_2H_KNUCKLES_SET3@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "9PsaDCNqRaqJfzDhQl0Z1A",
+      "Name": "ZZCall",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1565.02673,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_KEEPER",
+          "Type": "T6_2H_SHAPESHIFTER_KEEPER@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455868798,
+    "TimeStamp": "2026-10-31T14:33:25.27Z",
+    "TotalVictimKillFame": 250074,
+    "Killer": {
+      "Id": "3W2XG4j1TPi9IITKXUCZdw",
+      "Name": "Velmozh",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1592.52588,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "a2ytbmQ8SuaN-iXA6vlzkw",
+      "Name": "8xiaode",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1375.96155,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_POLEHAMMER",
+          "Type": "T6_2H_POLEHAMMER@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455869501,
+    "TimeStamp": "2026-10-31T14:35:08.962Z",
+    "TotalVictimKillFame": 453356,
+    "Killer": {
+      "Id": "6Rx8QI1fS0ekR8906MfUHA",
+      "Name": "xiaoye007",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1583.95593,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "GeBKlsU6Ra-Fs84_P9CzGw",
+      "Name": "InToDeeP",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1528.66992,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T8_2H_LONGBOW@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455869510,
+    "TimeStamp": "2026-10-31T14:35:09.244Z",
+    "TotalVictimKillFame": 1963897,
+    "Killer": {
+      "Id": "-mOb7HeNQ1m4m6Y9e1lo3w",
+      "Name": "zmladd",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1662.04968,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF_UNDEAD",
+          "Type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1748.3717,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T8_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_GREYWOLF_FW_CAERLEON",
+          "Type": "T5_MOUNT_GREYWOLF_FW_CAERLEON",
+          "Quality": 3
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455869578,
+    "TimeStamp": "2026-10-31T14:35:20.693Z",
+    "TotalVictimKillFame": 247454,
+    "Killer": {
+      "Id": "R3Xd7SQuQ-6cbN0tGkXc-g",
+      "Name": "HolySmoke",
+      "GuildName": "",
+      "AllianceName": "",
+      "AverageItemPower": 1222.03333,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_QUARTERSTAFF",
+          "Type": "T4_2H_QUARTERSTAFF@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T3_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "qyhimKcPRK2OZ7aHkkdbAw",
+      "Name": "BKHtop",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1541.02588,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T5_2H_AXE_AVALON@3",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455869612,
+    "TimeStamp": "2026-10-31T14:35:24.388Z",
+    "TotalVictimKillFame": 39300,
+    "Killer": {
+      "Id": "-mOb7HeNQ1m4m6Y9e1lo3w",
+      "Name": "zmladd",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1662.04968,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF_UNDEAD",
+          "Type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "R3Xd7SQuQ-6cbN0tGkXc-g",
+      "Name": "HolySmoke",
+      "GuildName": "",
+      "AllianceName": "",
+      "AverageItemPower": 1222.03333,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_QUARTERSTAFF",
+          "Type": "T4_2H_QUARTERSTAFF@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T3_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455869762,
+    "TimeStamp": "2026-10-31T14:35:41.48Z",
+    "TotalVictimKillFame": 231255,
+    "Killer": {
+      "Id": "5rH3r-a6Tq6pna8L5vl3_w",
+      "Name": "Exsilium1",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1531.52832,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Y819OFTESgqqWFs7OqM1jA",
+      "Name": "flafi",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1540.6875,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T4_2H_HAMMER_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455870424,
+    "TimeStamp": "2026-10-31T14:37:06.077Z",
+    "TotalVictimKillFame": 295568,
+    "Killer": {
+      "Id": "hBucXuaUSMqLyIETSh8skw",
+      "Name": "YWNYR",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1506.29089,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ICECRYSTAL_UNDEAD",
+          "Type": "T6_2H_ICECRYSTAL_UNDEAD@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Yt5lPQy4Q6eSFZe_dugbQw",
+      "Name": "Max1k",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1550.10156,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_KEEPER",
+          "Type": "T6_2H_SHAPESHIFTER_KEEPER@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455870698,
+    "TimeStamp": "2026-10-31T14:37:49.288Z",
+    "TotalVictimKillFame": 221210,
+    "Killer": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1716.86,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "KPcs20CRSOSYLB2ovcJj_w",
+      "Name": "00co",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1502.05371,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455870711,
+    "TimeStamp": "2026-10-31T14:37:51.318Z",
+    "TotalVictimKillFame": 253286,
+    "Killer": {
+      "Id": "eajp6GViRJGLCN-yjjWwDA",
+      "Name": "Hvortochka",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1598.59167,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "QCRdcXfJTNmOdfbqorgfgw",
+      "Name": "whereg0",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1472.27344,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T6_2H_KNUCKLES_SET3@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455870732,
+    "TimeStamp": "2026-10-31T14:37:55.667Z",
+    "TotalVictimKillFame": 706075,
+    "Killer": {
+      "Id": "AvZa9aFtQKqZ4IqtCQAaLA",
+      "Name": "Ussgod",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1510.08936,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_AVALON",
+          "Type": "T4_MAIN_CURSEDSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "6Rx8QI1fS0ekR8906MfUHA",
+      "Name": "xiaoye007",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1583.95593,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455871376,
+    "TimeStamp": "2026-10-31T14:39:12.453Z",
+    "TotalVictimKillFame": 87471,
+    "Killer": {
+      "Id": "2p5opeaaQWSj-YHdw8e5yw",
+      "Name": "GodsGod",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1451.84,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_SET2",
+          "Type": "T6_2H_SHAPESHIFTER_SET2@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "CMBwop6DS8eiP7K7pX7gFg",
+      "Name": "9AIVEN9",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1349.13245,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_SET2",
+          "Type": "T4_2H_SHAPESHIFTER_SET2@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T4_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455871671,
+    "TimeStamp": "2026-10-31T14:39:58.818Z",
+    "TotalVictimKillFame": 140778,
+    "Killer": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1716.86,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "2p5opeaaQWSj-YHdw8e5yw",
+      "Name": "GodsGod",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1451.84,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_SET2",
+          "Type": "T6_2H_SHAPESHIFTER_SET2@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455871995,
+    "TimeStamp": "2026-10-31T14:40:38.749Z",
+    "TotalVictimKillFame": 224852,
+    "Killer": {
+      "Id": "bH99S7JqRL6faEZacgcoVQ",
+      "Name": "Mera6oTaH",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1588.12,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T6_2H_HARPOON_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "x7vyS969QoCEu6avwcRQKw",
+      "Name": "yanfang",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1498.775,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_MACE",
+          "Type": "T6_2H_MACE@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T3_MOUNT_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455872386,
+    "TimeStamp": "2026-10-31T14:41:25.947Z",
+    "TotalVictimKillFame": 204930,
+    "Killer": {
+      "Id": "5rH3r-a6Tq6pna8L5vl3_w",
+      "Name": "Exsilium1",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1531.52832,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "Yt5lPQy4Q6eSFZe_dugbQw",
+      "Name": "Max1k",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1451.67578,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T6_2H_HAMMER_AVALON@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455872603,
+    "TimeStamp": "2026-10-31T14:41:54.263Z",
+    "TotalVictimKillFame": 2005829,
+    "Killer": {
+      "Id": "6Rx8QI1fS0ekR8906MfUHA",
+      "Name": "xiaoye007",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1532.25488,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T6_2H_CROSSBOW_CANNON_AVALON@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "AvZa9aFtQKqZ4IqtCQAaLA",
+      "Name": "Ussgod",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1510.08936,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_AVALON",
+          "Type": "T4_MAIN_CURSEDSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455872853,
+    "TimeStamp": "2026-10-31T14:42:22.167Z",
+    "TotalVictimKillFame": 171395,
+    "Killer": {
+      "Id": "3W2XG4j1TPi9IITKXUCZdw",
+      "Name": "Velmozh",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1592.52588,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "boZwO95fSJ27oQerv9VUrw",
+      "Name": "evolese",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1348.57825,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_HELL",
+          "Type": "T6_2H_HOLYSTAFF_HELL@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455873272,
+    "TimeStamp": "2026-10-31T14:43:15.099Z",
+    "TotalVictimKillFame": 237248,
+    "Killer": {
+      "Id": "4HDLZOjZRSyi_nS_Udkwkg",
+      "Name": "Vlados9966",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1716.86,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "A4vDU_i5R9mB2vNV7XClyQ",
+      "Name": "Mengxin123",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1271.13916,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T5_MAIN_HOLYSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455873569,
+    "TimeStamp": "2026-10-31T14:43:52.21Z",
+    "TotalVictimKillFame": 174789,
+    "Killer": {
+      "Id": "qyhimKcPRK2OZ7aHkkdbAw",
+      "Name": "BKHtop",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1364.35925,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_AXE_AVALON",
+          "Type": "T5_2H_AXE_AVALON@3",
+          "Quality": 2
+        },
+        "Mount": null
+      }
+    },
+    "Victim": {
+      "Id": "2QLCkUYXReq8a1NI773gPw",
+      "Name": "KelMErk",
+      "GuildName": "VITRYLA",
+      "AllianceName": "UA",
+      "AverageItemPower": 1508.59509,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T4_2H_HAMMER_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T4_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455874332,
+    "TimeStamp": "2026-10-31T14:45:24.144Z",
+    "TotalVictimKillFame": 145017,
+    "Killer": {
+      "Id": "kyg8_HJkQhmbifsJe8mQoA",
+      "Name": "den4ik1012",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1568.46582,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "x7vyS969QoCEu6avwcRQKw",
+      "Name": "yanfang",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1494.64319,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_MACE",
+          "Type": "T6_2H_MACE@1",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_GIANTSTAG_MOOSE",
+          "Type": "T6_MOUNT_GIANTSTAG_MOOSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455874486,
+    "TimeStamp": "2026-10-31T14:45:37.363Z",
+    "TotalVictimKillFame": 444365,
+    "Killer": {
+      "Id": "0JtvSqjxR7SErwRsTnQt8Q",
+      "Name": "Tkulikus",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1531.993,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T7_2H_LONGBOW@1",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "eajp6GViRJGLCN-yjjWwDA",
+      "Name": "Hvortochka",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1598.59167,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  }
+]

@@ -2,7 +2,9 @@
 import argparse
 import collections
 import contextlib
+import csv
 import datetime as dt
+import io
 import json
 import os
 from pathlib import Path
@@ -25,6 +27,8 @@ SLOTS = {
     "Potion": "药水", "Food": "食物",
 }
 QUALITIES = {0: "不适用", 1: "普通", 2: "良好", 3: "杰出", 4: "卓越", 5: "大师级"}
+REGEAR_SLOTS = ("MainHand", "OffHand", "Head", "Armor", "Shoes", "Cape")
+REGEAR_ITEM_FIELDS = ["装备部位", "装备名称", "阶级附魔", "品质", "品质编号", "物品编号"]
 
 
 def now():
@@ -404,7 +408,308 @@ def export_report(folder, report):
         for (code, name, quality), count in sorted(counts.items())) + "\n")
 
 
-def collect_day(client, root, caller, day, min_players, refresh_items=False):
+def regear_session(start_utc):
+    time_utc = parse_time(start_utc)
+    if time_utc.hour == 12:
+        return "12u"
+    if time_utc.hour == 14:
+        return "14u"
+    return "other-{:02d}u".format(time_utc.hour)
+
+
+def read_box_layout(path):
+    path = Path(path)
+    text = path.read_text(encoding="utf-8-sig")
+    rows = list(csv.reader(io.StringIO(text, newline=""), delimiter="\t"))
+    if not rows or not any(cell.strip() for row in rows for cell in row):
+        raise ValueError("箱子排序文件为空。")
+    columns = max(len(row) for row in rows)
+    boxes = []
+    for row_index, row in enumerate(rows, 1):
+        for column in range(1, columns + 1):
+            boxes.append({"box": "{}-{}".format(row_index, column), "row": row_index,
+                          "column": column, "label": row[column - 1].strip() if column <= len(row) else ""})
+    return boxes, text
+
+
+def match_box_owners(boxes, players, aliases):
+    players_by_name = {p.strip().casefold(): p for p in players}
+    aliases = {key.strip().casefold(): value.strip().casefold() for key, value in aliases.items()}
+    result = []
+    for source in boxes:
+        box = dict(source, owner=None, match="空箱", candidates=[])
+        label = source["label"].casefold()
+        if not label:
+            result.append(box)
+            continue
+        target = aliases.get(label, label)
+        if target in players_by_name:
+            box.update(owner=players_by_name[target], match="配置简称" if label in aliases else "精确匹配")
+        elif label not in aliases:
+            candidates = [name for key, name in players_by_name.items() if len(label) >= 3 and key.startswith(label)]
+            if len(candidates) == 1:
+                box.update(owner=candidates[0], match="唯一前缀简称")
+            else:
+                box.update(match="简称有歧义" if candidates else "本日报无对应人员", candidates=sorted(candidates))
+        else:
+            box["match"] = "配置对应人员未出现在本日报"
+        result.append(box)
+    return result
+
+
+def box_for_player(player, boxes, no_box_players=()):
+    if any(same(player, name) for name in no_box_players):
+        return {"箱子编号": "无需箱子", "玩家": player, "箱子原名": "", "分箱状态": "管理（无需箱子）",
+                "候选箱号": "", "match": "管理配置"}
+    candidates = [box for box in boxes if same(box["owner"], player)]
+    if len(candidates) == 1:
+        box = candidates[0]
+        return {"箱子编号": box["box"], "玩家": player, "箱子原名": box["label"],
+                "分箱状态": "已分配", "候选箱号": "", "match": box["match"]}
+    if candidates:
+        return {"箱子编号": "待确认", "玩家": player, "箱子原名": candidates[0]["label"],
+                "分箱状态": "重复箱子归属", "候选箱号": "、".join(b["box"] for b in candidates), "match": "重复"}
+    ambiguous = [box for box in boxes if any(same(name, player) for name in box["candidates"])]
+    if ambiguous:
+        return {"箱子编号": "待确认", "玩家": player, "箱子原名": "、".join(b["label"] for b in ambiguous),
+                "分箱状态": "简称需确认", "候选箱号": "、".join(b["box"] for b in ambiguous), "match": "有歧义"}
+    return {"箱子编号": "待分配", "玩家": player, "箱子原名": "", "分箱状态": "未找到箱子",
+            "候选箱号": "", "match": "未匹配"}
+
+
+def regear_item_row(item):
+    return {"装备部位": item["slot_name"], "装备名称": item["name"],
+            "阶级附魔": "T" + item["tier_enchantment"], "品质": item["quality_name"],
+            "品质编号": item["quality"] if item["quality"] is not None else "未知", "物品编号": item["item_id"]}
+
+
+def build_regear_tables(battles, boxes, no_box_players=()):
+    purchases, allocations, events = {}, {}, {}
+    warnings, missing_equipment = [], []
+    expected_deaths = sum(p["deaths"] for b in battles for p in b["players"])
+    for battle in battles:
+        for death in battle["deaths"]:
+            event_id = str(death["event_id"])
+            if event_id in events:
+                if events[event_id] != death:
+                    raise ValueError("补装源数据中 EventId 冲突：" + event_id)
+                continue
+            events[event_id] = death
+            if death["equipment_status"] != "complete":
+                missing_equipment.append({"player": death["victim"], "event_id": event_id})
+                continue
+            assignment = box_for_player(death["victim"], boxes, no_box_players)
+            slots_seen = set()
+            for item in death["items"]:
+                if item["slot"] not in REGEAR_SLOTS:
+                    continue
+                if item["slot"] in slots_seen:
+                    raise ValueError("同一死亡事件有重复装备槽位：" + event_id)
+                slots_seen.add(item["slot"])
+                count = item["count"]
+                if not isinstance(count, int) or isinstance(count, bool) or count <= 0:
+                    raise ValueError("装备数量不是正整数：事件 " + event_id)
+                key = (item["item_id"], item["quality"])
+                item_row = regear_item_row(item)
+                purchase = purchases.setdefault(key, dict(item_row, quantity=0, events=set(), players=set()))
+                purchase["quantity"] += count
+                purchase["events"].add(event_id)
+                purchase["players"].add(death["victim"])
+                allocation_key = (assignment["箱子编号"], death["victim"].casefold(), key)
+                allocation = allocations.setdefault(allocation_key, dict(item_row, **assignment, quantity=0, events=set()))
+                allocation["quantity"] += count
+                allocation["events"].add(event_id)
+                if not item["name_resolved"]:
+                    warnings.append("未解析物品名称：" + item["item_id"])
+    if len(events) != expected_deaths:
+        warnings.append("战报死亡 {} 次，现有死亡明细 {} 次。".format(expected_deaths, len(events)))
+    if missing_equipment:
+        warnings.append("有 {} 次死亡的装备详情缺失，不能据此清单完成全部补装。".format(len(missing_equipment)))
+    unassigned = sorted({a["玩家"] for a in allocations.values() if a["分箱状态"] not in {"已分配", "管理（无需箱子）"}})
+    managers = sorted({a["玩家"] for a in allocations.values() if a["分箱状态"] == "管理（无需箱子）"})
+    if unassigned:
+        warnings.append("以下人员箱子待确认，装备仍计入总采购与分箱清单：" + "、".join(unassigned))
+    purchase_counts = {key: row["quantity"] for key, row in purchases.items()}
+    allocation_counts = collections.Counter()
+    for allocation in allocations.values():
+        allocation_counts[(allocation["物品编号"], allocation["品质编号"])] += allocation["quantity"]
+    normalized = {(key[0], key[1] if key[1] is not None else "未知"): count for key, count in purchase_counts.items()}
+    if normalized != dict(allocation_counts):
+        raise ValueError("总补装清单与分箱清单的物品数量不一致。")
+    purchase_rows = []
+    slot_order = {SLOTS[slot]: index for index, slot in enumerate(REGEAR_SLOTS)}
+    for row in sorted(purchases.values(), key=lambda r: (slot_order[r["装备部位"]], r["物品编号"], str(r["品质编号"]))):
+        purchase_rows.append({**{field: row[field] for field in REGEAR_ITEM_FIELDS}, "数量": row["quantity"],
+                              "死亡次数": len(row["events"]), "涉及人员": "、".join(sorted(row["players"]))})
+    def allocation_order(row):
+        coordinate = row["箱子编号"].split("-")
+        box_order = tuple(map(int, coordinate)) if len(coordinate) == 2 and all(n.isdigit() for n in coordinate) else (999, 999)
+        return (box_order, row["玩家"].casefold(), slot_order[row["装备部位"]], row["物品编号"], str(row["品质编号"]))
+    allocation_rows = []
+    for row in sorted(allocations.values(), key=allocation_order):
+        fields = ["箱子编号", "玩家", "箱子原名", "分箱状态", "候选箱号"] + REGEAR_ITEM_FIELDS
+        allocation_rows.append({**{field: row[field] for field in fields}, "数量": row["quantity"],
+                                "死亡次数": len(row["events"]), "来源事件": "、".join(sorted(row["events"]))})
+    return {"purchases": purchase_rows, "allocations": allocation_rows, "warnings": sorted(set(warnings)),
+            "expected_deaths": expected_deaths, "received_deaths": len(events),
+            "missing_equipment": missing_equipment, "unassigned_players": unassigned, "no_box_players": managers,
+            "item_units": sum(purchase_counts.values()), "counts_reconciled": True}
+
+
+def write_csv(path, fields, rows):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_name(path.name + ".tmp")
+    with temp.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    temp.replace(path)
+
+
+def box_item_level(item_id, name):
+    match = re.fullmatch(r"T(\d+)_(.+?)(?:@(\d+))?", item_id)
+    if not match:
+        raise ValueError("无法换算 P 等级的装备编号：" + item_id)
+    power = int(match.group(1)) + int(match.group(3) or 0)
+    name = re.sub(r"^(?:新手级|初学者级|熟练者级|老手级|专家级|大师级|宗师级|长老级|禅师级)", "", name)
+    name = re.sub(r"^(?:Beginner's|Novice's|Journeyman's|Adept's|Expert's|Master's|Grandmaster's|Elder's)\s+", "", name)
+    return match.group(2), power, name
+
+
+def player_box_rows(allocations):
+    players, item_totals = {}, collections.Counter()
+    slot_names = [SLOTS[slot] for slot in REGEAR_SLOTS]
+    for allocation in allocations:
+        player = allocation["玩家"]
+        row = players.setdefault(player.casefold(), {
+            "箱子编号": allocation["箱子编号"], "玩家": player, "分箱状态": allocation["分箱状态"],
+            "slots": {slot: {} for slot in slot_names}, "总件数": 0,
+        })
+        if allocation["候选箱号"]:
+            row["分箱状态"] = allocation["分箱状态"] + "（" + allocation["候选箱号"] + "）"
+        family, power, name = box_item_level(allocation["物品编号"], allocation["装备名称"])
+        key = (family, power)
+        item = row["slots"][allocation["装备部位"]].setdefault(key, {"name": name, "quantity": 0})
+        item["quantity"] += allocation["数量"]
+        row["总件数"] += allocation["数量"]
+        item_totals[key] += allocation["数量"]
+
+    def player_order(row):
+        parts = row["箱子编号"].split("-")
+        if len(parts) == 2 and all(part.isdigit() for part in parts):
+            return (0, int(parts[0]), int(parts[1]), row["玩家"].casefold())
+        return (1 if row["箱子编号"] == "无需箱子" else 2, 0, 0, row["玩家"].casefold())
+
+    rows = []
+    for player in sorted(players.values(), key=player_order):
+        row = {field: player[field] for field in ["箱子编号", "玩家", "分箱状态", "总件数"]}
+        for slot in slot_names:
+            row[slot] = "; ".join("P{} {} x{}".format(power, item["name"], item["quantity"])
+                                  for (family, power), item in sorted(player["slots"][slot].items()))
+        rows.append(row)
+    return rows, item_totals
+
+
+def export_regear(report, root, box_file, settings):
+    if report.get("kind") != "daily" or report.get("timezone") != "UTC":
+        raise ValueError("补装导出需要 UTC 每日报告。")
+    boxes, box_text = read_box_layout(box_file)
+    players = {p["name"] for b in report["battles"] for p in b["players"]}
+    players.update(d["victim"] for b in report["battles"] for d in b["deaths"])
+    boxes = match_box_owners(boxes, players, settings.get("box_aliases", {}))
+    sessions, seen = {}, {}
+    for battle in report["battles"]:
+        bid = battle["battle_id"]
+        if bid in seen:
+            if seen[bid] != battle:
+                raise ValueError("补装源数据中 BattleId 冲突：" + bid)
+            continue
+        seen[bid] = battle
+        if not on_day(battle["start_utc"], dt.date.fromisoformat(report["period"])):
+            raise ValueError("补装源数据混入其他 UTC 日期的战斗。")
+        sessions.setdefault(regear_session(battle["start_utc"]), []).append(battle)
+    if not sessions:
+        sessions = {"12u": [], "14u": []}
+    generated = now()
+    stamp = generated.strftime("%Y%m%dT%H%M%S_%fZ")
+    output = {"date": report["period"], "generated_at": generated.isoformat(), "sessions": [], "box_exports": []}
+    for session, battles in sorted(sessions.items()):
+        tables = build_regear_tables(battles, boxes, settings.get("no_box_players", []))
+        warnings = list(tables["warnings"])
+        if report["status"] != "complete":
+            warnings.append("源日报状态为 {}，本次不是已确认的全天完整补装清单。".format(report["status"]))
+        warnings.extend(report.get("warnings", []))
+        status = "待核对" if warnings else "完整"
+        folder = root / "regear" / report["period"] / session / stamp
+        suffix = "{}_{}_{}".format(report["period"], session, stamp)
+        purchase_file = folder / ("总补装_" + suffix + ".csv")
+        common = {"日期UTC": report["period"], "场次": session, "数据状态": status}
+        purchase_fields = ["日期UTC", "场次"] + REGEAR_ITEM_FIELDS + ["数量", "死亡次数", "涉及人员", "数据状态"]
+        write_csv(purchase_file, purchase_fields, [dict(row, **common) for row in tables["purchases"]])
+        manifest = {"date": report["period"], "session": session, "generated_at": generated.isoformat(),
+                    "source_generated_at": report["generated_at"], "source_status": report["status"],
+                    "caller": report["caller"], "battle_ids": sorted(b["battle_id"] for b in battles),
+                    "included_slots": list(REGEAR_SLOTS), "box_file": str(Path(box_file).resolve()),
+                    "boxes": boxes, "box_aliases": settings.get("box_aliases", {}),
+                    "configured_no_box_players": settings.get("no_box_players", []),
+                    "status": status, "warnings": warnings,
+                    **{key: value for key, value in tables.items() if key not in {"purchases", "allocations", "warnings"}},
+                    "purchase_file": str(purchase_file)}
+        write_json(folder / "manifest.json", manifest)
+        write_text(folder / "箱子排序_本次快照.txt", box_text)
+        write_text(folder / "补装检查.txt", "{} {} UTC | {}\n死亡 {} 次；战斗装备 {} 件；采购与分配源明细逐物品核对一致。\n{}\n".format(
+            report["period"], session, status, tables["received_deaths"], tables["item_units"],
+            "\n".join(warnings + (["管理（无需箱子），装备仍计入采购：" + "、".join(tables["no_box_players"])] if tables["no_box_players"] else [])) or "未发现缺失项。"))
+        output["sessions"].append(manifest)
+        log("补装 {}：{} 次死亡，{} 件装备；{}".format(session, tables["received_deaths"], tables["item_units"], status))
+        log("  采购：" + str(purchase_file))
+        for warning in tables["warnings"]:
+            log("  提示：" + warning)
+    box_groups = {}
+    for session, battles in sessions.items():
+        group = "12u-14u" if session in {"12u", "14u"} else session
+        box_groups.setdefault(group, []).extend(battles)
+    for group, battles in sorted(box_groups.items()):
+        tables = build_regear_tables(battles, boxes, settings.get("no_box_players", []))
+        rows, item_totals = player_box_rows(tables["allocations"])
+        purchase_totals = collections.Counter()
+        for purchase in tables["purchases"]:
+            family, power, unused = box_item_level(purchase["物品编号"], purchase["装备名称"])
+            purchase_totals[(family, power)] += purchase["数量"]
+        if purchase_totals != item_totals or sum(row["总件数"] for row in rows) != tables["item_units"]:
+            raise ValueError("按人合并后的分箱数量与采购清单不一致。")
+        folder = root / "regear" / report["period"] / group / stamp
+        allocation_file = folder / ("箱子补装_{}_{}_{}.csv".format(report["period"], group, stamp))
+        fields = ["箱子编号", "玩家", "分箱状态"] + [SLOTS[slot] for slot in REGEAR_SLOTS] + ["总件数"]
+        write_csv(allocation_file, fields, rows)
+        warnings = list(tables["warnings"]) + report.get("warnings", [])
+        if report["status"] != "complete":
+            warnings.append("源日报状态为 {}，本次不是已确认的全天完整补装清单。".format(report["status"]))
+        manifest = {
+            "schema_version": 2, "date": report["period"], "group": group,
+            "generated_at": generated.isoformat(), "source_generated_at": report["generated_at"],
+            "source_status": report["status"], "sessions": sorted({regear_session(b["start_utc"]) for b in battles}),
+            "battle_ids": sorted(b["battle_id"] for b in battles), "caller": report["caller"],
+            "box_file": str(Path(box_file).resolve()), "boxes": boxes,
+            "box_aliases": settings.get("box_aliases", {}), "configured_no_box_players": settings.get("no_box_players", []),
+            "included_slots": list(REGEAR_SLOTS), "allocation_file": str(allocation_file), "rows": rows,
+            "allocation_details": tables["allocations"], "item_units": tables["item_units"],
+            "unassigned_players": tables["unassigned_players"], "no_box_players": tables["no_box_players"],
+            "missing_equipment": tables["missing_equipment"], "warnings": warnings,
+            "counts_reconciled": True, "status": "待核对" if warnings else "完整",
+        }
+        write_json(folder / "manifest.json", manifest)
+        write_text(folder / "箱子排序_本次快照.txt", box_text)
+        write_text(folder / "补装检查.txt", "{} {} UTC | {}\n{} 人，每人一行，共 {} 件；按装备种类和 P 等级与采购清单核对一致。\n{}\n".format(
+            report["period"], group, manifest["status"], len(rows), tables["item_units"], "\n".join(warnings) or "未发现缺失项。"))
+        output["box_exports"].append(manifest)
+        log("合并分箱 {}：{} 人，{} 件装备".format(group, len(rows), tables["item_units"]))
+        log("  分箱：" + str(allocation_file))
+    output["status"] = "complete" if all(s["status"] == "完整" for s in output["sessions"] + output["box_exports"]) else "partial"
+    return output
+
+
+def collect_day(client, root, caller, day, min_players, refresh_items=False, regear_options=None, attendance_export=False):
     if day > now().date():
         raise ValueError("不能采集未来日期。")
     stamp = now().strftime("%Y%m%dT%H%M%S_%fZ")
@@ -462,6 +767,13 @@ def collect_day(client, root, caller, day, min_players, refresh_items=False):
     log("日报：" + str(folder / "report.txt"))
     log("本次状态：" + status)
     build_week(root, caller, day, min_players)
+    if attendance_export:
+        from attendance import export_attendance
+        attendance_result = export_attendance(read_json(folder / "report.json"), root)
+        report["attendance_status"] = attendance_result["status"]
+    if regear_options:
+        regear_result = export_regear(read_json(folder / "report.json"), root, regear_options["box_file"], regear_options["settings"])
+        report["regear_status"] = regear_result["status"]
     return report
 
 
@@ -508,10 +820,13 @@ def main():
     action = parser.add_mutually_exclusive_group()
     action.add_argument("--date", help="采集日期 YYYY-MM-DD（UTC）")
     action.add_argument("--week", help="本地汇总该日期所在的周，YYYY-MM-DD")
+    action.add_argument("--regear", help="从已有日报生成补装 CSV，YYYY-MM-DD，不联网")
+    action.add_argument("--attendance", help="从已有日报生成彩色出勤网页及每日/逐场 CSV，YYYY-MM-DD，不联网")
     parser.add_argument("--player", help="caller 名称，默认读 config.json")
     parser.add_argument("--min-players", type=int, help="战报最低总人数，默认 10")
     parser.add_argument("--root", type=Path, default=BASE / "data", help="数据根目录")
     parser.add_argument("--refresh-items", action="store_true")
+    parser.add_argument("--boxes", type=Path, help="箱子排序文件，默认数据根目录/箱子排序.txt")
     parser.add_argument("--transport", choices=["auto", "powershell", "urllib"], default="auto")
     args = parser.parse_args()
     settings = read_json(BASE / "config.json")
@@ -521,27 +836,38 @@ def main():
     min_players = args.min_players if args.min_players is not None else settings["min_players"]
     if min_players < 0:
         raise ValueError("最低人数不能小于零。")
-    if not args.date and not args.week:
+    if not args.date and not args.week and not args.regear and not args.attendance:
         print("欧服战报归档 | {} | UTC | 最低 {} 人".format(caller, min_players))
-        mode = input("1. 按日采集  2. 本地周汇总  0. 退出 [1]：").strip() or "1"
+        mode = input("1. 按日采集  2. 本地周汇总  3. 导出补装 CSV  4. 导出出勤名单  0. 退出 [1]：").strip() or "1"
         if mode == "0":
             return 0
-        if mode not in {"1", "2"}:
-            raise ValueError("请输入 0、1 或 2。")
+        if mode not in {"1", "2", "3", "4"}:
+            raise ValueError("请输入 0、1、2、3 或 4。")
         default = (now().date() - dt.timedelta(days=1)).isoformat()
         value = input("输入 UTC 日期 YYYY-MM-DD [{}]：".format(default)).strip() or default
         if mode == "1":
             args.date = value
-        else:
+        elif mode == "2":
             args.week = value
-    day = dt.date.fromisoformat(args.date or args.week)
+        elif mode == "3":
+            args.regear = value
+        else:
+            args.attendance = value
+    day = dt.date.fromisoformat(args.date or args.week or args.regear or args.attendance)
     root = args.root.resolve() / caller
     with run_lock(root):
         if args.date:
-            result = collect_day(Client(args.transport), root, caller, day, min_players, args.refresh_items)
-        else:
+            result = collect_day(Client(args.transport), root, caller, day, min_players, args.refresh_items,
+                                 {"box_file": args.boxes or args.root / "箱子排序.txt", "settings": settings}, attendance_export=True)
+        elif args.week:
             result = build_week(root, caller, day, min_players)
-    return 0 if result["status"] == "complete" else 2
+        elif args.regear:
+            result = export_regear(read_json(root / "daily" / day.isoformat() / "report.json"), root,
+                                   args.boxes or args.root / "箱子排序.txt", settings)
+        else:
+            from attendance import export_attendance
+            result = export_attendance(read_json(root / "daily" / day.isoformat() / "report.json"), root)
+    return 0 if all(result.get(field, "complete") == "complete" for field in ["status", "regear_status", "attendance_status"]) else 2
 
 
 if __name__ == "__main__":

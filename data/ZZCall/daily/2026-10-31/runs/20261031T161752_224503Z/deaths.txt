@@ -1,0 +1,438 @@
+死亡时装备明细（UTC，穿戴快照）
+附魔等级与品质分开记录；空槽位表示接口明确返回 null。
+
+2026-10-31T12:21:40.246Z | evolese | 战斗 455807927 | 事件 455808130 | Top Squad
+击杀者：HE11RAZE / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级堕落法杖 | 6.2 | 品质 2(良好) | 数量 1 | T6_2H_HOLYSTAFF_HELL@2
+  头部：大师级德鲁伊风帽 | 6.1 | 品质 2(良好) | 数量 1 | T6_HEAD_CLOTH_KEEPER@1
+  衣服：专家级皇家外套 | 5.2 | 品质 3(杰出) | 数量 1 | T5_ARMOR_LEATHER_ROYAL@2
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 4(卓越) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级Lymhurst披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE@1
+  空槽位：副手、包
+
+2026-10-31T12:21:40.907Z | honey1popcorn | 战斗 455807927 | 事件 455808136 | Top Squad
+击杀者：RWWIN / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：老手级索魂尖枪 | 4.3 | 品质 4(卓越) | 数量 1 | T4_2H_HARPOON_HELL@3
+  头部：禅师级刺客兜帽 | 8.0 | 品质 2(良好) | 数量 1 | T8_HEAD_LEATHER_SET3
+  衣服：老手级皇家外套 | 4.3 | 品质 3(杰出) | 数量 1 | T4_ARMOR_LEATHER_ROYAL@3
+  鞋子：大师级守墓人长靴 | 6.2 | 品质 1(普通) | 数量 1 | T6_SHOES_PLATE_UNDEAD@2
+  包：专家级背包 | 5.0 | 品质 2(良好) | 数量 1 | T5_BAG
+  披风：老手级走私者披风 | 4.3 | 品质 2(良好) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：阿瓦隆猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_AVALON@1
+  空槽位：副手
+
+2026-10-31T12:21:40.927Z | whereg0 | 战斗 455807927 | 事件 455808138 | Top Squad
+击杀者：HE11RAZE / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级尖刺护手 | 6.3 | 品质 4(卓越) | 数量 1 | T6_2H_KNUCKLES_SET3@3
+  头部：大师级迷雾行者兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_FEY@2
+  衣服：大师级纯洁长袍 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_CLOTH_AVALON@2
+  鞋子：大师级守墓人长靴 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_PLATE_UNDEAD@2
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 1(普通) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T12:21:41.428Z | 00co | 战斗 455807927 | 事件 455808163 | Top Squad
+击杀者：HE11RAZE / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：专家级堕神法杖 | 5.3 | 品质 4(卓越) | 数量 1 | T5_MAIN_HOLYSTAFF_AVALON@3
+  副手：专家级秘密之眼 | 5.3 | 品质 2(良好) | 数量 1 | T5_OFF_ORB_MORGANA@3
+  头部：老手级士兵头盔 | 4.3 | 品质 2(良好) | 数量 1 | T4_HEAD_PLATE_SET1@3
+  衣服：老手级迷雾行者外套 | 4.3 | 品质 3(杰出) | 数量 1 | T4_ARMOR_LEATHER_FEY@3
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 2(良好) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级Lymhurst披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 10 | T7_POTION_REVIVE
+  食物：尘洞螃蟹蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_FISH@1
+  空槽位：包
+
+2026-10-31T12:21:42.314Z | Tkulikus | 战斗 455807927 | 事件 455808166 | Top Squad
+击杀者：RWWIN / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级长弓 | 6.2 | 品质 4(卓越) | 数量 1 | T6_2H_LONGBOW@2
+  头部：宗师级刺客兜帽 | 7.1 | 品质 4(卓越) | 数量 1 | T7_HEAD_LEATHER_SET3@1
+  衣服：大师级屠龙者外套 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_LEATHER_DRAGON@2
+  鞋子：大师级守墓人长靴 | 6.2 | 品质 3(杰出) | 数量 1 | T6_SHOES_PLATE_UNDEAD@2
+  披风：老手级走私者披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 3(杰出) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 7 | T7_POTION_REVIVE
+  食物：炖牛肉 | 8.2 | 品质 0(不适用) | 数量 2 | T8_MEAL_STEW@2
+  空槽位：副手、包
+
+2026-10-31T12:21:47.284Z | BKHtop | 战斗 455807927 | 事件 455808210 | Top Squad
+击杀者：RWWIN / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：专家级裂域斧 | 5.3 | 品质 2(良好) | 数量 1 | T5_2H_AXE_AVALON@3
+  头部：专家级骑士头盔 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_PLATE_SET2@3
+  衣服：老手级迷雾行者外套 | 4.4 | 品质 4(卓越) | 数量 1 | T4_ARMOR_LEATHER_FEY@4
+  鞋子：专家级守墓人长靴 | 5.3 | 品质 1(普通) | 数量 1 | T5_SHOES_PLATE_UNDEAD@3
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE@1
+  空槽位：副手、包
+
+2026-10-31T12:21:51.058Z | Traveler06 | 战斗 455807927 | 事件 455808240 | Top Squad
+击杀者：ImVolk1 / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：老手级召影法杖 | 4.3 | 品质 2(良好) | 数量 1 | T4_MAIN_CURSEDSTAFF_AVALON@3
+  副手：老手级时凝魔典 | 4.3 | 品质 4(卓越) | 数量 1 | T4_OFF_TOME_CRYSTAL@3
+  头部：大师级刺客兜帽 | 6.2 | 品质 2(良好) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：大师级恶魔盔甲 | 6.2 | 品质 1(普通) | 数量 1 | T6_ARMOR_PLATE_HELL@2
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 2(良好) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级走私者披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 2(良好) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 6 | T7_POTION_REVIVE
+  空槽位：包、食物
+
+2026-10-31T12:22:01.923Z | Tudou0991 | 战斗 455807927 | 事件 455808307 | Top Squad
+击杀者：ImVolk1 / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：老手级梦魇锤杖 | 4.3 | 品质 2(良好) | 数量 1 | T4_MAIN_MACE_HELL@3
+  副手：大师级星域神盾 | 6.2 | 品质 4(卓越) | 数量 1 | T6_OFF_SHIELD_AVALON@2
+  头部：大师级刺客兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：宗师级恶魔盔甲 | 7.1 | 品质 3(杰出) | 数量 1 | T7_ARMOR_PLATE_HELL@1
+  鞋子：专家级牧师便鞋 | 5.3 | 品质 4(卓越) | 数量 1 | T5_SHOES_CLOTH_SET2@3
+  披风：老手级走私者披风 | 4.3 | 品质 2(良好) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 4(卓越) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 7 | T7_POTION_REVIVE
+  食物：牛肉三明治 | 8.1 | 品质 0(不适用) | 数量 1 | T8_MEAL_SANDWICH@1
+  空槽位：包
+
+2026-10-31T12:22:03.906Z | 8xiaode | 战斗 455807927 | 事件 455808323 | Top Squad
+击杀者：capaToBeLL / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级长锤 | 6.1 | 品质 2(良好) | 数量 1 | T6_2H_POLEHAMMER@1
+  头部：大师级牧师风帽 | 6.2 | 品质 3(杰出) | 数量 1 | T6_HEAD_CLOTH_SET2@2
+  衣服：大师级骑士盔甲 | 6.2 | 品质 3(杰出) | 数量 1 | T6_ARMOR_PLATE_SET2@2
+  鞋子：大师级雇佣兵鞋子 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_LEATHER_SET1@2
+  披风：老手级走私者披风 | 4.2 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@2
+  坐骑：专家级骑乘马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：落雷勒车鱼三明治 | 8.0 | 品质 0(不适用) | 数量 1 | T8_MEAL_SANDWICH_FISH
+  空槽位：副手、包
+
+2026-10-31T12:22:17.997Z | wmq2025 | 战斗 455807927 | 事件 455808417 | Top Squad
+击杀者：atlantess / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：老手级杰出奥术法杖 | 4.3 | 品质 2(良好) | 数量 1 | T4_2H_ARCANESTAFF@3
+  头部：专家级刺客兜帽 | 5.2 | 品质 2(良好) | 数量 1 | T5_HEAD_LEATHER_SET3@2
+  衣服：禅师级骑士盔甲 | 8.0 | 品质 2(良好) | 数量 1 | T8_ARMOR_PLATE_SET2
+  鞋子：专家级牧师便鞋 | 5.2 | 品质 2(良好) | 数量 1 | T5_SHOES_CLOTH_SET2@2
+  包：大师级背包 | 6.0 | 品质 2(良好) | 数量 1 | T6_BAG
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 2(良好) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  食物：牛肉三明治 | 8.2 | 品质 0(不适用) | 数量 2 | T8_MEAL_SANDWICH@2
+  空槽位：副手
+
+2026-10-31T12:22:35.955Z | Exsilium1 | 战斗 455807927 | 事件 455808528 | Top Squad
+击杀者：NOCHNIK / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级长弓 | 6.3 | 品质 4(卓越) | 数量 1 | T6_2H_LONGBOW@3
+  头部：大师级刺客兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：老手级屠龙者外套 | 4.4 | 品质 4(卓越) | 数量 1 | T4_ARMOR_LEATHER_DRAGON@4
+  鞋子：大师级尾行鞋子 | 6.2 | 品质 2(良好) | 数量 1 | T6_SHOES_LEATHER_MORGANA@2
+  披风：老手级走私者披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 2 | T7_POTION_REVIVE
+  食物：炖牛肉 | 8.2 | 品质 0(不适用) | 数量 1 | T8_MEAL_STEW@2
+  空槽位：副手、包
+
+2026-10-31T12:23:14.741Z | Guaerjia | 战斗 455807927 | 事件 455808824 | Top Squad
+击杀者：RWWIN / A R C；装备状态：complete
+https://europe.albionbb.com/battles/455807927
+  主手：大师级堕神法杖 | 6.2 | 品质 4(卓越) | 数量 1 | T6_MAIN_HOLYSTAFF_AVALON@2
+  副手：宗师级秘密之眼 | 7.1 | 品质 4(卓越) | 数量 1 | T7_OFF_ORB_MORGANA@1
+  头部：宗师级士兵头盔 | 7.1 | 品质 4(卓越) | 数量 1 | T7_HEAD_PLATE_SET1@1
+  衣服：大师级迷雾行者外套 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_LEATHER_FEY@2
+  鞋子：专家级皇家鞋子 | 5.3 | 品质 4(卓越) | 数量 1 | T5_SHOES_LEATHER_ROYAL@3
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 6 | T7_POTION_REVIVE
+  食物：阿瓦隆猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 2 | T7_MEAL_OMELETTE_AVALON@1
+  空槽位：包
+
+2026-10-31T14:25:27.098Z | GodsGod | 战斗 455864923 | 事件 455864923 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：专家级林语者法杖 | 5.3 | 品质 4(卓越) | 数量 1 | T5_2H_SHAPESHIFTER_SET2@3
+  头部：大师级刺客兜帽 | 6.2 | 品质 3(杰出) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：专家级审判盔甲 | 5.3 | 品质 3(杰出) | 数量 1 | T5_ARMOR_PLATE_KEEPER@3
+  鞋子：专家级皇家鞋子 | 5.3 | 品质 4(卓越) | 数量 1 | T5_SHOES_LEATHER_ROYAL@3
+  披风：老手级走私者披风 | 4.3 | 品质 2(良好) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 8 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T14:26:15.062Z | Tudou0991 | 战斗 455864923 | 事件 455865295 | Top Squad
+击杀者：miniSkee / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：老手级基石锤杖 | 4.3 | 品质 4(卓越) | 数量 1 | T4_MAIN_ROCKMACE_KEEPER@3
+  副手：大师级星域神盾 | 6.2 | 品质 4(卓越) | 数量 1 | T6_OFF_SHIELD_AVALON@2
+  头部：大师级刺客兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：宗师级恶魔盔甲 | 7.1 | 品质 3(杰出) | 数量 1 | T7_ARMOR_PLATE_HELL@1
+  鞋子：专家级牧师便鞋 | 5.3 | 品质 4(卓越) | 数量 1 | T5_SHOES_CLOTH_SET2@3
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 4(卓越) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 8 | T7_POTION_REVIVE
+  食物：牛肉三明治 | 8.1 | 品质 0(不适用) | 数量 1 | T8_MEAL_SANDWICH@1
+  空槽位：包
+
+2026-10-31T14:26:15.529Z | yanfang | 战斗 455864923 | 事件 455865303 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：宗师级重型锤杖 | 7.1 | 品质 4(卓越) | 数量 1 | T7_2H_MACE@1
+  头部：专家级喧嚣兜帽 | 5.3 | 品质 4(卓越) | 数量 1 | T5_HEAD_LEATHER_HELL@3
+  衣服：大师级守卫盔甲 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_PLATE_SET3@2
+  鞋子：禅师级牧师便鞋 | 8.1 | 品质 4(卓越) | 数量 1 | T8_SHOES_CLOTH_SET2@1
+  包：专家级背包 | 5.2 | 品质 4(卓越) | 数量 1 | T5_BAG@2
+  披风：老手级走私者披风 | 4.2 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@2
+  坐骑：大师级骑乘马 | 6.0 | 品质 4(卓越) | 数量 1 | T6_MOUNT_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 10 | T7_POTION_REVIVE
+  食物：阿瓦隆猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_AVALON@1
+  空槽位：副手
+
+2026-10-31T14:26:54.959Z | dacui | 战斗 455864923 | 事件 455865655 | Top Squad
+击杀者：miniSkee / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：大师级堕神法杖 | 6.2 | 品质 4(卓越) | 数量 1 | T6_MAIN_HOLYSTAFF_AVALON@2
+  副手：大师级石棺之盾 | 6.2 | 品质 4(卓越) | 数量 1 | T6_OFF_TOWERSHIELD_UNDEAD@2
+  头部：大师级士兵头盔 | 6.2 | 品质 2(良好) | 数量 1 | T6_HEAD_PLATE_SET1@2
+  衣服：老手级迷雾行者外套 | 4.4 | 品质 3(杰出) | 数量 1 | T4_ARMOR_LEATHER_FEY@4
+  鞋子：大师级雇佣兵鞋子 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_LEATHER_SET1@2
+  包：专家级背包 | 5.2 | 品质 2(良好) | 数量 1 | T5_BAG@2
+  披风：老手级Lymhurst披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：迅爪 | 5.1 | 品质 4(卓越) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：尘洞螃蟹蛋饼 | 7.0 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_FISH
+
+2026-10-31T14:27:32.031Z | ZZCall | 战斗 455864923 | 事件 455865998 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：老手级大地符文法杖 | 4.3 | 品质 3(杰出) | 数量 1 | T4_2H_SHAPESHIFTER_KEEPER@3
+  头部：大师级士兵头盔 | 6.2 | 品质 2(良好) | 数量 1 | T6_HEAD_PLATE_SET1@2
+  衣服：大师级骑士盔甲 | 6.3 | 品质 4(卓越) | 数量 1 | T6_ARMOR_PLATE_SET2@3
+  鞋子：大师级坚韧之鞋 | 6.2 | 品质 3(杰出) | 数量 1 | T6_SHOES_LEATHER_AVALON@2
+  披风：老手级莫甘娜披风 | 4.2 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_MORGANA@2
+  坐骑：配鞍灰狼 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_GREYWOLF_FW_CAERLEON
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 8 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T14:27:56.61Z | whereg0 | 战斗 455864923 | 事件 455866151 | Top Squad
+击杀者：Jorik97 / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455864923
+  主手：大师级尖刺护手 | 6.2 | 品质 4(卓越) | 数量 1 | T6_2H_KNUCKLES_SET3@2
+  头部：大师级迷雾行者兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_FEY@2
+  衣服：大师级纯洁长袍 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_CLOTH_AVALON@2
+  鞋子：宗师级守墓人长靴 | 7.1 | 品质 4(卓越) | 数量 1 | T7_SHOES_PLATE_UNDEAD@1
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：净化药水 | 5.1 | 品质 0(不适用) | 数量 5 | T5_POTION_CLEANSE2@1
+  空槽位：副手、包、食物
+
+2026-10-31T14:30:30.8Z | Traveler06 | 战斗 455867428 | 事件 455867428 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：专家级召影法杖 | 5.2 | 品质 4(卓越) | 数量 1 | T5_MAIN_CURSEDSTAFF_AVALON@2
+  副手：老手级时凝魔典 | 4.3 | 品质 4(卓越) | 数量 1 | T4_OFF_TOME_CRYSTAL@3
+  头部：大师级刺客兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_SET3@2
+  衣服：大师级恶魔盔甲 | 6.2 | 品质 2(良好) | 数量 1 | T6_ARMOR_PLATE_HELL@2
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 2(良好) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  包：大师级背包 | 6.0 | 品质 1(普通) | 数量 1 | T6_BAG
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 6 | T7_POTION_REVIVE
+  空槽位：食物
+
+2026-10-31T14:33:25.27Z | 8xiaode | 战斗 455867428 | 事件 455868798 | Top Squad
+击杀者：Velmozh / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级长锤 | 6.1 | 品质 2(良好) | 数量 1 | T6_2H_POLEHAMMER@1
+  头部：专家级牧师风帽 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_CLOTH_SET2@3
+  衣服：宗师级骑士盔甲 | 7.1 | 品质 2(良好) | 数量 1 | T7_ARMOR_PLATE_SET2@1
+  鞋子：大师级雇佣兵鞋子 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_LEATHER_SET1@2
+  包：专家级背包 | 5.2 | 品质 4(卓越) | 数量 1 | T5_BAG@2
+  披风：老手级走私者披风 | 4.2 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@2
+  坐骑：专家级骑乘马 | 5.0 | 品质 4(卓越) | 数量 1 | T5_MOUNT_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  食物：牛肉三明治 | 8.0 | 品质 0(不适用) | 数量 1 | T8_MEAL_SANDWICH
+  空槽位：副手
+
+2026-10-31T14:33:26.903Z | ZZCall | 战斗 455867428 | 事件 455868811 | Top Squad
+击杀者：MyFed1k / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级大地符文法杖 | 6.2 | 品质 4(卓越) | 数量 1 | T6_2H_SHAPESHIFTER_KEEPER@2
+  头部：大师级士兵头盔 | 6.2 | 品质 2(良好) | 数量 1 | T6_HEAD_PLATE_SET1@2
+  衣服：大师级骑士盔甲 | 6.3 | 品质 2(良好) | 数量 1 | T6_ARMOR_PLATE_SET2@3
+  鞋子：大师级坚韧之鞋 | 6.2 | 品质 3(杰出) | 数量 1 | T6_SHOES_LEATHER_AVALON@2
+  披风：专家级莫甘娜披风 | 5.3 | 品质 3(杰出) | 数量 1 | T5_CAPEITEM_MORGANA@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 10 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T14:35:20.693Z | BKHtop | 战斗 455867428 | 事件 455869578 | Top Squad
+击杀者：HolySmoke / ；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：专家级裂域斧 | 5.3 | 品质 2(良好) | 数量 1 | T5_2H_AXE_AVALON@3
+  头部：专家级骑士头盔 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_PLATE_SET2@3
+  衣服：老手级迷雾行者外套 | 4.4 | 品质 4(卓越) | 数量 1 | T4_ARMOR_LEATHER_FEY@4
+  鞋子：专家级守墓人长靴 | 5.3 | 品质 1(普通) | 数量 1 | T5_SHOES_PLATE_UNDEAD@3
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE@1
+  空槽位：副手、包
+
+2026-10-31T14:37:49.288Z | 00co | 战斗 455867428 | 事件 455870698 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级堕神法杖 | 6.2 | 品质 3(杰出) | 数量 1 | T6_MAIN_HOLYSTAFF_AVALON@2
+  副手：专家级秘密之眼 | 5.3 | 品质 4(卓越) | 数量 1 | T5_OFF_ORB_MORGANA@3
+  头部：专家级士兵头盔 | 5.3 | 品质 3(杰出) | 数量 1 | T5_HEAD_PLATE_SET1@3
+  衣服：老手级迷雾行者外套 | 4.3 | 品质 3(杰出) | 数量 1 | T4_ARMOR_LEATHER_FEY@3
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 4(卓越) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级Lymhurst披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 7 | T7_POTION_REVIVE
+  食物：尘洞螃蟹蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_FISH@1
+  空槽位：包
+
+2026-10-31T14:37:51.318Z | whereg0 | 战斗 455867428 | 事件 455870711 | Top Squad
+击杀者：Hvortochka / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级尖刺护手 | 6.2 | 品质 4(卓越) | 数量 1 | T6_2H_KNUCKLES_SET3@2
+  头部：大师级迷雾行者兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_FEY@2
+  衣服：大师级纯洁长袍 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_CLOTH_AVALON@2
+  鞋子：大师级守墓人长靴 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_PLATE_UNDEAD@2
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 1(普通) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T14:37:55.667Z | xiaoye007 | 战斗 455867428 | 事件 455870732 | Top Squad
+击杀者：Ussgod / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：宗师级塑能炮 | 7.2 | 品质 4(卓越) | 数量 1 | T7_2H_CROSSBOW_CANNON_AVALON@2
+  头部：禅师级刺客兜帽 | 8.0 | 品质 2(良好) | 数量 1 | T8_HEAD_LEATHER_SET3
+  衣服：大师级屠龙者外套 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_LEATHER_DRAGON@2
+  鞋子：大师级迷雾行者鞋子 | 6.2 | 品质 2(良好) | 数量 1 | T6_SHOES_LEATHER_FEY@2
+  包：老手级背包 | 4.2 | 品质 4(卓越) | 数量 1 | T4_BAG@2
+  披风：老手级莫甘娜披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_MORGANA@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 4 | T7_POTION_REVIVE
+  空槽位：副手、食物
+
+2026-10-31T14:39:58.818Z | GodsGod | 战斗 455867428 | 事件 455871671 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级林语者法杖 | 6.1 | 品质 2(良好) | 数量 1 | T6_2H_SHAPESHIFTER_SET2@1
+  头部：专家级刺客兜帽 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_LEATHER_SET3@3
+  衣服：大师级审判盔甲 | 6.2 | 品质 3(杰出) | 数量 1 | T6_ARMOR_PLATE_KEEPER@2
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 4(卓越) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级走私者披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  空槽位：副手、包、食物
+
+2026-10-31T14:40:38.749Z | yanfang | 战斗 455867428 | 事件 455871995 | Top Squad
+击杀者：Mera6oTaH / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级重型锤杖 | 6.1 | 品质 4(卓越) | 数量 1 | T6_2H_MACE@1
+  头部：大师级喧嚣兜帽 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_LEATHER_HELL@2
+  衣服：宗师级守卫盔甲 | 7.1 | 品质 4(卓越) | 数量 1 | T7_ARMOR_PLATE_SET3@1
+  鞋子：大师级牧师便鞋 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_CLOTH_SET2@2
+  包：专家级背包 | 5.0 | 品质 1(普通) | 数量 1 | T5_BAG
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：学徒级骑乘马 | 3.0 | 品质 2(良好) | 数量 1 | T3_MOUNT_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.0 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE
+  空槽位：副手
+
+2026-10-31T14:42:22.167Z | evolese | 战斗 455867428 | 事件 455872853 | Top Squad
+击杀者：Velmozh / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级堕落法杖 | 6.2 | 品质 2(良好) | 数量 1 | T6_2H_HOLYSTAFF_HELL@2
+  头部：大师级德鲁伊风帽 | 6.1 | 品质 2(良好) | 数量 1 | T6_HEAD_CLOTH_KEEPER@1
+  衣服：专家级皇家外套 | 5.2 | 品质 2(良好) | 数量 1 | T5_ARMOR_LEATHER_ROYAL@2
+  鞋子：专家级皇家鞋子 | 5.3 | 品质 4(卓越) | 数量 1 | T5_SHOES_LEATHER_ROYAL@3
+  披风：老手级Lymhurst披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：专家级铠马 | 5.0 | 品质 1(普通) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 5 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE@1
+  空槽位：副手、包
+
+2026-10-31T14:43:15.099Z | Mengxin123 | 战斗 455867428 | 事件 455873272 | Top Squad
+击杀者：Vlados9966 / VITRYLA；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：专家级堕神法杖 | 5.3 | 品质 4(卓越) | 数量 1 | T5_MAIN_HOLYSTAFF_AVALON@3
+  副手：老手级秘密之眼 | 4.3 | 品质 1(普通) | 数量 1 | T4_OFF_ORB_MORGANA@3
+  头部：大师级士兵头盔 | 6.2 | 品质 2(良好) | 数量 1 | T6_HEAD_PLATE_SET1@2
+  衣服：专家级坚韧外套 | 5.3 | 品质 2(良好) | 数量 1 | T5_ARMOR_LEATHER_AVALON@3
+  鞋子：大师级雇佣兵鞋子 | 6.2 | 品质 3(杰出) | 数量 1 | T6_SHOES_LEATHER_SET1@2
+  披风：老手级Lymhurst披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_FW_LYMHURST@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  食物：猪肉蛋饼 | 7.0 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE
+  空槽位：包、药水
+
+2026-10-31T14:45:24.144Z | yanfang | 战斗 455867428 | 事件 455874332 | Top Squad
+击杀者：den4ik1012 / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455867428
+  主手：大师级重型锤杖 | 6.1 | 品质 4(卓越) | 数量 1 | T6_2H_MACE@1
+  头部：大师级喧嚣兜帽 | 6.2 | 品质 3(杰出) | 数量 1 | T6_HEAD_LEATHER_HELL@2
+  衣服：禅师级守卫盔甲 | 8.0 | 品质 4(卓越) | 数量 1 | T8_ARMOR_PLATE_SET3
+  鞋子：宗师级牧师便鞋 | 7.1 | 品质 2(良好) | 数量 1 | T7_SHOES_CLOTH_SET2@1
+  包：老手级背包 | 4.1 | 品质 1(普通) | 数量 1 | T4_BAG@1
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：驼鹿 | 6.0 | 品质 4(卓越) | 数量 1 | T6_MOUNT_GIANTSTAG_MOOSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 8 | T7_POTION_REVIVE
+  空槽位：副手、食物
+
+2026-10-31T14:48:40.243Z | zmladd | 战斗 455875822 | 事件 455875897 | Top Squad
+击杀者：Favn1r / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455875822
+  主手：大师级巫师法杖 | 6.3 | 品质 4(卓越) | 数量 1 | T6_MAIN_ARCANESTAFF_UNDEAD@3
+  副手：大师级茔烛 | 6.3 | 品质 4(卓越) | 数量 1 | T6_OFF_LAMP_UNDEAD@3
+  头部：大师级士兵头盔 | 6.2 | 品质 4(卓越) | 数量 1 | T6_HEAD_PLATE_SET1@2
+  衣服：大师级妖精之鳞长袍 | 6.2 | 品质 4(卓越) | 数量 1 | T6_ARMOR_CLOTH_FEY@2
+  鞋子：大师级迷雾行者鞋子 | 6.2 | 品质 4(卓越) | 数量 1 | T6_SHOES_LEATHER_FEY@2
+  披风：老手级Caerleon披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_FW_CAERLEON@3
+  坐骑：迅爪 | 5.1 | 品质 1(普通) | 数量 1 | T5_MOUNT_COUGAR_KEEPER@1
+  食物：炖牛肉 | 8.2 | 品质 0(不适用) | 数量 1 | T8_MEAL_STEW@2
+  空槽位：包、药水
+
+2026-10-31T14:48:40.993Z | honey1popcorn | 战斗 455875822 | 事件 455875902 | Top Squad
+击杀者：Favn1r / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455875822
+  主手：专家级索魂尖枪 | 5.3 | 品质 4(卓越) | 数量 1 | T5_2H_HARPOON_HELL@3
+  头部：专家级刺客兜帽 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_LEATHER_SET3@3
+  衣服：专家级皇家外套 | 5.2 | 品质 2(良好) | 数量 1 | T5_ARMOR_LEATHER_ROYAL@2
+  鞋子：大师级守墓人长靴 | 6.2 | 品质 2(良好) | 数量 1 | T6_SHOES_PLATE_UNDEAD@2
+  包：专家级背包 | 5.0 | 品质 2(良好) | 数量 1 | T5_BAG
+  披风：老手级走私者披风 | 4.3 | 品质 4(卓越) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 1(普通) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 3 | T7_POTION_REVIVE
+  食物：猪肉蛋饼 | 7.1 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE@1
+  空槽位：副手
+
+2026-10-31T14:49:42.976Z | GodsGod | 战斗 455875822 | 事件 455876436 | Top Squad
+击杀者：Velmozh / G2U；装备状态：complete
+https://europe.albionbb.com/battles/455875822
+  主手：专家级林语者法杖 | 5.2 | 品质 3(杰出) | 数量 1 | T5_2H_SHAPESHIFTER_SET2@2
+  头部：专家级刺客兜帽 | 5.3 | 品质 2(良好) | 数量 1 | T5_HEAD_LEATHER_SET3@3
+  衣服：专家级审判盔甲 | 5.3 | 品质 4(卓越) | 数量 1 | T5_ARMOR_PLATE_KEEPER@3
+  鞋子：老手级皇家鞋子 | 4.3 | 品质 4(卓越) | 数量 1 | T4_SHOES_LEATHER_ROYAL@3
+  披风：老手级走私者披风 | 4.3 | 品质 3(杰出) | 数量 1 | T4_CAPEITEM_SMUGGLER@3
+  坐骑：专家级铠马 | 5.0 | 品质 2(良好) | 数量 1 | T5_MOUNT_ARMORED_HORSE
+  药水：高级巨化药水 | 7.0 | 品质 0(不适用) | 数量 6 | T7_POTION_REVIVE
+  食物：阿瓦隆猪肉蛋饼 | 7.0 | 品质 0(不适用) | 数量 1 | T7_MEAL_OMELETTE_AVALON
+  空槽位：副手、包
+

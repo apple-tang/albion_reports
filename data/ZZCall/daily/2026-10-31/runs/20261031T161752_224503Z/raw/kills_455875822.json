@@ -1,0 +1,174 @@
+[
+  {
+    "EventId": 455875822,
+    "TimeStamp": "2026-10-31T14:48:31.297Z",
+    "TotalVictimKillFame": 318302,
+    "Killer": {
+      "Id": "NWsG1VNtRHajVp6Rw35zjA",
+      "Name": "Fkainiu",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1579.87,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLEAVER_HELL",
+          "Type": "T5_2H_CLEAVER_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "CeIRRo-QSbyiy5XU4NSpLQ",
+      "Name": "HAMTER2317",
+      "GuildName": "UA _MOROK",
+      "AllianceName": "UA",
+      "AverageItemPower": 1522.31348,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_MACE",
+          "Type": "T6_2H_MACE@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455875902,
+    "TimeStamp": "2026-10-31T14:48:40.993Z",
+    "TotalVictimKillFame": 309851,
+    "Killer": {
+      "Id": "NJlmn6WUS72AFsaQU2YMuw",
+      "Name": "Favn1r",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1695.288,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T6_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "BYrKIGjHTxmtBRkvFxdOWw",
+      "Name": "honey1popcorn",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1494.3158,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T5_2H_HARPOON_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455875897,
+    "TimeStamp": "2026-10-31T14:48:40.243Z",
+    "TotalVictimKillFame": 436994,
+    "Killer": {
+      "Id": "NJlmn6WUS72AFsaQU2YMuw",
+      "Name": "Favn1r",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1695.288,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T6_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    },
+    "Victim": {
+      "Id": "-mOb7HeNQ1m4m6Y9e1lo3w",
+      "Name": "zmladd",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1662.04968,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ARCANESTAFF_UNDEAD",
+          "Type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 455876436,
+    "TimeStamp": "2026-10-31T14:49:42.976Z",
+    "TotalVictimKillFame": 130572,
+    "Killer": {
+      "Id": "3W2XG4j1TPi9IITKXUCZdw",
+      "Name": "Velmozh",
+      "GuildName": "G2U",
+      "AllianceName": "UA",
+      "AverageItemPower": 1592.52588,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "2p5opeaaQWSj-YHdw8e5yw",
+      "Name": "GodsGod",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1454.55457,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_SET2",
+          "Type": "T5_2H_SHAPESHIFTER_SET2@2",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 2
+        }
+      }
+    }
+  }
+]

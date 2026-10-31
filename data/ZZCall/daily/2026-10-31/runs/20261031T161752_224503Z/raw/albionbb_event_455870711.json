@@ -1,0 +1,639 @@
+{
+  "EventId": 455870711,
+  "TimeStamp": "2026-10-31T14:37:51.318Z",
+  "BattleId": 455867428,
+  "TotalVictimKillFame": 253286,
+  "Killer": {
+    "AverageItemPower": 1598.59167,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_LONGBOW",
+        "Type": "T6_2H_LONGBOW@3",
+        "Quality": 4
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_PLATE_SET3",
+        "Type": "T6_HEAD_PLATE_SET3@2",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_DRAGON",
+        "Type": "T6_ARMOR_LEATHER_DRAGON@2",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_PLATE_AVALON",
+        "Type": "T5_SHOES_PLATE_AVALON@3",
+        "Quality": 4
+      },
+      "Bag": {
+        "Name": "BAG",
+        "Type": "T6_BAG",
+        "Quality": 2
+      },
+      "Cape": {
+        "Name": "CAPEITEM_SMUGGLER",
+        "Type": "T4_CAPEITEM_SMUGGLER@3",
+        "Quality": 4
+      },
+      "Mount": {
+        "Name": "MOUNT_ARMORED_HORSE",
+        "Type": "T5_MOUNT_ARMORED_HORSE",
+        "Quality": 1
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 2
+      },
+      "Food": null
+    },
+    "Name": "Hvortochka",
+    "Id": "eajp6GViRJGLCN-yjjWwDA",
+    "GuildName": "G2U",
+    "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+    "AllianceName": "UA",
+    "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+    "AllianceTag": "",
+    "DeathFame": 0,
+    "KillFame": 28142,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Victim": {
+    "AverageItemPower": 1472.27344,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_KNUCKLES_SET3",
+        "Type": "T6_2H_KNUCKLES_SET3@2",
+        "Quality": 4
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_FEY",
+        "Type": "T6_HEAD_LEATHER_FEY@2",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_CLOTH_AVALON",
+        "Type": "T6_ARMOR_CLOTH_AVALON@2",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_PLATE_UNDEAD",
+        "Type": "T6_SHOES_PLATE_UNDEAD@2",
+        "Quality": 4
+      },
+      "Bag": null,
+      "Cape": {
+        "Name": "CAPEITEM_SMUGGLER",
+        "Type": "T4_CAPEITEM_SMUGGLER@3",
+        "Quality": 4
+      },
+      "Mount": {
+        "Name": "MOUNT_ARMORED_HORSE",
+        "Type": "T5_MOUNT_ARMORED_HORSE",
+        "Quality": 1
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 3
+      },
+      "Food": null
+    },
+    "Inventory": [
+      {
+        "Type": "T6_GENERAL_FAMEBUFF",
+        "Quality": 0,
+        "Count": 6
+      }
+    ],
+    "Name": "whereg0",
+    "Id": "QCRdcXfJTNmOdfbqorgfgw",
+    "GuildName": "Top Squad",
+    "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+    "AllianceName": "1115",
+    "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+    "AllianceTag": "",
+    "DeathFame": 253286,
+    "KillFame": 0,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Participants": [
+    {
+      "AverageItemPower": 1548.83545,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_WILDSTAFF",
+          "Type": "T7_2H_WILDSTAFF@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T7_HEAD_CLOTH_KEEPER@1",
+          "Quality": 3
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_ROYAL",
+          "Type": "T5_ARMOR_LEATHER_ROYAL@3",
+          "Quality": 3
+        },
+        "Shoes": {
+          "Name": "SHOES_CLOTH_SET2",
+          "Type": "T7_SHOES_CLOTH_SET2@1",
+          "Quality": 3
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 4
+        },
+        "Food": null
+      },
+      "Name": "LCSDB",
+      "Id": "JwBs2yAlQnKitW9zF3iLUw",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 61049
+    },
+    {
+      "AverageItemPower": 1348.57825,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_HELL",
+          "Type": "T6_2H_HOLYSTAFF_HELL@2",
+          "Quality": 2
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T6_HEAD_CLOTH_KEEPER@1",
+          "Quality": 2
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_ROYAL",
+          "Type": "T5_ARMOR_LEATHER_ROYAL@2",
+          "Quality": 2
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T5_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 3
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE@1",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "evolese",
+      "Id": "boZwO95fSJ27oQerv9VUrw",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 30384
+    },
+    {
+      "AverageItemPower": 1619.87122,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_ORB_MORGANA",
+          "Type": "T7_OFF_ORB_MORGANA@1",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_PLATE_SET1",
+          "Type": "T7_HEAD_PLATE_SET1@1",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_FEY",
+          "Type": "T4_ARMOR_LEATHER_FEY@4",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T5_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_SMUGGLER",
+          "Type": "T4_CAPEITEM_SMUGGLER@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_AVALON@1",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Guaerjia",
+      "Id": "l22cgadYR8yI9aBN90gppQ",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 27312
+    },
+    {
+      "AverageItemPower": 1484.50354,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T7_MAIN_HOLYSTAFF_AVALON@1",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_TORCH_CRYSTAL",
+          "Type": "T4_OFF_TORCH_CRYSTAL@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_PLATE_SET3",
+          "Type": "T5_HEAD_PLATE_SET3@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_PLATE_KEEPER",
+          "Type": "T5_ARMOR_PLATE_KEEPER@3",
+          "Quality": 3
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_SET1",
+          "Type": "T6_SHOES_LEATHER_SET1@3",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T5_BAG@2",
+          "Quality": 4
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 6
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_AVALON@1",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Stendi",
+      "Id": "2Ps7hnCuRrurPPueO1qJdw",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 19214.57
+    }
+  ],
+  "GroupMembers": [
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HARPOON_HELL",
+          "Type": "T6_2H_HARPOON_HELL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Mera6oTaH",
+      "Id": "bH99S7JqRL6faEZacgcoVQ",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "DiKiY83",
+      "Id": "4FwsmMy5R_6irQ-bWl8CKQ",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T7_MAIN_HOLYSTAFF_AVALON@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Stendi",
+      "Id": "2Ps7hnCuRrurPPueO1qJdw",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@2",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "den4ik1012",
+      "Id": "kyg8_HJkQhmbifsJe8mQoA",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T6_2H_KNUCKLES_SET3@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Jorik97",
+      "Id": "edgRb9QFSpCn_n5zfZxapQ",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T6_2H_HAMMER_AVALON",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "IhateeYou",
+      "Id": "lQd7s2tKRWCZnvzLQ5tpMA",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_LONGBOW",
+          "Type": "T6_2H_LONGBOW@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Hvortochka",
+      "Id": "eajp6GViRJGLCN-yjjWwDA",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CROSSBOW_CANNON_AVALON",
+          "Type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Velmozh",
+      "Id": "3W2XG4j1TPi9IITKXUCZdw",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ENIGMATICSTAFF",
+          "Type": "T6_2H_ENIGMATICSTAFF@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Lootdeliveryman",
+      "Id": "9KBernN0SOWTP3QIRFp5hA",
+      "GuildName": "G2U",
+      "GuildId": "QSLo7Uq6Suq5a3LLGbtYzg",
+      "AllianceName": "UA",
+      "AllianceId": "cMP64q2lTTCW3JgO2u8Q0Q",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 28142,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    }
+  ]
+}
