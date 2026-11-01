@@ -8,8 +8,9 @@ import shutil
 
 CATEGORIES = {
     "attendance": {"出勤名单": ".html", "每日出勤": ".csv", "逐场出勤": ".csv"},
-    "regear": {"总补装": ".csv", "箱子补装": ".csv"},
+    "regear": {"总补装": ".csv", "箱子补装": ".csv", "补装清单": ".html"},
 }
+REQUIRED = {"attendance": set(CATEGORIES["attendance"]), "regear": {"总补装", "箱子补装"}}
 
 
 def publish_result_set(root, day, category, sources):
@@ -28,7 +29,7 @@ def publish_result_set(root, day, category, sources):
             raise ValueError("不允许同步的结果文件：" + source.name)
         found.add(matched[0])
         files.append(source)
-    if found != set(rules) or len({p.name for p in files}) != len(files):
+    if not REQUIRED[category].issubset(found) or len({p.name for p in files}) != len(files):
         raise ValueError("本组结果不齐全或有重复文件名，保留已有同步结果。")
     destination = root / "results" / day
     if not destination.resolve().is_relative_to(root):
@@ -45,7 +46,10 @@ def publish_result_set(root, day, category, sources):
     for prefix, suffix in rules.items():
         for previous in destination.glob(prefix + "_" + day + "_*" + suffix):
             if previous.name not in keep:
-                previous.unlink()
+                try:
+                    previous.unlink()
+                except PermissionError:
+                    print("旧结果正在使用，暂留本地；关闭文件后再次整理即可：" + str(previous))
     return [str(destination / source.name) for source in files]
 
 
@@ -71,7 +75,7 @@ def publish_saved_results(root):
             manifests = list(day.glob("*/*/manifest.json"))
             for stamp in sorted({p.parent.name for p in manifests}, reverse=True):
                 batch = [read_json(p) for p in manifests if p.parent.name == stamp]
-                files = [data[key] for data in batch for key in ["purchase_file", "allocation_file"] if data.get(key)]
+                files = [data[key] for data in batch for key in ["purchase_file", "allocation_file", "regear_html"] if data.get(key)]
                 if not any(Path(p).name.startswith("总补装_") for p in files) or not any(Path(p).name.startswith("箱子补装_") for p in files):
                     continue
                 if all(Path(p).is_file() for p in files):

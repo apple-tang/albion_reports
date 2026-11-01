@@ -698,6 +698,8 @@ def export_regear(report, root, box_file, settings):
             "missing_equipment": tables["missing_equipment"], "warnings": warnings,
             "counts_reconciled": True, "status": "待核对" if warnings else "完整",
         }
+        from regear_page import export_regear_page
+        manifest["regear_html"] = str(export_regear_page(report, battles, boxes, tables, root, folder, group, stamp, settings))
         write_json(folder / "manifest.json", manifest)
         write_text(folder / "箱子排序_本次快照.txt", box_text)
         write_text(folder / "补装检查.txt", "{} {} UTC | {}\n{} 人，每人一行，共 {} 件；按装备种类和 P 等级与采购清单核对一致。\n{}\n".format(
@@ -708,7 +710,8 @@ def export_regear(report, root, box_file, settings):
     output["status"] = "complete" if all(s["status"] == "完整" for s in output["sessions"] + output["box_exports"]) else "partial"
     from publish_results import publish_result_set
     output["published_files"] = publish_result_set(root, report["period"], "regear",
-        [session["purchase_file"] for session in output["sessions"]] + [group["allocation_file"] for group in output["box_exports"]])
+        [session["purchase_file"] for session in output["sessions"]] +
+        [group[key] for group in output["box_exports"] for key in ["allocation_file", "regear_html"]])
     log("  同步用结果：" + str(root / "results" / report["period"]))
     return output
 

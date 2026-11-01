@@ -3,6 +3,7 @@ import csv
 import tempfile
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 import collector as c
 
@@ -29,6 +30,11 @@ def report(battles):
 
 
 class RegearTests(unittest.TestCase):
+    def setUp(self):
+        icons = patch("regear_page.load_item_icons", return_value=({}, []))
+        icons.start()
+        self.addCleanup(icons.stop)
+
     def layout(self, path, text):
         path.write_text(text, encoding="utf-8")
         boxes, unused = c.read_box_layout(path)

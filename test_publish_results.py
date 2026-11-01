@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from publish_results import publish_result_set, publish_saved_results
 
@@ -75,6 +76,38 @@ class PublishResultsTests(unittest.TestCase):
             self.assertEqual(len(files), 5)
             self.assertTrue(all("20261101T020000Z" in path for path in files))
             self.assertTrue(incomplete.exists())
+
+    def test_regear_html_is_included_and_old_page_is_replaced(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            csv_files = [self.source(root, "总补装"), self.source(root, "箱子补装")]
+            old = self.source(root, "补装清单", stamp="old", extension=".html")
+            publish_result_set(root, "2026-11-01", "regear", csv_files + [old])
+            new = self.source(root, "补装清单", stamp="new", extension=".html")
+            paths = publish_result_set(root, "2026-11-01", "regear", csv_files + [new])
+            self.assertEqual(len(paths), 3)
+            self.assertTrue(old.exists())
+            self.assertFalse((root / "results" / "2026-11-01" / old.name).exists())
+            self.assertTrue((root / "results" / "2026-11-01" / new.name).exists())
+
+    def test_open_old_result_does_not_block_new_report(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            old = self.attendance(root, "old")
+            publish_result_set(root, "2026-11-01", "attendance", old)
+            new = self.attendance(root, "new")
+            original = Path.unlink
+
+            def unlink(path):
+                if path.name == old[0].name:
+                    raise PermissionError("file open")
+                return original(path)
+
+            with patch.object(Path, "unlink", autospec=True, side_effect=unlink):
+                published = publish_result_set(root, "2026-11-01", "attendance", new)
+            self.assertEqual(len(published), 3)
+            self.assertTrue(all(Path(path).exists() for path in published))
+            self.assertTrue((root / "results" / "2026-11-01" / old[0].name).exists())
 
 
 if __name__ == "__main__":
