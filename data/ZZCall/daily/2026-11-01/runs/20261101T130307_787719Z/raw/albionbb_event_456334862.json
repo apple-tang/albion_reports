@@ -1,0 +1,418 @@
+{
+  "EventId": 456334862,
+  "TimeStamp": "2026-11-01T12:47:49.408Z",
+  "BattleId": 456334698,
+  "TotalVictimKillFame": 111159,
+  "Killer": {
+    "AverageItemPower": 1467.73474,
+    "Equipment": {
+      "MainHand": {
+        "Name": "MAIN_RAPIER_MORGANA",
+        "Type": "T5_MAIN_RAPIER_MORGANA@3",
+        "Quality": 4
+      },
+      "OffHand": {
+        "Name": "OFF_TOTEM_KEEPER",
+        "Type": "T5_OFF_TOTEM_KEEPER@3",
+        "Quality": 4
+      },
+      "Head": {
+        "Name": "HEAD_LEATHER_MORGANA",
+        "Type": "T5_HEAD_LEATHER_MORGANA@3",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_SET3",
+        "Type": "T5_ARMOR_LEATHER_SET3@3",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_PLATE_SET1",
+        "Type": "T5_SHOES_PLATE_SET1@3",
+        "Quality": 4
+      },
+      "Bag": {
+        "Name": "BAG",
+        "Type": "T5_BAG@3",
+        "Quality": 1
+      },
+      "Cape": {
+        "Name": "CAPEITEM_UNDEAD",
+        "Type": "T4_CAPEITEM_UNDEAD@3",
+        "Quality": 4
+      },
+      "Mount": {
+        "Name": "MOUNT_HERETIC_MULE_ADC",
+        "Type": "UNIQUE_MOUNT_HERETIC_MULE_ADC",
+        "Quality": 1
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 6
+      },
+      "Food": null
+    },
+    "Name": "kubson1337",
+    "Id": "8HoNDQ5ETw2afBrl_7gK7A",
+    "GuildName": "2vsX",
+    "GuildId": "wGiXA1MEQy2rDc61xQlavw",
+    "AllianceName": "",
+    "AllianceId": "",
+    "AllianceTag": "",
+    "DeathFame": 0,
+    "KillFame": 55579,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Victim": {
+    "AverageItemPower": 1459.78333,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_HARPOON_HELL",
+        "Type": "T4_2H_HARPOON_HELL@3",
+        "Quality": 4
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_LEATHER_SET3",
+        "Type": "T8_HEAD_LEATHER_SET3",
+        "Quality": 2
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_ROYAL",
+        "Type": "T4_ARMOR_LEATHER_ROYAL@3",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_PLATE_UNDEAD",
+        "Type": "T6_SHOES_PLATE_UNDEAD@2",
+        "Quality": 1
+      },
+      "Bag": {
+        "Name": "BAG",
+        "Type": "T5_BAG",
+        "Quality": 2
+      },
+      "Cape": {
+        "Name": "CAPEITEM_SMUGGLER",
+        "Type": "T4_CAPEITEM_SMUGGLER@3",
+        "Quality": 2
+      },
+      "Mount": {
+        "Name": "MOUNT_ARMORED_HORSE",
+        "Type": "T5_MOUNT_ARMORED_HORSE",
+        "Quality": 1
+      },
+      "Potion": null,
+      "Food": {
+        "Type": "T8_MEAL_SANDWICH",
+        "Quality": 0,
+        "Count": 1
+      }
+    },
+    "Inventory": [
+      {
+        "Type": "T8_POTION_TORNADO",
+        "Quality": 0,
+        "Count": 3
+      },
+      {
+        "Type": "T3_MOUNT_HORSE",
+        "Quality": 1,
+        "Count": 1
+      }
+    ],
+    "Name": "honey1popcorn",
+    "Id": "BYrKIGjHTxmtBRkvFxdOWw",
+    "GuildName": "Top Squad",
+    "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+    "AllianceName": "1115",
+    "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+    "AllianceTag": "",
+    "DeathFame": 111159,
+    "KillFame": 0,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Participants": [
+    {
+      "AverageItemPower": 1501.88464,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_HORN_KEEPER",
+          "Type": "T6_OFF_HORN_KEEPER@2",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T6_HEAD_LEATHER_SET3@2",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T6_ARMOR_CLOTH_AVALON@2",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T6_SHOES_LEATHER_ROYAL@2",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T6_BAG",
+          "Quality": 2
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 2
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 10
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_DRAGONAREA",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Adamlesnuages",
+      "Id": "bgyqNUXpQSKN67DCuAXK0Q",
+      "GuildName": "Panda Corp",
+      "GuildId": "QXjRt-MfQuCXRzBrBZobdg",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 10913
+    },
+    {
+      "AverageItemPower": 1409.2041,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T5_MAIN_HOLYSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_ORB_MORGANA",
+          "Type": "T4_OFF_ORB_MORGANA@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T4_HEAD_CLOTH_KEEPER@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T4_ARMOR_CLOTH_AVALON@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_SET1",
+          "Type": "T4_SHOES_LEATHER_SET1@3",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T5_BAG@1",
+          "Quality": 2
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_CAERLEON",
+          "Type": "T4_CAPEITEM_FW_CAERLEON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 10
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_DRAGONAREA",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Comisef",
+      "Id": "iVXTZWNkQLGrWi1GrXeS0w",
+      "GuildName": "BallsOnYou",
+      "GuildId": "4eeisqW1Qd6iB88NlWSaiA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 3326
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": null,
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Toroax",
+      "Id": "aVlbuLneQhi-xvTrfH26Yw",
+      "GuildName": "Panda Corp",
+      "GuildId": "QXjRt-MfQuCXRzBrBZobdg",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 44.6200027,
+      "SupportHealingDone": 2058
+    },
+    {
+      "AverageItemPower": 1598.63672,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_GLACIALSTAFF",
+          "Type": "T6_2H_GLACIALSTAFF@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_LEATHER_ROYAL",
+          "Type": "T5_HEAD_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_SET1",
+          "Type": "T5_ARMOR_CLOTH_SET1@3",
+          "Quality": 5
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_FEY",
+          "Type": "T5_SHOES_LEATHER_FEY@3",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T4_BAG@2",
+          "Quality": 2
+        },
+        "Cape": {
+          "Name": "CAPEITEM_MORGANA",
+          "Type": "T5_CAPEITEM_MORGANA@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 2
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 5
+        },
+        "Food": null
+      },
+      "Name": "gaara1210",
+      "Id": "rEisp6E2S1qmTJGecZ7Auw",
+      "GuildName": "Panda Corp",
+      "GuildId": "QXjRt-MfQuCXRzBrBZobdg",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 1426.87012,
+      "SupportHealingDone": 0
+    }
+  ],
+  "GroupMembers": [
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_NATURESTAFF",
+          "Type": "T4_2H_NATURESTAFF@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "fbzb",
+      "Id": "_tMPi_gJQUGAv3XJX5iSjg",
+      "GuildName": "",
+      "GuildId": "",
+      "AllianceName": "",
+      "AllianceId": "",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 55579,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_RAPIER_MORGANA",
+          "Type": "T5_MAIN_RAPIER_MORGANA@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "kubson1337",
+      "Id": "8HoNDQ5ETw2afBrl_7gK7A",
+      "GuildName": "2vsX",
+      "GuildId": "wGiXA1MEQy2rDc61xQlavw",
+      "AllianceName": "",
+      "AllianceId": "",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 55579,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    }
+  ]
+}

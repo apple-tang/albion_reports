@@ -1,0 +1,217 @@
+[
+  {
+    "EventId": 456316669,
+    "TimeStamp": "2026-11-01T12:10:46.89Z",
+    "TotalVictimKillFame": 28908,
+    "Killer": {
+      "Id": "NWsG1VNtRHajVp6Rw35zjA",
+      "Name": "Fkainiu",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1569.40491,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLEAVER_HELL",
+          "Type": "T5_2H_CLEAVER_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "gow6qAWJTVmt6bTJ7wyljw",
+      "Name": "Nikitoster",
+      "GuildName": "Gachi Gatherers",
+      "AllianceName": "KEGA",
+      "AverageItemPower": 1155.4325,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_ROCKMACE_KEEPER",
+          "Type": "T5_MAIN_ROCKMACE_KEEPER@1",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T4_MOUNT_HORSE",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 456317198,
+    "TimeStamp": "2026-11-01T12:11:50.768Z",
+    "TotalVictimKillFame": 143667,
+    "Killer": {
+      "Id": "x7vyS969QoCEu6avwcRQKw",
+      "Name": "yanfang",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1620.14587,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_KNUCKLES_SET3",
+          "Type": "T7_2H_KNUCKLES_SET3@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    },
+    "Victim": {
+      "Id": "2X4TnjmaSf-wJOV-Z539UQ",
+      "Name": "JopaBear",
+      "GuildName": "Gachi Gatherers",
+      "AllianceName": "KEGA",
+      "AverageItemPower": 1353.99158,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_COMBATSTAFF_MORGANA",
+          "Type": "T4_2H_COMBATSTAFF_MORGANA@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T5_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    }
+  },
+  {
+    "EventId": 456317511,
+    "TimeStamp": "2026-11-01T12:12:26.991Z",
+    "TotalVictimKillFame": 254015,
+    "Killer": {
+      "Id": "N49DBFS6Rwm-aV25DdMnwA",
+      "Name": "z1ppo",
+      "GuildName": "ALT SKUF",
+      "AllianceName": "KEGA",
+      "AverageItemPower": 1462.76233,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_CURSEDSTAFF_UNDEAD",
+          "Type": "T4_MAIN_CURSEDSTAFF_UNDEAD@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "KPcs20CRSOSYLB2ovcJj_w",
+      "Name": "00co",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1508.72034,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 456317520,
+    "TimeStamp": "2026-11-01T12:12:27.738Z",
+    "TotalVictimKillFame": 331181,
+    "Killer": {
+      "Id": "DUsSW0SISyOsAd_5kaVPvw",
+      "Name": "leekx9",
+      "GuildName": "Gachi Gatherers",
+      "AllianceName": "KEGA",
+      "AverageItemPower": 1735.89685,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_BOW_HELL",
+          "Type": "T8_2H_BOW_HELL@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_DIREWOLF",
+          "Type": "T6_MOUNT_DIREWOLF",
+          "Quality": 3
+        }
+      }
+    },
+    "Victim": {
+      "Id": "9PsaDCNqRaqJfzDhQl0Z1A",
+      "Name": "ZZCall",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1541.18323,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_SHAPESHIFTER_KEEPER",
+          "Type": "T4_2H_SHAPESHIFTER_KEEPER@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_GREYWOLF_FW_CAERLEON",
+          "Type": "T5_MOUNT_GREYWOLF_FW_CAERLEON",
+          "Quality": 1
+        }
+      }
+    }
+  },
+  {
+    "EventId": 456317616,
+    "TimeStamp": "2026-11-01T12:12:39.556Z",
+    "TotalVictimKillFame": 249425,
+    "Killer": {
+      "Id": "I8xaV13jTyeZwayTyhN95Q",
+      "Name": "Vintil",
+      "GuildName": "ALT SKUF",
+      "AllianceName": "KEGA",
+      "AverageItemPower": 1582.80908,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HAMMER_AVALON",
+          "Type": "T6_2H_HAMMER_AVALON@2",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_HORSE",
+          "Type": "T6_MOUNT_HORSE",
+          "Quality": 4
+        }
+      }
+    },
+    "Victim": {
+      "Id": "NWsG1VNtRHajVp6Rw35zjA",
+      "Name": "Fkainiu",
+      "GuildName": "Top Squad",
+      "AllianceName": "1115",
+      "AverageItemPower": 1569.40491,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_CLEAVER_HELL",
+          "Type": "T5_2H_CLEAVER_HELL@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        }
+      }
+    }
+  }
+]

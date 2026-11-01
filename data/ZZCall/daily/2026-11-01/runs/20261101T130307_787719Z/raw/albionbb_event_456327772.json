@@ -1,0 +1,494 @@
+{
+  "EventId": 456327772,
+  "TimeStamp": "2026-11-01T12:33:01.891Z",
+  "BattleId": 456326771,
+  "TotalVictimKillFame": 169451,
+  "Killer": {
+    "AverageItemPower": 1482.80579,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_FIRESTAFF_HELL",
+        "Type": "T8_2H_FIRESTAFF_HELL@1",
+        "Quality": 4
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_CLOTH_FEY",
+        "Type": "T4_HEAD_CLOTH_FEY@3",
+        "Quality": 4
+      },
+      "Armor": {
+        "Name": "ARMOR_CLOTH_SET1",
+        "Type": "T7_ARMOR_CLOTH_SET1@1",
+        "Quality": 3
+      },
+      "Shoes": {
+        "Name": "SHOES_CLOTH_ROYAL",
+        "Type": "T4_SHOES_CLOTH_ROYAL@3",
+        "Quality": 3
+      },
+      "Bag": {
+        "Name": "BAG",
+        "Type": "T4_BAG",
+        "Quality": 3
+      },
+      "Cape": {
+        "Name": "CAPEITEM_FW_BRECILIEN",
+        "Type": "T4_CAPEITEM_FW_BRECILIEN@3",
+        "Quality": 3
+      },
+      "Mount": {
+        "Name": "MOUNT_COUGAR_KEEPER",
+        "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+        "Quality": 2
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 6
+      },
+      "Food": {
+        "Type": "T8_MEAL_STEW@3",
+        "Quality": 0,
+        "Count": 1
+      }
+    },
+    "Name": "Benito",
+    "Id": "Q2LJqnLCRwOhWA9NUTcNhw",
+    "GuildName": "NoRules",
+    "GuildId": "v2MpQ8pcQSO8DIkhhCPZZA",
+    "AllianceName": "CON",
+    "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+    "AllianceTag": "",
+    "DeathFame": 0,
+    "KillFame": 42362,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Victim": {
+    "AverageItemPower": 1499.625,
+    "Equipment": {
+      "MainHand": {
+        "Name": "2H_HOLYSTAFF_HELL",
+        "Type": "T6_2H_HOLYSTAFF_HELL@2",
+        "Quality": 2
+      },
+      "OffHand": null,
+      "Head": {
+        "Name": "HEAD_PLATE_SET1",
+        "Type": "T7_HEAD_PLATE_SET1@1",
+        "Quality": 1
+      },
+      "Armor": {
+        "Name": "ARMOR_LEATHER_ROYAL",
+        "Type": "T4_ARMOR_LEATHER_ROYAL@3",
+        "Quality": 4
+      },
+      "Shoes": {
+        "Name": "SHOES_LEATHER_ROYAL",
+        "Type": "T4_SHOES_LEATHER_ROYAL@3",
+        "Quality": 4
+      },
+      "Bag": null,
+      "Cape": {
+        "Name": "CAPEITEM_FW_LYMHURST",
+        "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+        "Quality": 3
+      },
+      "Mount": {
+        "Name": "MOUNT_ARMORED_HORSE",
+        "Type": "T5_MOUNT_ARMORED_HORSE",
+        "Quality": 2
+      },
+      "Potion": {
+        "Type": "T7_POTION_REVIVE",
+        "Quality": 0,
+        "Count": 4
+      },
+      "Food": {
+        "Type": "T7_MEAL_OMELETTE_FISH@1",
+        "Quality": 0,
+        "Count": 1
+      }
+    },
+    "Name": "GodsGod",
+    "Id": "2p5opeaaQWSj-YHdw8e5yw",
+    "GuildName": "Top Squad",
+    "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+    "AllianceName": "1115",
+    "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+    "AllianceTag": "",
+    "DeathFame": 169451,
+    "KillFame": 0,
+    "DamageDone": 0,
+    "SupportHealingDone": 0
+  },
+  "Participants": [
+    {
+      "AverageItemPower": 1410.41956,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_NATURESTAFF_HELL",
+          "Type": "T5_2H_NATURESTAFF_HELL@3",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T5_HEAD_CLOTH_KEEPER@3",
+          "Quality": 3
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_ROYAL",
+          "Type": "T5_ARMOR_LEATHER_ROYAL@3",
+          "Quality": 2
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_SET1",
+          "Type": "T7_SHOES_LEATHER_SET1@1",
+          "Quality": 1
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@2",
+          "Quality": 2
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 1
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "Mengxin123",
+      "Id": "A4vDU_i5R9mB2vNV7XClyQ",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 65600.54
+    },
+    {
+      "AverageItemPower": 1505.38708,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+          "Quality": 3
+        },
+        "OffHand": {
+          "Name": "OFF_ORB_MORGANA",
+          "Type": "T5_OFF_ORB_MORGANA@3",
+          "Quality": 2
+        },
+        "Head": {
+          "Name": "HEAD_PLATE_SET1",
+          "Type": "T5_HEAD_PLATE_SET1@3",
+          "Quality": 2
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_FEY",
+          "Type": "T4_ARMOR_LEATHER_FEY@4",
+          "Quality": 2
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T4_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 8
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_FISH",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "00co",
+      "Id": "KPcs20CRSOSYLB2ovcJj_w",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 31579.3438
+    },
+    {
+      "AverageItemPower": 1366.129,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_HOLYSTAFF_HELL",
+          "Type": "T6_2H_HOLYSTAFF_HELL@2",
+          "Quality": 2
+        },
+        "OffHand": null,
+        "Head": {
+          "Name": "HEAD_LEATHER_SET3",
+          "Type": "T4_HEAD_LEATHER_SET3@3",
+          "Quality": 2
+        },
+        "Armor": {
+          "Name": "ARMOR_LEATHER_ROYAL",
+          "Type": "T6_ARMOR_LEATHER_ROYAL@2",
+          "Quality": 3
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_ROYAL",
+          "Type": "T5_SHOES_LEATHER_ROYAL@3",
+          "Quality": 4
+        },
+        "Bag": null,
+        "Cape": {
+          "Name": "CAPEITEM_FW_LYMHURST",
+          "Type": "T4_CAPEITEM_FW_LYMHURST@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_ARMORED_HORSE",
+          "Type": "T5_MOUNT_ARMORED_HORSE",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 4
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_FISH@1",
+          "Quality": 0,
+          "Count": 1
+        }
+      },
+      "Name": "evolese",
+      "Id": "boZwO95fSJ27oQerv9VUrw",
+      "GuildName": "Top Squad",
+      "GuildId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "AllianceName": "1115",
+      "AllianceId": "LTtLWDvETUmjHJhfKl88ng",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 22894.3652
+    },
+    {
+      "AverageItemPower": 1409.2041,
+      "Equipment": {
+        "MainHand": {
+          "Name": "MAIN_HOLYSTAFF_AVALON",
+          "Type": "T5_MAIN_HOLYSTAFF_AVALON@3",
+          "Quality": 4
+        },
+        "OffHand": {
+          "Name": "OFF_ORB_MORGANA",
+          "Type": "T4_OFF_ORB_MORGANA@3",
+          "Quality": 4
+        },
+        "Head": {
+          "Name": "HEAD_CLOTH_KEEPER",
+          "Type": "T4_HEAD_CLOTH_KEEPER@3",
+          "Quality": 4
+        },
+        "Armor": {
+          "Name": "ARMOR_CLOTH_AVALON",
+          "Type": "T4_ARMOR_CLOTH_AVALON@3",
+          "Quality": 4
+        },
+        "Shoes": {
+          "Name": "SHOES_LEATHER_SET1",
+          "Type": "T4_SHOES_LEATHER_SET1@3",
+          "Quality": 4
+        },
+        "Bag": {
+          "Name": "BAG",
+          "Type": "T5_BAG@1",
+          "Quality": 2
+        },
+        "Cape": {
+          "Name": "CAPEITEM_FW_CAERLEON",
+          "Type": "T4_CAPEITEM_FW_CAERLEON@3",
+          "Quality": 4
+        },
+        "Mount": {
+          "Name": "MOUNT_COUGAR_KEEPER",
+          "Type": "T5_MOUNT_COUGAR_KEEPER@1",
+          "Quality": 1
+        },
+        "Potion": {
+          "Type": "T7_POTION_REVIVE",
+          "Quality": 0,
+          "Count": 10
+        },
+        "Food": {
+          "Type": "T7_MEAL_OMELETTE_DRAGONAREA",
+          "Quality": 0,
+          "Count": 2
+        }
+      },
+      "Name": "Comisef",
+      "Id": "iVXTZWNkQLGrWi1GrXeS0w",
+      "GuildName": "BallsOnYou",
+      "GuildId": "4eeisqW1Qd6iB88NlWSaiA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 0,
+      "DamageDone": 0,
+      "SupportHealingDone": 11252
+    }
+  ],
+  "GroupMembers": [
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF",
+          "Type": "T6_2H_ARCANESTAFF@1",
+          "Quality": 3
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "digno",
+      "Id": "BlR25ZB-QuKA6GRL0XoR8Q",
+      "GuildName": "NoRules",
+      "GuildId": "v2MpQ8pcQSO8DIkhhCPZZA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 42362,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_ARCANESTAFF_HELL",
+          "Type": "T4_2H_ARCANESTAFF_HELL@1",
+          "Quality": 2
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Struuunz",
+      "Id": "dPBUhMZUS8epM0VYdWu7qw",
+      "GuildName": "NoRules",
+      "GuildId": "v2MpQ8pcQSO8DIkhhCPZZA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 42362,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRESTAFF_HELL",
+          "Type": "T8_2H_FIRESTAFF_HELL@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Coqo",
+      "Id": "gp83apeWRoyUkGdkC5xjiQ",
+      "GuildName": "NoRules",
+      "GuildId": "v2MpQ8pcQSO8DIkhhCPZZA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 42362,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    },
+    {
+      "AverageItemPower": 0,
+      "Equipment": {
+        "MainHand": {
+          "Name": "2H_FIRESTAFF_HELL",
+          "Type": "T8_2H_FIRESTAFF_HELL@1",
+          "Quality": 4
+        },
+        "OffHand": null,
+        "Head": null,
+        "Armor": null,
+        "Shoes": null,
+        "Bag": null,
+        "Cape": null,
+        "Mount": null,
+        "Potion": null,
+        "Food": null
+      },
+      "Name": "Benito",
+      "Id": "Q2LJqnLCRwOhWA9NUTcNhw",
+      "GuildName": "NoRules",
+      "GuildId": "v2MpQ8pcQSO8DIkhhCPZZA",
+      "AllianceName": "CON",
+      "AllianceId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "AllianceTag": "",
+      "DeathFame": 0,
+      "KillFame": 42362,
+      "DamageDone": 0,
+      "SupportHealingDone": 0
+    }
+  ]
+}

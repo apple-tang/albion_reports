@@ -1,0 +1,1037 @@
+{
+  "albionId": 456334698,
+  "startedAt": "2026-11-01T12:47:27.526Z",
+  "finishedAt": "2026-11-01T12:52:06.457Z",
+  "totalFame": 7397259,
+  "totalKills": 21,
+  "totalPlayers": 49,
+  "alliances": [
+    {
+      "albionId": "LTtLWDvETUmjHJhfKl88ng",
+      "name": "1115",
+      "kills": 12,
+      "deaths": 4,
+      "killFame": 5109962,
+      "players": 19,
+      "ip": 1532
+    },
+    {
+      "albionId": "mPwjlXz4RtqAlqMvPIbbcA",
+      "name": "CON",
+      "kills": 2,
+      "deaths": 10,
+      "killFame": 712458,
+      "players": 19,
+      "ip": 1406
+    },
+    {
+      "albionId": "8S5G0LkmSLG9xInPauNvOQ",
+      "name": "KEGA",
+      "kills": 4,
+      "deaths": 6,
+      "killFame": 570968,
+      "players": 7,
+      "ip": 1515
+    },
+    {
+      "albionId": "VligPJIwSBawrVhX5KyHpQ",
+      "name": "RMB",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "players": 1,
+      "ip": 0
+    },
+    {
+      "albionId": "7vAshDrZQ9WUT98V4GK-FQ",
+      "name": "FANGS",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 264950,
+      "players": 1,
+      "ip": 1135
+    }
+  ],
+  "guilds": [
+    {
+      "albionId": "7tmt12sOTkGgcqZL3jSy7Q",
+      "name": "Top Squad",
+      "alliance": "1115",
+      "kills": 12,
+      "deaths": 4,
+      "killFame": 5109962,
+      "players": 19,
+      "ip": 1532
+    },
+    {
+      "albionId": "64p-pbKSTSW6ayl52uX0Hg",
+      "name": "Gachi Gatherers",
+      "alliance": "KEGA",
+      "kills": 4,
+      "deaths": 5,
+      "killFame": 570968,
+      "players": 6,
+      "ip": 1552
+    },
+    {
+      "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+      "name": "BallsOnYou",
+      "alliance": "CON",
+      "kills": 0,
+      "deaths": 5,
+      "killFame": 395810,
+      "players": 10,
+      "ip": 1372
+    },
+    {
+      "albionId": "9okdAcp5Sxi-as63tEH00A",
+      "name": "EuroHunter",
+      "alliance": "RMB",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "players": 1,
+      "ip": 0
+    },
+    {
+      "albionId": "eOwjHXmjQLiw9KY1uzaV2w",
+      "name": "Whisperfangs",
+      "alliance": "FANGS",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 264950,
+      "players": 1,
+      "ip": 1135
+    },
+    {
+      "albionId": "wGiXA1MEQy2rDc61xQlavw",
+      "name": "2vsX",
+      "kills": 2,
+      "deaths": 1,
+      "killFame": 200785,
+      "players": 1,
+      "ip": 1467
+    },
+    {
+      "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+      "name": "Panda Corp",
+      "alliance": "CON",
+      "kills": 1,
+      "deaths": 1,
+      "killFame": 197905,
+      "players": 5,
+      "ip": 1486
+    },
+    {
+      "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+      "name": "Projet X",
+      "alliance": "CON",
+      "kills": 1,
+      "deaths": 3,
+      "killFame": 118743,
+      "players": 3,
+      "ip": 1452
+    },
+    {
+      "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+      "name": "NoRules",
+      "alliance": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "players": 1,
+      "ip": 1234
+    },
+    {
+      "albionId": "C9ZNzSNfSd-s5RL0T_TeoQ",
+      "name": "ALT SKUF",
+      "alliance": "KEGA",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "players": 1,
+      "ip": 1294
+    }
+  ],
+  "players": [
+    {
+      "name": "Fkainiu",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 404361,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_CLEAVER_HELL",
+        "type": "T5_2H_CLEAVER_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "xingchui5",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 2,
+      "deaths": 0,
+      "killFame": 404361,
+      "deathFame": 0,
+      "ip": 1541,
+      "heal": 0,
+      "damage": 2853,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T6_2H_LONGBOW@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "evolese",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 1374,
+      "heal": 197562,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_HOLYSTAFF_HELL",
+        "type": "T5_2H_HOLYSTAFF_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Tkulikus",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T7_2H_LONGBOW@1",
+        "quality": 3
+      }
+    },
+    {
+      "name": "zmladd",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 5,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 1655,
+      "heal": 0,
+      "damage": 1430,
+      "role": "range",
+      "weapon": {
+        "name": "MAIN_ARCANESTAFF_UNDEAD",
+        "type": "T6_MAIN_ARCANESTAFF_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "ZZCall",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_SHAPESHIFTER_KEEPER",
+        "type": "T4_2H_SHAPESHIFTER_KEEPER@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "mzls",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 1478,
+      "heal": 0,
+      "damage": 2025,
+      "role": "support",
+      "weapon": {
+        "name": "MAIN_CURSEDSTAFF_UNDEAD",
+        "type": "T5_MAIN_CURSEDSTAFF_UNDEAD@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "XiangYan",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 1600,
+      "heal": 0,
+      "damage": 5521,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T5_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "appleelppa",
+      "guildName": "EuroHunter",
+      "allianceName": "RMB",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ENIGMATICSTAFF",
+        "type": "T5_2H_ENIGMATICSTAFF@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "foxt21",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "MAIN_CURSEDSTAFF_AVALON",
+        "type": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "Traveler06",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 337240,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_DUALMACE_AVALON",
+        "type": "T5_2H_DUALMACE_AVALON@2",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Gestapo",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 304073,
+      "deathFame": 0,
+      "ip": 1526,
+      "heal": 0,
+      "damage": 4252,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T7_2H_LONGBOW@1",
+        "quality": 2
+      }
+    },
+    {
+      "name": "AugustusVII",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 293970,
+      "deathFame": 0,
+      "ip": 1597,
+      "heal": 0,
+      "damage": 2651,
+      "role": "range",
+      "weapon": {
+        "name": "2H_CROSSBOW_CANNON_AVALON",
+        "type": "T6_2H_CROSSBOW_CANNON_AVALON@3",
+        "quality": 2
+      }
+    },
+    {
+      "name": "Guaerjia",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 2,
+      "deaths": 0,
+      "killFame": 293970,
+      "deathFame": 0,
+      "ip": 1640,
+      "heal": 0,
+      "damage": 4683,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_AXE_AVALON",
+        "type": "T6_2H_AXE_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "GathererBeluga",
+      "guildName": "Whisperfangs",
+      "allianceName": "FANGS",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 264950,
+      "deathFame": 0,
+      "ip": 1135,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "MAIN_RAPIER_MORGANA",
+        "type": "T4_MAIN_RAPIER_MORGANA@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "Tudou0991",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 226849,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_ROCKMACE_KEEPER",
+        "type": "T7_MAIN_ROCKMACE_KEEPER",
+        "quality": 4
+      }
+    },
+    {
+      "name": "kubson1337",
+      "guildName": "2vsX",
+      "kills": 2,
+      "deaths": 1,
+      "killFame": 200785,
+      "deathFame": 335607,
+      "ip": 1467,
+      "heal": 0,
+      "damage": 1229,
+      "role": "melee",
+      "weapon": {
+        "name": "MAIN_RAPIER_MORGANA",
+        "type": "T5_MAIN_RAPIER_MORGANA@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "fbzb",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 200785,
+      "deathFame": 0,
+      "ip": 1326,
+      "heal": 3126,
+      "damage": 54,
+      "role": "healer",
+      "weapon": {
+        "name": "2H_NATURESTAFF",
+        "type": "T4_2H_NATURESTAFF@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "00co",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 153769,
+      "deathFame": 0,
+      "ip": 1512,
+      "heal": 149960,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T5_MAIN_HOLYSTAFF_AVALON@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "KitcuneMia",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 1,
+      "deaths": 1,
+      "killFame": 142742,
+      "deathFame": 1299725,
+      "ip": 1596,
+      "heal": 0,
+      "damage": 2220,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T7_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Welord",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 142742,
+      "deathFame": 290412,
+      "ip": 1432,
+      "heal": 0,
+      "damage": 1130,
+      "role": "range",
+      "weapon": {
+        "name": "MAIN_ARCANESTAFF_UNDEAD",
+        "type": "T5_MAIN_ARCANESTAFF_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "leekx9",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 142742,
+      "deathFame": 0,
+      "ip": 1735,
+      "heal": 0,
+      "damage": 4106,
+      "role": "range",
+      "weapon": {
+        "name": "2H_BOW_HELL",
+        "type": "T8_2H_BOW_HELL@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Restasf",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 3,
+      "deaths": 1,
+      "killFame": 142742,
+      "deathFame": 1214308,
+      "ip": 1639,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_BOW_HELL",
+        "type": "T7_2H_BOW_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "QiFeng3D",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 2,
+      "deaths": 1,
+      "killFame": 117599,
+      "deathFame": 264950,
+      "ip": 1554,
+      "heal": 0,
+      "damage": 2735,
+      "role": "range",
+      "weapon": {
+        "name": "2H_FIRE_RINGPAIR_AVALON",
+        "type": "T5_2H_FIRE_RINGPAIR_AVALON@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "yanfang",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 71030,
+      "deathFame": 599075,
+      "ip": 1616,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_KNUCKLES_SET3",
+        "type": "T7_2H_KNUCKLES_SET3@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "honey1popcorn",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 71030,
+      "deathFame": 111159,
+      "ip": 1459,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_HARPOON_HELL",
+        "type": "T4_2H_HARPOON_HELL@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "wmq2025",
+      "guildName": "Top Squad",
+      "allianceName": "1115",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 71030,
+      "deathFame": 113400,
+      "ip": 1365,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "MAIN_ARCANESTAFF",
+        "type": "T7_MAIN_ARCANESTAFF",
+        "quality": 1
+      }
+    },
+    {
+      "name": "Ripxu",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "2H_HAMMER_AVALON",
+        "type": "T5_2H_HAMMER_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Yobross",
+      "guildName": "Panda Corp",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_CROSSBOW_CANNON_AVALON",
+        "type": "T7_2H_CROSSBOW_CANNON_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "AkiiSha",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "tank",
+      "weapon": {
+        "name": "MAIN_ROCKMACE_KEEPER",
+        "type": "T6_MAIN_ROCKMACE_KEEPER@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "pextiii",
+      "guildName": "Projet X",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 252665,
+      "ip": 1403,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_AXE_AVALON",
+        "type": "T6_2H_AXE_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "gaara1210",
+      "guildName": "Panda Corp",
+      "allianceName": "CON",
+      "kills": 1,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 1598,
+      "heal": 0,
+      "damage": 1427,
+      "role": "range",
+      "weapon": {
+        "name": "2H_GLACIALSTAFF",
+        "type": "T6_2H_GLACIALSTAFF@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Comisef",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 1409,
+      "heal": 15327,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T5_MAIN_HOLYSTAFF_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "FlareKuro",
+      "guildName": "Panda Corp",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ENIGMATICSTAFF",
+        "type": "T7_2H_ENIGMATICSTAFF@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "FazerLeGeek",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 231497,
+      "ip": 1393,
+      "heal": 0,
+      "damage": 461,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T5_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "AppaChauve",
+      "guildName": "Projet X",
+      "allianceName": "CON",
+      "kills": 1,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 304073,
+      "ip": 1583,
+      "heal": 0,
+      "damage": 0,
+      "role": "melee",
+      "weapon": {
+        "name": "2H_KNUCKLES_SET3",
+        "type": "T6_2H_KNUCKLES_SET3@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Toroax",
+      "guildName": "Panda Corp",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 85374,
+      "ip": 1361,
+      "heal": 4202,
+      "damage": 45,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T4_MAIN_HOLYSTAFF_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "AmdRusher",
+      "guildName": "Projet X",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 235529,
+      "ip": 1372,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_LONGBOW",
+        "type": "T5_2H_LONGBOW@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Adamlesnuages",
+      "guildName": "Panda Corp",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 1501,
+      "heal": 46909,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T6_MAIN_HOLYSTAFF_AVALON@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Konkaa",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 285740,
+      "ip": 1496,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_ICECRYSTAL_UNDEAD",
+        "type": "T5_2H_ICECRYSTAL_UNDEAD@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Vayto",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 155952,
+      "ip": 1405,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF_HELL",
+        "type": "T6_2H_ARCANESTAFF_HELL@1",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Goblino",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_SHAPESHIFTER_SET2",
+        "type": "T4_2H_SHAPESHIFTER_SET2@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "afhkeo",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 195399,
+      "ip": 1358,
+      "heal": 0,
+      "damage": 2284,
+      "role": "range",
+      "weapon": {
+        "name": "2H_FIRE_RINGPAIR_AVALON",
+        "type": "T5_2H_FIRE_RINGPAIR_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Toraslave",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 39581,
+      "deathFame": 348705,
+      "ip": 1176,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "MAIN_CURSEDSTAFF_AVALON",
+        "type": "T4_MAIN_CURSEDSTAFF_AVALON@3",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Ardyol",
+      "guildName": "BallsOnYou",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 0,
+      "killFame": 39581,
+      "deathFame": 0,
+      "ip": 0,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF",
+        "type": "T6_2H_ARCANESTAFF@2",
+        "quality": 4
+      }
+    },
+    {
+      "name": "Wolfar",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 204713,
+      "ip": 1456,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_SKULLORB_HELL",
+        "type": "T5_2H_SKULLORB_HELL@2",
+        "quality": 2
+      }
+    },
+    {
+      "name": "Jesi3636272",
+      "guildName": "ALT SKUF",
+      "allianceName": "KEGA",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 493830,
+      "ip": 1294,
+      "heal": 0,
+      "damage": 0,
+      "role": "healer",
+      "weapon": {
+        "name": "MAIN_HOLYSTAFF_AVALON",
+        "type": "T4_MAIN_HOLYSTAFF_AVALON@3",
+        "quality": 3
+      }
+    },
+    {
+      "name": "Struuunz",
+      "guildName": "NoRules",
+      "allianceName": "CON",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 58707,
+      "ip": 1234,
+      "heal": 0,
+      "damage": 0,
+      "role": "support",
+      "weapon": {
+        "name": "2H_ARCANESTAFF_HELL",
+        "type": "T4_2H_ARCANESTAFF_HELL@1",
+        "quality": 2
+      }
+    },
+    {
+      "name": "SeregaC",
+      "guildName": "Gachi Gatherers",
+      "allianceName": "KEGA",
+      "kills": 0,
+      "deaths": 1,
+      "killFame": 0,
+      "deathFame": 316439,
+      "ip": 1457,
+      "heal": 0,
+      "damage": 0,
+      "role": "range",
+      "weapon": {
+        "name": "2H_FIRE_RINGPAIR_AVALON",
+        "type": "T6_2H_FIRE_RINGPAIR_AVALON@2",
+        "quality": 2
+      }
+    }
+  ]
+}
