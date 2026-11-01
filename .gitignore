@@ -4,3 +4,17 @@ __pycache__/
 .run.lock
 .env
 .env.*
+
+# Keep local archives out of Git; publish only the requested current results.
+/data/*
+!/data/箱子排序.txt
+!/data/*/
+/data/*/*
+!/data/*/results/
+/data/*/results/**
+!/data/*/results/**/
+!/data/*/results/**/*.csv
+!/data/*/results/**/*.html
+
+/IMPLEMENTATION.md
+/*_IMPLEMENTATION.md

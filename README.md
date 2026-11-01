@@ -4,11 +4,27 @@
 直接回车默认采集 UTC 昨天。首次运行需要下载物品名称字典；无需安装 Python 第三方包。
 本机已用现有 Python 3.9 和 PowerShell 实测。工具只读取公开战报，不连接游戏客户端。
 
-本仓库同时包含代码和 `data/` 中的已采集战报、物品名称缓存及各次运行的原始响应。当前示例日期为 2026-10-30 UTC：6 场战斗、42 名去重参战人员、18 次死亡。后续运行生成的数据保存在本地，可通过 Git 提交同步到仓库。
+GitHub 只同步源代码、测试、配置、箱子排序表和 `data/ZZCall/results/日期/` 中你需要的最新结果。
+原始响应、物品缓存、日报/周报中间数据、检查文件和历史快照保存在本地，不再纳入 Git。
+
+## 同步范围
+
+每个日期只同步最新一组以下文件，文件名仍包含日期、场次和生成时间：
+
+- 彩色出勤 HTML。
+- 每日出勤 CSV。
+- 逐场出勤 CSV。
+- 总补装采购 CSV（12u、14u 分场次，有其他场次时另列）。
+- 合并的箱子补装 CSV。
+
+生成出勤/补装时会自动整理到 `data/ZZCall/results/日期/`，只替换该类旧结果，不影响另一类结果或其他日期。
+同步目录之外的原始归档和旧版本仍在本地保留。结果目录不放 JSON、检查 TXT、缓存、原始响应或生成过程文档。
+如需将已有归档整理为同步用结果，可运行 `py -3 publish_results.py`；该命令不会联网，也不会重新采集。
+Git 提交只会包含允许跟踪的源代码、配置/箱子表和结果，不会自动上传本地归档。
 
 ## 看结果
 
-每日数据：`data/ZZCall/daily/日期/`
+以下是本地归档目录，供离线重新生成和核查，GitHub 不同步这些中间文件。每日数据：`data/ZZCall/daily/日期/`
 
 - `report.txt`：汇总人数、逐人场次/天数/击杀/死亡、每场名单、完整性提示。
 - `deaths.txt`：逐次死亡的中文装备、阶级和附魔（例如 6.2）、品质、数量。
@@ -124,4 +140,4 @@ Windows 默认通过 PowerShell 发 HTTPS 请求，本机直接 curl/urllib 访�
 - 装备详情备用源：[Albion Europe Gameinfo](https://gameinfo-ams.albiononline.com/api/gameinfo/events/455392129)。
 - 中文物品字典：[ao-data/ao-bin-dumps](https://github.com/ao-data/ao-bin-dumps/blob/master/formatted/items.json)，本地精简缓存每七天更新；较早的 `broderickhyman` 仓库已归档，不再作为默认源。
 
-不创建定时任务；每天由你点击运行。运行方案与接口核实记录见 `IMPLEMENTATION.md`。
+不创建定时任务；每天由你点击运行。开发过程记录只保留在本地。

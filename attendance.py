@@ -178,10 +178,13 @@ def export_attendance(report, root):
     c.write_text(page, render_attendance(data))
     data["files"] = {"html": str(page), "daily_csv": str(daily_file), "detail_csv": str(details_file)}
     data["status"] = "complete" if data["source_status"] == "complete" else "partial"
+    from publish_results import publish_result_set
+    data["published_files"] = publish_result_set(root, data["date"], "attendance", [page, daily_file, details_file])
     c.write_json(folder / "attendance.json", data)
     c.log("出勤：{} 人，时段出勤 {} 人次，逐场 {} 场 / {} 条记录".format(
         data["stats"]["players"], data["stats"]["attendance_total"], data["stats"]["battles"], data["stats"]["battle_records"]))
     c.log("  彩色网页：" + str(page))
     c.log("  每日 CSV：" + str(daily_file))
     c.log("  逐场 CSV：" + str(details_file))
+    c.log("  同步用结果：" + str(root / "results" / data["date"]))
     return data

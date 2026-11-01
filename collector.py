@@ -706,6 +706,10 @@ def export_regear(report, root, box_file, settings):
         log("合并分箱 {}：{} 人，{} 件装备".format(group, len(rows), tables["item_units"]))
         log("  分箱：" + str(allocation_file))
     output["status"] = "complete" if all(s["status"] == "完整" for s in output["sessions"] + output["box_exports"]) else "partial"
+    from publish_results import publish_result_set
+    output["published_files"] = publish_result_set(root, report["period"], "regear",
+        [session["purchase_file"] for session in output["sessions"]] + [group["allocation_file"] for group in output["box_exports"]])
+    log("  同步用结果：" + str(root / "results" / report["period"]))
     return output
 
 
