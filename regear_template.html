@@ -2,14 +2,20 @@
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>$title</title>
 <style>
 *{box-sizing:border-box}body{margin:0;font:14px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:0;background:#fff;color:#202124}main{max-width:1480px;margin:auto;padding:24px}h1{font-size:24px;line-height:1.3;margin:0 0 8px}h2{font-size:19px;margin:0}h3{font-size:14px;margin:0}.metadata{display:flex;flex-wrap:wrap;gap:4px 20px;color:#686d75;font-size:12px}.toolbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;border-block:1px solid #dedfe3;margin:20px 0;padding:12px 0}.scope{display:flex;gap:4px}.scope button{font:inherit;cursor:pointer;border:0;border-radius:3px;padding:6px 12px;background:#f0f1f3;color:#4b5057}.scope button[aria-pressed=true]{background:#24272c;color:#fff}.scope-label{font-size:13px;color:#666}.stats{display:flex;flex-wrap:wrap;gap:14px 30px}.stats dt{font-size:12px;color:#6a6e75}.stats dd{font-size:21px;font-weight:600;margin:0;font-variant-numeric:tabular-nums}.section-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 20px;margin:22px 0 10px}.section-heading p{font-size:12px;color:#70757d;margin:0}.totals-band{display:grid;grid-template-columns:54px 1fr;gap:8px;border-bottom:1px solid #eceef0;padding:13px 0}.totals-band h3{padding-top:22px;color:#666;font-size:12px}.totals-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:12px 8px}.gear{position:relative;text-align:center;min-width:0}.gear-visual{width:66px;height:66px;position:relative;margin:0 auto}.gear img{display:block;width:66px;height:66px;object-fit:contain}.gear .missing-icon{display:flex;align-items:center;justify-content:center;width:66px;height:66px;background:#f1f2f4;color:#7e838b;font-size:22px;border-radius:3px}.power{position:absolute;left:-2px;top:0;background:#25282e;color:#fff;border-radius:3px;padding:0 4px;min-width:25px;font-size:11px;line-height:18px;font-weight:600}.quantity{position:absolute;right:-2px;bottom:0;background:#fff;border:1px solid #d5d8dd;border-radius:3px;padding:0 4px;min-width:24px;font-size:12px;font-weight:700;line-height:18px}.gear-name{font-size:11px;line-height:16px;margin-top:5px;min-height:32px;overflow-wrap:anywhere}.grid-scroll{max-width:100%;overflow:auto;padding-bottom:6px}.box-grid{display:grid;grid-template-columns:repeat(var(--columns),minmax(146px,1fr));gap:9px;min-width:calc(var(--columns)*156px);grid-auto-rows:minmax(240px,auto)}.box-card,.person-card{border:1px solid #d9dce1;border-radius:5px;background:#fff;min-width:0;padding:10px;transition:opacity .15s,border-color .15s}.box-card.empty{background:#fafbfc;border-style:dashed;color:#9498a0}.box-card.duplicate{border-color:#d8ba7a;background:#fffdfa}.box-header{display:flex;gap:4px;justify-content:space-between;align-items:baseline;min-height:20px;margin-bottom:2px}.coordinate{font-size:12px;font-weight:700;color:#757a83;white-space:nowrap}.unit-total{font-size:11px;color:#6a6f77;white-space:nowrap}.owner{font-size:13px;line-height:18px;min-height:36px;font-weight:600;overflow-wrap:anywhere}.box-note{font-size:11px;line-height:16px;color:#8b6b28;margin:4px 0 7px;overflow-wrap:anywhere}.box-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 3px}.box-items .gear-visual,.box-items .gear img,.box-items .missing-icon{width:40px;height:40px}.box-items .power{font-size:10px;line-height:15px;min-width:21px;left:-1px;top:-1px;padding:0 3px}.box-items .quantity{font-size:10px;line-height:15px;min-width:19px;right:-1px;bottom:-1px;padding:0 2px}.box-items .gear-name{font-size:10px;line-height:14px;min-height:28px}.no-gear{font-size:12px;color:#969aa2;margin:24px 0;text-align:center}.special-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}.person-card .owner{min-height:22px}.person-card .box-items{grid-template-columns:repeat(4,minmax(0,1fr))}.person-card .gear-visual,.person-card .gear img{width:44px;height:44px}.find-player{font:inherit;width:210px;max-width:100%;padding:7px 10px;border:1px solid #c8ccd3;border-radius:3px}.dimmed{opacity:.25}.found{border-color:#1c7244!important;box-shadow:inset 0 0 0 1px #1c7244}.warnings{margin:16px 0;color:#806222;font-size:12px}.warnings li{overflow-wrap:anywhere}footer{border-top:1px solid #dedfe3;color:#797e87;font-size:12px;margin-top:25px;padding-top:12px}[hidden]{display:none!important}@media(max-width:600px){main{padding:16px 12px}h1{font-size:21px}.stats{gap:12px 22px}.stats dd{font-size:19px}.totals-band{grid-template-columns:36px 1fr}.totals-items{grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:10px 5px}.section-heading{margin-top:20px}.find-player{width:100%}.special-grid{grid-template-columns:repeat(auto-fill,minmax(165px,1fr))}}
+.power{border:1px solid #bbc0c8;background:#edf0f3;color:#25282e}
+.power[data-p="7"]{background:#fff;color:#25282e;border-color:#aeb4bd}
+.power[data-p="8"]{background:#1d61c2;color:#fff;border-color:#1d61c2}
+.power[data-p="9"]{background:#16803d;color:#fff;border-color:#16803d}
+.power[data-p="10"]{background:#7e22ce;color:#fff;border-color:#7e22ce}
+.power[data-p="11"]{background:#b91c1c;color:#fff;border-color:#b91c1c}
+.power-legend{display:flex;gap:5px}.power-legend .power{position:static;line-height:18px;text-align:center}
 </style></head><body><main>
 <header><h1>$title</h1><div class="metadata" id="metadata"></div></header>
-<div class="toolbar"><span class="scope-label" id="scope-label"></span><div class="scope" id="scope" aria-label="补装时段"></div></div>
-<dl class="stats"><div><dt>总补装</dt><dd id="total-units">0</dd></div><div><dt>已分箱</dt><dd id="assigned-units">0</dd></div><div><dt>管理领取</dt><dd id="manager-units">0</dd></div><div><dt>待分配</dt><dd id="pending-units">0</dd></div></dl>
+<div class="toolbar"><span class="scope-label" id="scope-label"></span><div class="power-legend" aria-label="P 等级"><span class="power" data-p="7">P7</span><span class="power" data-p="8">P8</span><span class="power" data-p="9">P9</span><span class="power" data-p="10">P10</span><span class="power" data-p="11">P11</span></div><div class="scope" id="scope" aria-label="补装时段"></div></div>
+<dl class="stats"><div><dt>总补装</dt><dd id="total-units">0</dd></div><div><dt>已分箱</dt><dd id="assigned-units">0</dd></div><div><dt>待分配</dt><dd id="pending-units">0</dd></div></dl>
 <div class="section-heading"><h2>总补装</h2><p id="total-kinds"></p></div><section id="totals" aria-label="装备采购总量"></section>
 <div class="section-heading"><h2>个人补装 · 箱子</h2><p id="layout-label"></p><input class="find-player" id="find-player" type="search" aria-label="查找玩家" placeholder="查找玩家"></div>
 <div class="grid-scroll"><section id="box-grid" class="box-grid" aria-label="箱子排列"></section></div>
-<section id="managers-section"><div class="section-heading"><h2>管理领取 · 无需箱子</h2></div><div class="special-grid" id="managers"></div></section>
 <section id="pending-section"><div class="section-heading"><h2>待分配 / 箱号待确认</h2></div><div class="special-grid" id="pending"></div></section>
 <details class="warnings" id="warnings"><summary id="warnings-title"></summary><ul id="warnings-list"></ul></details>
 <footer>P = 阶级 + 附魔，同一种装备的 4.3、5.2、6.1、7.0 合计为 P7，不区分品质。图标表示装备种类，P 标签表示所需等级。数量按死亡时穿戴快照累计，未扣除库存、回收或已经发放的装备。</footer>
@@ -31,7 +37,7 @@
     const visual=el('div','gear-visual');
     if(icons[item.icon_key]){const img=el('img');img.src=icons[item.icon_key];img.alt=item.name;img.width=96;img.height=96;visual.appendChild(img);}
     else{visual.appendChild(el('span','missing-icon','?'));}
-    visual.appendChild(el('span','power','P'+item.power));visual.appendChild(el('span','quantity','x'+count));
+    const power=el('span','power','P'+item.power);power.dataset.p=String(item.power);visual.appendChild(power);visual.appendChild(el('span','quantity','x'+count));
     node.appendChild(visual);node.appendChild(el('div','gear-name',item.name));return node;
   }
   function addItems(container,person){
@@ -52,9 +58,8 @@
   function render(){
     const total=data.totals.reduce(function(sum,item){return sum+quantity(item);},0);
     const assigned=data.people.filter(function(p){return p.status==='已分配';}).reduce(function(sum,p){return sum+personUnits(p);},0);
-    const manager=data.managers.reduce(function(sum,name){return sum+personUnits(people.get(name));},0);
     const pending=data.pending.reduce(function(sum,name){return sum+personUnits(people.get(name));},0);
-    document.getElementById('total-units').textContent=total+' 件';document.getElementById('assigned-units').textContent=assigned+' 件';document.getElementById('manager-units').textContent=manager+' 件';document.getElementById('pending-units').textContent=pending+' 件';
+    document.getElementById('total-units').textContent=total+' 件';document.getElementById('assigned-units').textContent=assigned+' 件';document.getElementById('pending-units').textContent=pending+' 件';
     document.getElementById('scope-label').textContent=(selected==='all'?data.sessions.join(' + '):selected)+' · '+data.date+' UTC';
     document.querySelectorAll('[data-scope]').forEach(function(button){button.setAttribute('aria-pressed',String(button.dataset.scope===selected));});
     const totals=document.getElementById('totals');totals.replaceChildren();
@@ -74,7 +79,7 @@
       if(!count){card.appendChild(el('p','no-gear',!box.label?'空箱':box.duplicate?'箱号待确认':box.owner?'本场无补装':'未匹配战报'));}
       grid.appendChild(card);
     });
-    [['managers',data.managers],['pending',data.pending]].forEach(function(entry){const container=document.getElementById(entry[0]);container.replaceChildren();entry[1].forEach(function(name){container.appendChild(specialPerson(people.get(name)));});document.getElementById(entry[0]+'-section').hidden=!entry[1].length;});
+    const pendingList=document.getElementById('pending');pendingList.replaceChildren();data.pending.forEach(function(name){pendingList.appendChild(specialPerson(people.get(name)));});document.getElementById('pending-section').hidden=!data.pending.length;
     findPlayers();
   }
   const metadata=document.getElementById('metadata');metadata.appendChild(el('span','',data.source_status==='complete'?'完整记录':'阶段性 / 待核对记录'));metadata.appendChild(el('span','','数据采集于 '+data.source_generated_at.replace('T',' ').replace(/(?:Z|\+00:00)$$/, ' UTC')));

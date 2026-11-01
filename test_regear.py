@@ -1,5 +1,4 @@
 import copy
-import csv
 import tempfile
 from pathlib import Path
 import unittest
@@ -103,19 +102,20 @@ class RegearTests(unittest.TestCase):
         self.assertEqual(tables["missing_equipment"], [{"player": "apple1263", "event_id": "100"}])
         self.assertTrue(any("详情缺失" in w for w in tables["warnings"]))
 
-    def test_managers_need_no_box_but_remain_in_procurement(self):
+    def test_managers_are_excluded_from_procurement_and_allocations(self):
         deaths = [death("1", "ZZCall"), death("2", "yanfang"), death("3", "Traveler06")]
         tables = c.build_regear_tables([battle(deaths=deaths)], [], ["zzcall", "YANFANG"])
-        self.assertEqual(tables["item_units"], 3)
+        self.assertEqual(tables["item_units"], 1)
         self.assertEqual(tables["unassigned_players"], ["Traveler06"])
-        self.assertEqual(tables["no_box_players"], ["ZZCall", "yanfang"])
-        managers = [r for r in tables["allocations"] if r["玩家"] != "Traveler06"]
-        self.assertTrue(all(r["箱子编号"] == "无需箱子" and r["分箱状态"] == "管理（无需箱子）" for r in managers))
-        self.assertEqual(sum(r["数量"] for r in tables["allocations"]), 3)
+        self.assertEqual(len(tables["excluded_manager_events"]), 2)
+        self.assertEqual([r["玩家"] for r in tables["allocations"]], ["Traveler06"])
+        self.assertEqual(tables["received_deaths"], 1)
+        self.assertEqual(sum(r["数量"] for r in tables["allocations"]), 1)
         manager_only = c.build_regear_tables([battle(deaths=deaths[:2])], [], ["ZZCall", "yanfang"])
         self.assertEqual(manager_only["warnings"], [])
+        self.assertEqual(manager_only["item_units"], 0)
 
-    def test_export_rereads_box_file_and_reconciles_csv(self):
+    def test_export_rereads_box_file_and_only_publishes_html(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             box_file = root / "boxes.txt"
@@ -124,28 +124,23 @@ class RegearTests(unittest.TestCase):
             first = c.export_regear(data, root, box_file, {})
             self.assertEqual([s["session"] for s in first["sessions"]], ["12u", "14u"])
             for session in first["sessions"]:
-                with Path(session["purchase_file"]).open(encoding="utf-8-sig", newline="") as f:
-                    purchases = list(csv.DictReader(f))
+                purchases = session["purchase_rows"]
                 self.assertEqual(sum(int(r["数量"]) for r in purchases), 1)
                 self.assertEqual(session["status"], "完整")
             self.assertEqual(len(first["box_exports"]), 1)
             combined = first["box_exports"][0]
-            path = Path(combined["allocation_file"])
+            path = Path(combined["regear_html"])
             self.assertIn("2026-10-31_12u-14u_", path.name)
-            self.assertTrue(path.read_bytes().startswith(b"\xef\xbb\xbf"))
-            self.assertNotIn(b"\r\r\n", path.read_bytes())
-            with path.open(encoding="utf-8-sig", newline="") as f:
-                reader = csv.DictReader(f)
-                self.assertTrue(set(reader.fieldnames).isdisjoint({"日期UTC", "死亡次数", "数据状态", "品质", "品质编号", "箱子原名"}))
-                allocations = list(reader)
+            allocations = combined["rows"]
             self.assertEqual(len(allocations), 1)
             self.assertEqual(allocations[0]["箱子编号"], "2-1")
             self.assertEqual(int(allocations[0]["总件数"]), 2)
             self.assertEqual(allocations[0]["主手"], "P8 测试装备 x2")
+            self.assertEqual(list(root.rglob("*.csv")), [])
+            self.assertTrue(all(Path(p).suffix == ".html" for p in first["published_files"]))
             self.layout(box_file, "A\tapple1263\n\t\n")
             second = c.export_regear(data, root, box_file, {})
-            with Path(second["box_exports"][0]["allocation_file"]).open(encoding="utf-8-sig", newline="") as f:
-                self.assertEqual(next(csv.DictReader(f))["箱子编号"], "1-2")
+            self.assertEqual(second["box_exports"][0]["rows"][0]["箱子编号"], "1-2")
             self.assertEqual(combined["boxes"][2]["label"], "apple1263")
 
     def test_p_level_merges_tiers_and_quality_but_not_weapon_family(self):

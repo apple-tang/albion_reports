@@ -25,6 +25,8 @@ def build_regear_page_data(report, battles, boxes, settings):
                     raise ValueError("补装网页中的死亡事件冲突：" + eid)
                 continue
             events[eid] = death
+            if any(c.same(death["victim"], manager) for manager in settings.get("no_box_players", [])):
+                continue
             assignment = c.box_for_player(death["victim"], boxes, settings.get("no_box_players", []))
             person = people.setdefault(death["victim"].casefold(), {
                 "name": death["victim"], "box": assignment["箱子编号"], "status": assignment["分箱状态"],
@@ -60,8 +62,7 @@ def build_regear_page_data(report, battles, boxes, settings):
         assigned = bool(person and person["status"] == "已分配" and person["box"] == box["box"])
         grid.append({**box, "person": person["name"] if assigned else None,
                      "duplicate": bool(box["owner"] and owner_counts[box["owner"].casefold()] > 1)})
-    managers = [person["name"] for person in people_list if person["status"] == "管理（无需箱子）"]
-    pending = [person["name"] for person in people_list if person["status"] not in {"已分配", "管理（无需箱子）"}]
+    pending = [person["name"] for person in people_list if person["status"] != "已分配"]
     expected = {key: item["quantity"] for key, item in totals.items()}
     distributed = collections.Counter()
     for person in people_list:
@@ -78,7 +79,7 @@ def build_regear_page_data(report, battles, boxes, settings):
     return {"date": report["period"], "caller": report["caller"], "source_status": report["status"],
             "source_generated_at": report["generated_at"], "sessions": sorted({c.regear_session(b["start_utc"]) for b in battles}),
             "totals": sorted(totals.values(), key=order), "people": people_list, "boxes": grid,
-            "rows": visible_rows, "columns": visible_columns, "managers": managers, "pending": pending,
+            "rows": visible_rows, "columns": visible_columns, "pending": pending,
             "slots": [{"key": slot, "name": c.SLOTS[slot]} for slot in c.REGEAR_SLOTS],
             "item_units": sum(expected.values()), "counts_reconciled": True}
 
@@ -139,7 +140,7 @@ def render_regear_page(data, icons):
 def export_regear_page(report, battles, boxes, tables, root, folder, group, stamp, settings):
     data = build_regear_page_data(report, battles, boxes, settings)
     if data["item_units"] != tables["item_units"]:
-        raise ValueError("补装网页总量与 CSV 不一致。")
+        raise ValueError("补装网页总量与原始分配统计不一致。")
     data["warnings"] = tables["warnings"] + report.get("warnings", [])
     data["generated_at"] = c.now().isoformat()
     icons, errors = load_item_icons(root, [item["icon_key"] for item in data["totals"]])

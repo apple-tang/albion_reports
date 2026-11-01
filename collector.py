@@ -485,8 +485,9 @@ def regear_item_row(item):
 
 def build_regear_tables(battles, boxes, no_box_players=()):
     purchases, allocations, events = {}, {}, {}
-    warnings, missing_equipment = [], []
-    expected_deaths = sum(p["deaths"] for b in battles for p in b["players"])
+    warnings, missing_equipment, excluded_events = [], [], []
+    expected_deaths = sum(p["deaths"] for b in battles for p in b["players"]
+                          if not any(same(p["name"], manager) for manager in no_box_players))
     for battle in battles:
         for death in battle["deaths"]:
             event_id = str(death["event_id"])
@@ -495,6 +496,9 @@ def build_regear_tables(battles, boxes, no_box_players=()):
                     raise ValueError("补装源数据中 EventId 冲突：" + event_id)
                 continue
             events[event_id] = death
+            if any(same(death["victim"], manager) for manager in no_box_players):
+                excluded_events.append({"player": death["victim"], "event_id": event_id})
+                continue
             if death["equipment_status"] != "complete":
                 missing_equipment.append({"player": death["victim"], "event_id": event_id})
                 continue
@@ -521,12 +525,12 @@ def build_regear_tables(battles, boxes, no_box_players=()):
                 allocation["events"].add(event_id)
                 if not item["name_resolved"]:
                     warnings.append("未解析物品名称：" + item["item_id"])
-    if len(events) != expected_deaths:
-        warnings.append("战报死亡 {} 次，现有死亡明细 {} 次。".format(expected_deaths, len(events)))
+    received_deaths = len(events) - len(excluded_events)
+    if received_deaths != expected_deaths:
+        warnings.append("非管理人员战报死亡 {} 次，现有死亡明细 {} 次。".format(expected_deaths, received_deaths))
     if missing_equipment:
         warnings.append("有 {} 次死亡的装备详情缺失，不能据此清单完成全部补装。".format(len(missing_equipment)))
     unassigned = sorted({a["玩家"] for a in allocations.values() if a["分箱状态"] not in {"已分配", "管理（无需箱子）"}})
-    managers = sorted({a["玩家"] for a in allocations.values() if a["分箱状态"] == "管理（无需箱子）"})
     if unassigned:
         warnings.append("以下人员箱子待确认，装备仍计入总采购与分箱清单：" + "、".join(unassigned))
     purchase_counts = {key: row["quantity"] for key, row in purchases.items()}
@@ -551,19 +555,10 @@ def build_regear_tables(battles, boxes, no_box_players=()):
         allocation_rows.append({**{field: row[field] for field in fields}, "数量": row["quantity"],
                                 "死亡次数": len(row["events"]), "来源事件": "、".join(sorted(row["events"]))})
     return {"purchases": purchase_rows, "allocations": allocation_rows, "warnings": sorted(set(warnings)),
-            "expected_deaths": expected_deaths, "received_deaths": len(events),
-            "missing_equipment": missing_equipment, "unassigned_players": unassigned, "no_box_players": managers,
+            "expected_deaths": expected_deaths, "received_deaths": received_deaths,
+            "missing_equipment": missing_equipment, "unassigned_players": unassigned,
+            "excluded_manager_events": excluded_events,
             "item_units": sum(purchase_counts.values()), "counts_reconciled": True}
-
-
-def write_csv(path, fields, rows):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_name(path.name + ".tmp")
-    with temp.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
-    temp.replace(path)
 
 
 def box_item_level(item_id, name):
@@ -642,10 +637,6 @@ def export_regear(report, root, box_file, settings):
         status = "待核对" if warnings else "完整"
         folder = root / "regear" / report["period"] / session / stamp
         suffix = "{}_{}_{}".format(report["period"], session, stamp)
-        purchase_file = folder / ("总补装_" + suffix + ".csv")
-        common = {"日期UTC": report["period"], "场次": session, "数据状态": status}
-        purchase_fields = ["日期UTC", "场次"] + REGEAR_ITEM_FIELDS + ["数量", "死亡次数", "涉及人员", "数据状态"]
-        write_csv(purchase_file, purchase_fields, [dict(row, **common) for row in tables["purchases"]])
         manifest = {"date": report["period"], "session": session, "generated_at": generated.isoformat(),
                     "source_generated_at": report["generated_at"], "source_status": report["status"],
                     "caller": report["caller"], "battle_ids": sorted(b["battle_id"] for b in battles),
@@ -654,15 +645,14 @@ def export_regear(report, root, box_file, settings):
                     "configured_no_box_players": settings.get("no_box_players", []),
                     "status": status, "warnings": warnings,
                     **{key: value for key, value in tables.items() if key not in {"purchases", "allocations", "warnings"}},
-                    "purchase_file": str(purchase_file)}
+                    "purchase_rows": tables["purchases"]}
         write_json(folder / "manifest.json", manifest)
         write_text(folder / "箱子排序_本次快照.txt", box_text)
         write_text(folder / "补装检查.txt", "{} {} UTC | {}\n死亡 {} 次；战斗装备 {} 件；采购与分配源明细逐物品核对一致。\n{}\n".format(
             report["period"], session, status, tables["received_deaths"], tables["item_units"],
-            "\n".join(warnings + (["管理（无需箱子），装备仍计入采购：" + "、".join(tables["no_box_players"])] if tables["no_box_players"] else [])) or "未发现缺失项。"))
+            "\n".join(warnings) or "未发现缺失项。"))
         output["sessions"].append(manifest)
         log("补装 {}：{} 次死亡，{} 件装备；{}".format(session, tables["received_deaths"], tables["item_units"], status))
-        log("  采购：" + str(purchase_file))
         for warning in tables["warnings"]:
             log("  提示：" + warning)
     box_groups = {}
@@ -679,9 +669,6 @@ def export_regear(report, root, box_file, settings):
         if purchase_totals != item_totals or sum(row["总件数"] for row in rows) != tables["item_units"]:
             raise ValueError("按人合并后的分箱数量与采购清单不一致。")
         folder = root / "regear" / report["period"] / group / stamp
-        allocation_file = folder / ("箱子补装_{}_{}_{}.csv".format(report["period"], group, stamp))
-        fields = ["箱子编号", "玩家", "分箱状态"] + [SLOTS[slot] for slot in REGEAR_SLOTS] + ["总件数"]
-        write_csv(allocation_file, fields, rows)
         warnings = list(tables["warnings"]) + report.get("warnings", [])
         if report["status"] != "complete":
             warnings.append("源日报状态为 {}，本次不是已确认的全天完整补装清单。".format(report["status"]))
@@ -692,9 +679,9 @@ def export_regear(report, root, box_file, settings):
             "battle_ids": sorted(b["battle_id"] for b in battles), "caller": report["caller"],
             "box_file": str(Path(box_file).resolve()), "boxes": boxes,
             "box_aliases": settings.get("box_aliases", {}), "configured_no_box_players": settings.get("no_box_players", []),
-            "included_slots": list(REGEAR_SLOTS), "allocation_file": str(allocation_file), "rows": rows,
+            "included_slots": list(REGEAR_SLOTS), "rows": rows,
             "allocation_details": tables["allocations"], "item_units": tables["item_units"],
-            "unassigned_players": tables["unassigned_players"], "no_box_players": tables["no_box_players"],
+            "unassigned_players": tables["unassigned_players"], "excluded_manager_events": tables["excluded_manager_events"],
             "missing_equipment": tables["missing_equipment"], "warnings": warnings,
             "counts_reconciled": True, "status": "待核对" if warnings else "完整",
         }
@@ -706,12 +693,10 @@ def export_regear(report, root, box_file, settings):
             report["period"], group, manifest["status"], len(rows), tables["item_units"], "\n".join(warnings) or "未发现缺失项。"))
         output["box_exports"].append(manifest)
         log("合并分箱 {}：{} 人，{} 件装备".format(group, len(rows), tables["item_units"]))
-        log("  分箱：" + str(allocation_file))
     output["status"] = "complete" if all(s["status"] == "完整" for s in output["sessions"] + output["box_exports"]) else "partial"
     from publish_results import publish_result_set
     output["published_files"] = publish_result_set(root, report["period"], "regear",
-        [session["purchase_file"] for session in output["sessions"]] +
-        [group[key] for group in output["box_exports"] for key in ["allocation_file", "regear_html"]])
+        [group["regear_html"] for group in output["box_exports"]])
     log("  同步用结果：" + str(root / "results" / report["period"]))
     return output
 
@@ -827,8 +812,8 @@ def main():
     action = parser.add_mutually_exclusive_group()
     action.add_argument("--date", help="采集日期 YYYY-MM-DD（UTC）")
     action.add_argument("--week", help="本地汇总该日期所在的周，YYYY-MM-DD")
-    action.add_argument("--regear", help="从已有日报生成补装 CSV，YYYY-MM-DD，不联网")
-    action.add_argument("--attendance", help="从已有日报生成彩色出勤网页及每日/逐场 CSV，YYYY-MM-DD，不联网")
+    action.add_argument("--regear", help="从已有日报生成补装网页，YYYY-MM-DD，复用已有战报")
+    action.add_argument("--attendance", help="从已有日报生成彩色出勤网页，YYYY-MM-DD，不联网")
     parser.add_argument("--player", help="caller 名称，默认读 config.json")
     parser.add_argument("--min-players", type=int, help="战报最低总人数，默认 10")
     parser.add_argument("--root", type=Path, default=BASE / "data", help="数据根目录")
@@ -845,7 +830,7 @@ def main():
         raise ValueError("最低人数不能小于零。")
     if not args.date and not args.week and not args.regear and not args.attendance:
         print("欧服战报归档 | {} | UTC | 最低 {} 人".format(caller, min_players))
-        mode = input("1. 按日采集  2. 本地周汇总  3. 导出补装 CSV  4. 导出出勤名单  0. 退出 [1]：").strip() or "1"
+        mode = input("1. 按日采集  2. 本地周汇总  3. 导出补装网页  4. 导出出勤名单  0. 退出 [1]：").strip() or "1"
         if mode == "0":
             return 0
         if mode not in {"1", "2", "3", "4"}:

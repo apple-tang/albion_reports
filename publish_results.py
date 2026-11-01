@@ -7,10 +7,10 @@ import shutil
 
 
 CATEGORIES = {
-    "attendance": {"出勤名单": ".html", "每日出勤": ".csv", "逐场出勤": ".csv"},
-    "regear": {"总补装": ".csv", "箱子补装": ".csv", "补装清单": ".html"},
+    "attendance": {"出勤名单": ".html"},
+    "regear": {"补装清单": ".html"},
 }
-REQUIRED = {"attendance": set(CATEGORIES["attendance"]), "regear": {"总补装", "箱子补装"}}
+REQUIRED = {category: set(rules) for category, rules in CATEGORIES.items()}
 
 
 def publish_result_set(root, day, category, sources):
@@ -66,8 +66,8 @@ def publish_saved_results(root):
             for metadata in sorted(day.glob("*/attendance.json"), reverse=True):
                 data = read_json(metadata)
                 files = data.get("files", {})
-                if all(files.get(key) and Path(files[key]).is_file() for key in ["html", "daily_csv", "detail_csv"]):
-                    published.extend(publish_result_set(root, day.name, "attendance", [files[key] for key in ["html", "daily_csv", "detail_csv"]]))
+                if files.get("html") and Path(files["html"]).is_file():
+                    published.extend(publish_result_set(root, day.name, "attendance", [files["html"]]))
                     break
     regear = root / "regear"
     if regear.is_dir():
@@ -75,8 +75,8 @@ def publish_saved_results(root):
             manifests = list(day.glob("*/*/manifest.json"))
             for stamp in sorted({p.parent.name for p in manifests}, reverse=True):
                 batch = [read_json(p) for p in manifests if p.parent.name == stamp]
-                files = [data[key] for data in batch for key in ["purchase_file", "allocation_file", "regear_html"] if data.get(key)]
-                if not any(Path(p).name.startswith("总补装_") for p in files) or not any(Path(p).name.startswith("箱子补装_") for p in files):
+                files = [data["regear_html"] for data in batch if data.get("regear_html")]
+                if not files:
                     continue
                 if all(Path(p).is_file() for p in files):
                     published.extend(publish_result_set(root, day.name, "regear", files))
@@ -84,13 +84,40 @@ def publish_saved_results(root):
     return published
 
 
+def remove_csv_outputs(root):
+    root = Path(root).resolve()
+    removed, blocked = [], []
+    for name in ["attendance", "regear", "results"]:
+        directory = root / name
+        if not directory.resolve().is_relative_to(root):
+            raise ValueError("CSV 清理目录不能指向数据目录之外。")
+        if not directory.exists():
+            continue
+        paths = list(directory.rglob("*.csv"))
+        if any(not path.resolve().is_relative_to(directory.resolve()) for path in paths):
+            raise ValueError("CSV 清理路径不能指向指定结果目录之外。")
+        for path in paths:
+            try:
+                path.unlink()
+                removed.append(str(path))
+            except PermissionError:
+                blocked.append(str(path))
+    return {"removed": removed, "blocked": blocked}
+
+
 if __name__ == "__main__":
     base = Path(__file__).resolve().parent
     settings = read_json(base / "config.json")
     parser = argparse.ArgumentParser(description="整理已有归档，只保留每个日期最新的同步用结果。")
     parser.add_argument("--root", type=Path, default=base / "data" / settings["player"])
+    parser.add_argument("--remove-csv", action="store_true", help="删除已停用的生成 CSV，不影响其他文件")
     args = parser.parse_args()
     paths = publish_saved_results(args.root)
     print("同步用结果 {} 个文件：".format(len(paths)))
     for path in paths:
         print(path)
+    if args.remove_csv:
+        result = remove_csv_outputs(args.root)
+        print("已删除 {} 个旧 CSV，{} 个仍被占用。".format(len(result["removed"]), len(result["blocked"])))
+        for path in result["blocked"]:
+            print("仍被占用：" + path)

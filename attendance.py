@@ -10,16 +10,10 @@ ROLES = {"healer": "奶妈", "dps": "DPS", "tank": "tank", "support": "辅助", 
 ROLE_ORDER = {role: index for index, role in enumerate(ROLES)}
 SOURCE_ROLES = {"healer": "healer", "range": "dps", "melee": "dps", "tank": "tank", "support": "support"}
 DAILY_FIELDS = ["玩家", "12u", "12u角色", "14u", "14u角色", "总场次"]
-DETAIL_FIELDS = ["场次", "战报编号", "开始时间UTC", "结束时间UTC", "公会", "玩家", "角色", "武器", "武器编号",
-                 "击杀", "死亡", "IP", "治疗量", "伤害量", "战报链接"]
 
 
 def role_for(value):
     return SOURCE_ROLES.get(str(value or "").strip().lower(), "unknown")
-
-
-def role_names(roles):
-    return " / ".join(ROLES[role] for role in roles)
 
 
 def build_attendance(report, catalog=None):
@@ -160,31 +154,14 @@ def export_attendance(report, root):
     folder = root / "attendance" / data["date"] / stamp
     suffix = data["date"] + "_12u-14u_" + stamp
     page = folder / ("出勤名单_" + suffix + ".html")
-    daily_file = folder / ("每日出勤_" + suffix + ".csv")
-    details_file = folder / ("逐场出勤_" + data["date"] + "_" + stamp + ".csv")
-    daily_rows = []
-    for person in data["daily"]:
-        row = {"玩家": person["player"], "总场次": person["total"]}
-        for slot in ["12u", "14u"]:
-            row[slot] = int(person["sessions"][slot]["attended"])
-            row[slot + "角色"] = role_names(person["sessions"][slot]["roles"])
-        daily_rows.append(row)
-    details = [{"场次": p["session"], "战报编号": p["battle_id"], "开始时间UTC": p["start_utc"],
-                "结束时间UTC": p["end_utc"], "公会": p["guild"], "玩家": p["player"], "角色": ROLES[p["role"]],
-                "武器": p["weapon"], "武器编号": p["weapon_id"], "击杀": p["kills"], "死亡": p["deaths"],
-                "IP": p["ip"], "治疗量": p["healing"], "伤害量": p["damage"], "战报链接": p["url"]} for p in data["details"]]
-    c.write_csv(daily_file, DAILY_FIELDS, daily_rows)
-    c.write_csv(details_file, DETAIL_FIELDS, details)
     c.write_text(page, render_attendance(data))
-    data["files"] = {"html": str(page), "daily_csv": str(daily_file), "detail_csv": str(details_file)}
+    data["files"] = {"html": str(page)}
     data["status"] = "complete" if data["source_status"] == "complete" else "partial"
     from publish_results import publish_result_set
-    data["published_files"] = publish_result_set(root, data["date"], "attendance", [page, daily_file, details_file])
+    data["published_files"] = publish_result_set(root, data["date"], "attendance", [page])
     c.write_json(folder / "attendance.json", data)
     c.log("出勤：{} 人，时段出勤 {} 人次，逐场 {} 场 / {} 条记录".format(
         data["stats"]["players"], data["stats"]["attendance_total"], data["stats"]["battles"], data["stats"]["battle_records"]))
     c.log("  彩色网页：" + str(page))
-    c.log("  每日 CSV：" + str(daily_file))
-    c.log("  逐场 CSV：" + str(details_file))
     c.log("  同步用结果：" + str(root / "results" / data["date"]))
     return data

@@ -1,5 +1,4 @@
 import copy
-import csv
 import tempfile
 from pathlib import Path
 import unittest
@@ -64,7 +63,7 @@ class AttendanceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             a.build_attendance(report([battle(players=[player(), player(role="tank")])]))
 
-    def test_export_csv_colors_and_escaping_with_source_status(self):
+    def test_export_html_colors_and_escaping_with_source_status(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             c.write_json(root / "cache" / "item_names.json", {"names": {"T4_MAIN_HOLYSTAFF": "老手级神圣法杖"}})
@@ -74,16 +73,13 @@ class AttendanceTests(unittest.TestCase):
             source["warnings"] = ["UTC 当日尚未结束"]
             data = a.export_attendance(source, root)
             self.assertEqual(data["status"], "partial")
-            daily_path = Path(data["files"]["daily_csv"])
-            self.assertTrue(daily_path.read_bytes().startswith(b"\xef\xbb\xbf"))
-            with daily_path.open(encoding="utf-8-sig", newline="") as file:
-                daily = list(csv.DictReader(file))
+            daily = data["daily"]
             self.assertEqual(len(daily), 5)
-            self.assertTrue(all(row["总场次"] == "1" and row["12u"] == "1" and row["14u"] == "0" for row in daily))
-            with Path(data["files"]["detail_csv"]).open(encoding="utf-8-sig", newline="") as file:
-                details = list(csv.DictReader(file))
+            self.assertTrue(all(row["total"] == 1 and row["sessions"]["12u"]["attended"] and not row["sessions"]["14u"]["attended"] for row in daily))
+            details = data["details"]
             self.assertEqual(len(details), 5)
-            self.assertEqual(details[0]["武器"], "P7 神圣法杖")
+            self.assertEqual(details[0]["weapon"], "P7 神圣法杖")
+            self.assertEqual(list(root.rglob("*.csv")), [])
             page = Path(data["files"]["html"]).read_text(encoding="utf-8")
             self.assertNotIn('<script>alert(1)</script>', page)
             self.assertIn('&lt;script&gt;alert(1)&lt;/script&gt;', page)

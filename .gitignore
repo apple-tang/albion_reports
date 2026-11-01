@@ -13,7 +13,6 @@ __pycache__/
 !/data/*/results/
 /data/*/results/**
 !/data/*/results/**/
-!/data/*/results/**/*.csv
 !/data/*/results/**/*.html
 
 /IMPLEMENTATION.md

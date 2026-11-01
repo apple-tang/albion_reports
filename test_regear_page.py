@@ -37,12 +37,13 @@ class RegearPageTests(unittest.TestCase):
         boxes = self.boxes("apple1263\tOther\n\tapple1263\n", ["apple1263", "ZZCall"])
         battles = [battle(deaths=[death("1"), death("2", "ZZCall")])]
         data = page.build_regear_page_data(report(battles), battles, boxes, {"no_box_players": ["ZZCall"]})
-        self.assertEqual(data["item_units"], 2)
+        self.assertEqual(data["item_units"], 1)
         self.assertEqual(data["pending"], ["apple1263"])
-        self.assertEqual(data["managers"], ["ZZCall"])
+        self.assertNotIn("managers", data)
+        self.assertNotIn("ZZCall", [p["name"] for p in data["people"]])
         self.assertEqual(sum(box["person"] is not None for box in data["boxes"]), 0)
         self.assertEqual(sum(box["duplicate"] for box in data["boxes"]), 2)
-        self.assertEqual(len(data["people"]), 2)
+        self.assertEqual(len(data["people"]), 1)
 
     def test_empty_box_coordinates_remain_and_missing_equipment_is_retained(self):
         boxes = self.boxes("A\t\tB\napple1263\t\t\n", ["apple1263"])

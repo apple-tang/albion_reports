@@ -4,110 +4,84 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from publish_results import publish_result_set, publish_saved_results
+from publish_results import publish_result_set, publish_saved_results, remove_csv_outputs
 
 
 class PublishResultsTests(unittest.TestCase):
-    def source(self, root, prefix, day="2026-11-01", stamp="old", extension=".csv"):
-        path = root / "archive" / stamp / (prefix + "_" + day + "_" + stamp + extension)
+    def source(self, root, prefix, stamp="old", extension=".html"):
+        path = root / "archive" / stamp / (prefix + "_2026-11-01_" + stamp + extension)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(stamp, encoding="utf-8")
         return path
 
-    def attendance(self, root, stamp):
-        return [self.source(root, "出勤名单", stamp=stamp, extension=".html"),
-                self.source(root, "每日出勤", stamp=stamp), self.source(root, "逐场出勤", stamp=stamp)]
-
     def test_only_current_category_is_replaced_and_sources_are_preserved(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            old = self.attendance(root, "old")
-            publish_result_set(root, "2026-11-01", "attendance", old)
-            regear = [self.source(root, "总补装"), self.source(root, "箱子补装")]
-            publish_result_set(root, "2026-11-01", "regear", regear)
-            new = self.attendance(root, "new")
-            published = publish_result_set(root, "2026-11-01", "attendance", new)
-            target = root / "results" / "2026-11-01"
-            self.assertEqual({p.name for p in target.iterdir()}, {p.name for p in new + regear})
-            self.assertTrue(all(p.exists() for p in old + new + regear))
-            self.assertEqual(len(published), 3)
-            self.assertTrue(all(Path(p).read_text(encoding="utf-8") == "new" for p in published))
+            old = self.source(root, "出勤名单")
+            publish_result_set(root, "2026-11-01", "attendance", [old])
+            regear = self.source(root, "补装清单")
+            publish_result_set(root, "2026-11-01", "regear", [regear])
+            new = self.source(root, "出勤名单", "new")
+            paths = publish_result_set(root, "2026-11-01", "attendance", [new])
+            self.assertEqual({p.name for p in (root / "results" / "2026-11-01").iterdir()}, {new.name, regear.name})
+            self.assertTrue(old.exists())
+            self.assertEqual(Path(paths[0]).read_text(encoding="utf-8"), "new")
 
-    def test_invalid_or_incomplete_sources_do_not_remove_current_results(self):
+    def test_csv_and_incomplete_sources_are_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            files = self.attendance(root, "old")
-            publish_result_set(root, "2026-11-01", "attendance", files)
+            old = self.source(root, "出勤名单")
+            publish_result_set(root, "2026-11-01", "attendance", [old])
             with self.assertRaises(ValueError):
-                publish_result_set(root, "2026-11-01", "attendance", files[:1])
-            wrong = self.source(root, "manifest", extension=".json")
+                publish_result_set(root, "2026-11-01", "attendance", [])
+            csv = self.source(root, "每日出勤", extension=".csv")
             with self.assertRaises(ValueError):
-                publish_result_set(root, "2026-11-01", "attendance", files + [wrong])
-            self.assertEqual(len(list((root / "results" / "2026-11-01").iterdir())), 3)
+                publish_result_set(root, "2026-11-01", "attendance", [old, csv])
+            self.assertEqual(len(list((root / "results" / "2026-11-01").iterdir())), 1)
 
-    def test_obsolete_session_copy_is_removed_without_losing_the_archive(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root = Path(temp)
-            files = [self.source(root, "总补装", stamp="12u_old"), self.source(root, "总补装", stamp="14u_old"),
-                     self.source(root, "箱子补装", stamp="old")]
-            publish_result_set(root, "2026-11-01", "regear", files)
-            latest = [self.source(root, "总补装", stamp="12u_new"), self.source(root, "箱子补装", stamp="new")]
-            publish_result_set(root, "2026-11-01", "regear", latest)
-            self.assertEqual(len(list((root / "results" / "2026-11-01").iterdir())), 2)
-            self.assertTrue(all(p.exists() for p in files))
-
-    def test_backfill_selects_latest_finished_bundle(self):
+    def test_backfill_only_reads_html_even_if_legacy_csv_was_deleted(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             for stamp in ["20261101T010000Z", "20261101T020000Z"]:
-                files = self.attendance(root, stamp)
+                attendance = self.source(root, "出勤名单", stamp)
                 metadata = root / "attendance" / "2026-11-01" / stamp / "attendance.json"
                 metadata.parent.mkdir(parents=True)
-                metadata.write_text(json.dumps({"files": dict(zip(["html", "daily_csv", "detail_csv"], map(str, files)))}), encoding="utf-8")
-                for group, key, prefix in [("12u", "purchase_file", "总补装"), ("12u-14u", "allocation_file", "箱子补装")]:
-                    metadata = root / "regear" / "2026-11-01" / group / stamp / "manifest.json"
-                    metadata.parent.mkdir(parents=True)
-                    source = self.source(root, prefix, stamp=stamp)
-                    metadata.write_text(json.dumps({key: str(source)}), encoding="utf-8")
-            incomplete = root / "regear" / "2026-11-01" / "12u" / "20261101T030000Z" / "manifest.json"
-            incomplete.parent.mkdir(parents=True)
-            incomplete.write_text(json.dumps({"purchase_file": str(self.source(root, "总补装", stamp="incomplete"))}), encoding="utf-8")
-            files = publish_saved_results(root)
-            self.assertEqual(len(files), 5)
-            self.assertTrue(all("20261101T020000Z" in path for path in files))
-            self.assertTrue(incomplete.exists())
-
-    def test_regear_html_is_included_and_old_page_is_replaced(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root = Path(temp)
-            csv_files = [self.source(root, "总补装"), self.source(root, "箱子补装")]
-            old = self.source(root, "补装清单", stamp="old", extension=".html")
-            publish_result_set(root, "2026-11-01", "regear", csv_files + [old])
-            new = self.source(root, "补装清单", stamp="new", extension=".html")
-            paths = publish_result_set(root, "2026-11-01", "regear", csv_files + [new])
-            self.assertEqual(len(paths), 3)
-            self.assertTrue(old.exists())
-            self.assertFalse((root / "results" / "2026-11-01" / old.name).exists())
-            self.assertTrue((root / "results" / "2026-11-01" / new.name).exists())
+                metadata.write_text(json.dumps({"files": {"html": str(attendance), "daily_csv": "deleted.csv"}}), encoding="utf-8")
+                regear = self.source(root, "补装清单", stamp)
+                metadata = root / "regear" / "2026-11-01" / "12u-14u" / stamp / "manifest.json"
+                metadata.parent.mkdir(parents=True)
+                metadata.write_text(json.dumps({"regear_html": str(regear)}), encoding="utf-8")
+            paths = publish_saved_results(root)
+            self.assertEqual(len(paths), 2)
+            self.assertTrue(all("20261101T020000Z" in p and p.endswith(".html") for p in paths))
 
     def test_open_old_result_does_not_block_new_report(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            old = self.attendance(root, "old")
-            publish_result_set(root, "2026-11-01", "attendance", old)
-            new = self.attendance(root, "new")
-            original = Path.unlink
+            old = self.source(root, "出勤名单")
+            publish_result_set(root, "2026-11-01", "attendance", [old])
+            new = self.source(root, "出勤名单", "new")
+            with patch.object(Path, "unlink", side_effect=PermissionError("file open")):
+                paths = publish_result_set(root, "2026-11-01", "attendance", [new])
+            self.assertTrue(Path(paths[0]).exists())
 
-            def unlink(path):
-                if path.name == old[0].name:
-                    raise PermissionError("file open")
-                return original(path)
-
-            with patch.object(Path, "unlink", autospec=True, side_effect=unlink):
-                published = publish_result_set(root, "2026-11-01", "attendance", new)
-            self.assertEqual(len(published), 3)
-            self.assertTrue(all(Path(path).exists() for path in published))
-            self.assertTrue((root / "results" / "2026-11-01" / old[0].name).exists())
+    def test_csv_cleanup_is_scoped_and_preserves_other_artifacts(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for directory in ["attendance", "regear", "results"]:
+                path = root / directory / "2026-11-01" / "old.csv"
+                path.parent.mkdir(parents=True)
+                path.write_text("old", encoding="utf-8")
+                path.with_suffix(".json").write_text("{}", encoding="utf-8")
+                path.with_suffix(".html").write_text("report", encoding="utf-8")
+            source = root / "box_source.csv"
+            source.write_text("keep", encoding="utf-8")
+            outcome = remove_csv_outputs(root)
+            self.assertEqual(len(outcome["removed"]), 3)
+            self.assertEqual(outcome["blocked"], [])
+            self.assertTrue(source.exists())
+            self.assertEqual(len(list(root.rglob("*.json"))), 3)
+            self.assertEqual(len(list(root.rglob("*.html"))), 3)
 
 
 if __name__ == "__main__":
